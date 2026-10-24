@@ -1,0 +1,261 @@
+{
+  "HH": {
+    "model": "HH",
+    "celsius": 6.3,
+    "spontaneous": false,
+    "sites": {
+      "soma": "soma(0.500)"
+    },
+    "conditions": {
+      "native": {
+        "i_hold_nA": 0.0,
+        "settle_ms": 200.0,
+        "silent": true,
+        "baseline": {
+          "mean_V_mV": -64.97367833269196,
+          "min_V_mV": -64.97367833269196,
+          "max_V_mV": -64.97367833269196,
+          "n_spikes": 0,
+          "rate_Hz": 0.0
+        },
+        "Rin_MOhm": 101.91783357325396,
+        "tau_m_ms": 1.3499999999078227,
+        "test_amp_nA": -0.03661657095886865,
+        "deflection_mV": 3.7318815850092193,
+        "sag_ratio_small_step": 0.7314627684965214,
+        "rheobase": {
+          "soma": {
+            "rheobase_nA": 0.025,
+            "below_nA": 0.024804687500000002,
+            "n_spikes_at_rheobase": 1,
+            "first_spike_latency_ms": 8.67499999990116,
+            "bisection_runs": 8
+          }
+        }
+      }
+    },
+    "amplitude_condition": "native",
+    "amplitude_unit_nA": 0.025,
+    "wall_s": 2.2
+  },
+  "STN": {
+    "model": "STN",
+    "celsius": 37.0,
+    "spontaneous": true,
+    "sites": {
+      "soma": "SThcell[0].soma(0.500)"
+    },
+    "conditions": {
+      "native": {
+        "i_hold_nA": 0.0,
+        "settle_ms": 1400.0,
+        "silent": false,
+        "baseline": {
+          "mean_V_mV": -58.16823282482488,
+          "min_V_mV": -69.65556672661282,
+          "max_V_mV": 19.88988036206576,
+          "n_spikes": 20,
+          "rate_Hz": 10.000000000086585,
+          "isi_cv": 0.0020627774308153435
+        }
+      },
+      "held": {
+        "i_hold_nA": -0.1824951171875,
+        "hold_search": [
+          [
+            -1.0,
+            -95.39434668630064,
+            0.0
+          ],
+          [
+            -0.5,
+            -81.25445267305567,
+            0.0
+          ],
+          [
+            -0.25,
+            -72.96850096827214,
+            0.0
+          ],
+          [
+            -0.125,
+            -66.97285892578452,
+            0.0
+          ],
+          [
+            -0.1875,
+            -70.23919503622244,
+            0.0
+          ],
+          [
+            -0.15625,
+            -68.68483272188249,
+            0.0
+          ],
+          [
+            -0.171875,
+            -69.48092513969353,
+            0.0
+          ],
+          [
+            -0.1796875,
+            -69.86449424809365,
+            0.0
+          ],
+          [
+            -0.18359375,
+            -70.05305282571197,
+            0.0
+          ],
+          [
+            -0.181640625,
+            -69.95918451400314,
+            0.0
+          ],
+          [
+            -0.1826171875,
+            -70.00623269133602,
+            0.0
+          ],
+          [
+            -0.18212890625,
+            -69.9827557559854,
+            0.0
+          ],
+          [
+            -0.182373046875,
+            -69.99450981171789,
+            0.0
+          ],
+          [
+            -0.1824951171875,
+            -70.00037122927004,
+            0.0
+          ]
+        ],
+        "settle_ms": 1000.0,
+        "silent": true,
+        "baseline": {
+          "mean_V_mV": -70.01503781081479,
+          "min_V_mV": -70.09933404650167,
+          "max_V_mV": -69.99701694135602,
+          "n_spikes": 0,
+          "rate_Hz": 0.0
+        },
+        "Rin_MOhm": 44.64996808398935,
+        "tau_m_ms": 5.950000000385444,
+        "test_amp_nA": -0.07211332553876475,
+        "deflection_mV": 3.21985768373618,
+        "sag_ratio_small_step": 0.4984026204191083,
+        "rheobase": {
+          "soma": {
+            "rheobase_nA": 0.066796875,
+            "below_nA": 0.06640625,
+            "n_spikes_at_rheobase": 1,
+            "first_spike_latency_ms": 61.275000000586715,
+            "bisection_runs": 7
+          }
+        }
+      }
+    },
+    "amplitude_condition": "held",
+    "amplitude_unit_nA": 0.066796875,
+    "wall_s": 201.9
+  },
+  "Purkinje": {
+    "model": "Purkinje",
+    "celsius": 37.0,
+    "spontaneous": false,
+    "sites": {
+      "soma": "soma(0.500)",
+      "dend": "SmoothDendrite[69](0.500)"
+    },
+    "conditions": {
+      "native": {
+        "i_hold_nA": 0.0,
+        "settle_ms": 2400.0,
+        "silent": true,
+        "baseline": {
+          "mean_V_mV": -67.9063482711043,
+          "min_V_mV": -67.9614688828482,
+          "max_V_mV": -67.86905000344707,
+          "n_spikes": 0,
+          "rate_Hz": 0.0
+        },
+        "Rin_MOhm": 26.042234357166027,
+        "tau_m_ms": 25.149999998178828,
+        "test_amp_nA": -0.11292361993204829,
+        "deflection_mV": 2.9407833747299463,
+        "sag_ratio_small_step": 0.9061028466804425,
+        "rheobase": {
+          "soma": {
+            "rheobase_nA": 0.8500000000000001,
+            "below_nA": 0.8437500000000001,
+            "n_spikes_at_rheobase": 1,
+            "first_spike_latency_ms": 5.774999998460771,
+            "bisection_runs": 7
+          },
+          "dend": {
+            "rheobase_nA": 0.7187500000000001,
+            "below_nA": 0.7125000000000001,
+            "n_spikes_at_rheobase": 9,
+            "first_spike_latency_ms": 570.3999999902444,
+            "bisection_runs": 6
+          }
+        }
+      }
+    },
+    "amplitude_condition": "native",
+    "amplitude_unit_nA": 0.8500000000000001,
+    "amplitude_unit_dend_nA": 0.7187500000000001,
+    "wall_s": 682.8
+  },
+  "CA1": {
+    "model": "CA1",
+    "celsius": 34.0,
+    "spontaneous": false,
+    "sites": {
+      "soma": "CA1_PC_cAC_sig6[0].soma[0](0.500)",
+      "dend": "CA1_PC_cAC_sig6[0].apic[27](0.500)"
+    },
+    "conditions": {
+      "native": {
+        "i_hold_nA": 0.0,
+        "settle_ms": 300.0,
+        "silent": true,
+        "baseline": {
+          "mean_V_mV": -69.61360476752763,
+          "min_V_mV": -69.61370974663583,
+          "max_V_mV": -69.61359756368394,
+          "n_spikes": 0,
+          "rate_Hz": 0.0
+        },
+        "Rin_MOhm": 29.206159633492682,
+        "tau_m_ms": 3.849999999905549,
+        "test_amp_nA": -0.1037911743539123,
+        "deflection_mV": 3.0313416067280343,
+        "sag_ratio_small_step": 0.7649747497299603,
+        "rheobase": {
+          "soma": {
+            "rheobase_nA": 0.2625,
+            "below_nA": 0.26093750000000004,
+            "n_spikes_at_rheobase": 1,
+            "first_spike_latency_ms": 43.72499999986928,
+            "bisection_runs": 7
+          },
+          "dend": {
+            "rheobase_nA": 0.3875,
+            "below_nA": 0.384375,
+            "n_spikes_at_rheobase": 1,
+            "first_spike_latency_ms": 23.449999999887723,
+            "bisection_runs": 6
+          }
+        }
+      }
+    },
+    "amplitude_condition": "native",
+    "amplitude_unit_nA": 0.2625,
+    "amplitude_unit_dend_nA": 0.3875,
+    "wall_s": 819.9
+  }
+}

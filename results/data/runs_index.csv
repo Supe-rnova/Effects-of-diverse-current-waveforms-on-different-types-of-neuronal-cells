@@ -1,0 +1,980 @@
+id,model,condition,block,site,protocol,group,level,trial,lead_in,file,done
+HH/native/ctrl/soma/step/+0.80x,HH,native,,soma,step,step,0.8,,0.0,runs/HH/native/ctrl/soma/step/+0.80x.npz,1
+HH/native/ctrl/soma/step/+1.00x,HH,native,,soma,step,step,1.0,,0.0,runs/HH/native/ctrl/soma/step/+1.00x.npz,1
+HH/native/ctrl/soma/step/+1.25x,HH,native,,soma,step,step,1.25,,0.0,runs/HH/native/ctrl/soma/step/+1.25x.npz,1
+HH/native/ctrl/soma/step/+1.50x,HH,native,,soma,step,step,1.5,,0.0,runs/HH/native/ctrl/soma/step/+1.50x.npz,1
+HH/native/ctrl/soma/step/+2.00x,HH,native,,soma,step,step,2.0,,0.0,runs/HH/native/ctrl/soma/step/+2.00x.npz,1
+HH/native/ctrl/soma/step/+2.50x,HH,native,,soma,step,step,2.5,,0.0,runs/HH/native/ctrl/soma/step/+2.50x.npz,1
+HH/native/ctrl/soma/step/+3.00x,HH,native,,soma,step,step,3.0,,0.0,runs/HH/native/ctrl/soma/step/+3.00x.npz,1
+HH/native/ctrl/soma/hyper/-0.50x,HH,native,,soma,hyper,hyper,-0.5,,0.0,runs/HH/native/ctrl/soma/hyper/-0.50x.npz,1
+HH/native/ctrl/soma/hyper/-1.00x,HH,native,,soma,hyper,hyper,-1.0,,0.0,runs/HH/native/ctrl/soma/hyper/-1.00x.npz,1
+HH/native/ctrl/soma/hyper/-2.00x,HH,native,,soma,hyper,hyper,-2.0,,0.0,runs/HH/native/ctrl/soma/hyper/-2.00x.npz,1
+HH/native/ctrl/soma/hyper/-3.00x,HH,native,,soma,hyper,hyper,-3.0,,0.0,runs/HH/native/ctrl/soma/hyper/-3.00x.npz,1
+HH/native/ctrl/soma/ramp/slow,HH,native,,soma,ramp,ramp,"""slow""",,0.0,runs/HH/native/ctrl/soma/ramp/slow.npz,1
+HH/native/ctrl/soma/ramp/fast,HH,native,,soma,ramp,ramp,"""fast""",,0.0,runs/HH/native/ctrl/soma/ramp/fast.npz,1
+HH/native/ctrl/soma/sine/1Hz_1.00x,HH,native,,soma,sine,sine,"[1, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/1Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/1Hz_1.50x,HH,native,,soma,sine,sine,"[1, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/1Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/1Hz_2.00x,HH,native,,soma,sine,sine,"[1, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/1Hz_2.00x.npz,1
+HH/native/ctrl/soma/sine/2Hz_1.00x,HH,native,,soma,sine,sine,"[2, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/2Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/2Hz_1.50x,HH,native,,soma,sine,sine,"[2, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/2Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/2Hz_2.00x,HH,native,,soma,sine,sine,"[2, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/2Hz_2.00x.npz,1
+HH/native/ctrl/soma/sine/4Hz_1.00x,HH,native,,soma,sine,sine,"[4, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/4Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/4Hz_1.50x,HH,native,,soma,sine,sine,"[4, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/4Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/4Hz_2.00x,HH,native,,soma,sine,sine,"[4, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/4Hz_2.00x.npz,1
+HH/native/ctrl/soma/sine/7Hz_1.00x,HH,native,,soma,sine,sine,"[7, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/7Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/7Hz_1.50x,HH,native,,soma,sine,sine,"[7, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/7Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/7Hz_2.00x,HH,native,,soma,sine,sine,"[7, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/7Hz_2.00x.npz,1
+HH/native/ctrl/soma/sine/10Hz_1.00x,HH,native,,soma,sine,sine,"[10, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/10Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/10Hz_1.50x,HH,native,,soma,sine,sine,"[10, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/10Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/10Hz_2.00x,HH,native,,soma,sine,sine,"[10, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/10Hz_2.00x.npz,1
+HH/native/ctrl/soma/sine/20Hz_1.00x,HH,native,,soma,sine,sine,"[20, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/20Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/20Hz_1.50x,HH,native,,soma,sine,sine,"[20, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/20Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/20Hz_2.00x,HH,native,,soma,sine,sine,"[20, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/20Hz_2.00x.npz,1
+HH/native/ctrl/soma/sine/50Hz_1.00x,HH,native,,soma,sine,sine,"[50, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/50Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/50Hz_1.50x,HH,native,,soma,sine,sine,"[50, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/50Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/50Hz_2.00x,HH,native,,soma,sine,sine,"[50, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/50Hz_2.00x.npz,1
+HH/native/ctrl/soma/sine/100Hz_1.00x,HH,native,,soma,sine,sine,"[100, 1.0]",,0.0,runs/HH/native/ctrl/soma/sine/100Hz_1.00x.npz,1
+HH/native/ctrl/soma/sine/100Hz_1.50x,HH,native,,soma,sine,sine,"[100, 1.5]",,0.0,runs/HH/native/ctrl/soma/sine/100Hz_1.50x.npz,1
+HH/native/ctrl/soma/sine/100Hz_2.00x,HH,native,,soma,sine,sine,"[100, 2.0]",,0.0,runs/HH/native/ctrl/soma/sine/100Hz_2.00x.npz,1
+HH/native/ctrl/soma/chirp/sub,HH,native,,soma,chirp,chirp,0.0125,,0.0,runs/HH/native/ctrl/soma/chirp/sub.npz,1
+HH/native/ctrl/soma/pulse/5Hz_mono_1.2xthr,HH,native,,soma,pulse,pulse,"[5, ""mono"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/5Hz_mono_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/5Hz_mono_2.0xthr,HH,native,,soma,pulse,pulse,"[5, ""mono"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/5Hz_mono_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr,HH,native,,soma,pulse,pulse,"[5, ""biphasic"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr,HH,native,,soma,pulse,pulse,"[5, ""biphasic"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/20Hz_mono_1.2xthr,HH,native,,soma,pulse,pulse,"[20, ""mono"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/20Hz_mono_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/20Hz_mono_2.0xthr,HH,native,,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/20Hz_mono_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr,HH,native,,soma,pulse,pulse,"[20, ""biphasic"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr,HH,native,,soma,pulse,pulse,"[20, ""biphasic"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/60Hz_mono_1.2xthr,HH,native,,soma,pulse,pulse,"[60, ""mono"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/60Hz_mono_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/60Hz_mono_2.0xthr,HH,native,,soma,pulse,pulse,"[60, ""mono"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/60Hz_mono_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr,HH,native,,soma,pulse,pulse,"[60, ""biphasic"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr,HH,native,,soma,pulse,pulse,"[60, ""biphasic"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/130Hz_mono_1.2xthr,HH,native,,soma,pulse,pulse,"[130, ""mono"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/130Hz_mono_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/130Hz_mono_2.0xthr,HH,native,,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/130Hz_mono_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr,HH,native,,soma,pulse,pulse,"[130, ""biphasic"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr,HH,native,,soma,pulse,pulse,"[130, ""biphasic"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/200Hz_mono_1.2xthr,HH,native,,soma,pulse,pulse,"[200, ""mono"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/200Hz_mono_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/200Hz_mono_2.0xthr,HH,native,,soma,pulse,pulse,"[200, ""mono"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/200Hz_mono_2.0xthr.npz,1
+HH/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr,HH,native,,soma,pulse,pulse,"[200, ""biphasic"", 1.2]",,0.0,runs/HH/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr.npz,1
+HH/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr,HH,native,,soma,pulse,pulse,"[200, ""biphasic"", 2.0]",,0.0,runs/HH/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr.npz,1
+HH/native/ctrl/soma/noise_var/seed1001,HH,native,,soma,noise_var,noise_var,null,0,0.0,runs/HH/native/ctrl/soma/noise_var/seed1001.npz,1
+HH/native/ctrl/soma/noise_var/seed1002,HH,native,,soma,noise_var,noise_var,null,1,0.0,runs/HH/native/ctrl/soma/noise_var/seed1002.npz,1
+HH/native/ctrl/soma/noise_var/seed1003,HH,native,,soma,noise_var,noise_var,null,2,0.0,runs/HH/native/ctrl/soma/noise_var/seed1003.npz,1
+HH/native/ctrl/soma/noise_var/seed1004,HH,native,,soma,noise_var,noise_var,null,3,0.0,runs/HH/native/ctrl/soma/noise_var/seed1004.npz,1
+HH/native/ctrl/soma/noise_var/seed1005,HH,native,,soma,noise_var,noise_var,null,4,0.0,runs/HH/native/ctrl/soma/noise_var/seed1005.npz,1
+HH/native/ctrl/soma/noise_var/seed1006,HH,native,,soma,noise_var,noise_var,null,5,0.0,runs/HH/native/ctrl/soma/noise_var/seed1006.npz,1
+HH/native/ctrl/soma/noise_var/seed1007,HH,native,,soma,noise_var,noise_var,null,6,0.0,runs/HH/native/ctrl/soma/noise_var/seed1007.npz,1
+HH/native/ctrl/soma/noise_var/seed1008,HH,native,,soma,noise_var,noise_var,null,7,0.0,runs/HH/native/ctrl/soma/noise_var/seed1008.npz,1
+HH/native/ctrl/soma/noise_var/seed1009,HH,native,,soma,noise_var,noise_var,null,8,0.0,runs/HH/native/ctrl/soma/noise_var/seed1009.npz,1
+HH/native/ctrl/soma/noise_var/seed1010,HH,native,,soma,noise_var,noise_var,null,9,0.0,runs/HH/native/ctrl/soma/noise_var/seed1010.npz,1
+HH/native/ctrl/soma/noise_var/seed1011,HH,native,,soma,noise_var,noise_var,null,10,0.0,runs/HH/native/ctrl/soma/noise_var/seed1011.npz,1
+HH/native/ctrl/soma/noise_var/seed1012,HH,native,,soma,noise_var,noise_var,null,11,0.0,runs/HH/native/ctrl/soma/noise_var/seed1012.npz,1
+HH/native/ctrl/soma/noise_var/seed1013,HH,native,,soma,noise_var,noise_var,null,12,0.0,runs/HH/native/ctrl/soma/noise_var/seed1013.npz,1
+HH/native/ctrl/soma/noise_var/seed1014,HH,native,,soma,noise_var,noise_var,null,13,0.0,runs/HH/native/ctrl/soma/noise_var/seed1014.npz,1
+HH/native/ctrl/soma/noise_var/seed1015,HH,native,,soma,noise_var,noise_var,null,14,0.0,runs/HH/native/ctrl/soma/noise_var/seed1015.npz,1
+HH/native/ctrl/soma/noise_var/seed1016,HH,native,,soma,noise_var,noise_var,null,15,0.0,runs/HH/native/ctrl/soma/noise_var/seed1016.npz,1
+HH/native/ctrl/soma/noise_var/seed1017,HH,native,,soma,noise_var,noise_var,null,16,0.0,runs/HH/native/ctrl/soma/noise_var/seed1017.npz,1
+HH/native/ctrl/soma/noise_var/seed1018,HH,native,,soma,noise_var,noise_var,null,17,0.0,runs/HH/native/ctrl/soma/noise_var/seed1018.npz,1
+HH/native/ctrl/soma/noise_var/seed1019,HH,native,,soma,noise_var,noise_var,null,18,0.0,runs/HH/native/ctrl/soma/noise_var/seed1019.npz,1
+HH/native/ctrl/soma/noise_var/seed1020,HH,native,,soma,noise_var,noise_var,null,19,0.0,runs/HH/native/ctrl/soma/noise_var/seed1020.npz,1
+HH/native/ctrl/soma/noise_rel/trial00,HH,native,,soma,noise_rel,noise_rel,null,0,0.0,runs/HH/native/ctrl/soma/noise_rel/trial00.npz,1
+HH/native/ctrl/soma/noise_rel/trial01,HH,native,,soma,noise_rel,noise_rel,null,1,0.0,runs/HH/native/ctrl/soma/noise_rel/trial01.npz,1
+HH/native/ctrl/soma/noise_rel/trial02,HH,native,,soma,noise_rel,noise_rel,null,2,0.0,runs/HH/native/ctrl/soma/noise_rel/trial02.npz,1
+HH/native/ctrl/soma/noise_rel/trial03,HH,native,,soma,noise_rel,noise_rel,null,3,0.0,runs/HH/native/ctrl/soma/noise_rel/trial03.npz,1
+HH/native/ctrl/soma/noise_rel/trial04,HH,native,,soma,noise_rel,noise_rel,null,4,0.0,runs/HH/native/ctrl/soma/noise_rel/trial04.npz,1
+HH/native/ctrl/soma/noise_rel/trial05,HH,native,,soma,noise_rel,noise_rel,null,5,0.0,runs/HH/native/ctrl/soma/noise_rel/trial05.npz,1
+HH/native/ctrl/soma/noise_rel/trial06,HH,native,,soma,noise_rel,noise_rel,null,6,0.0,runs/HH/native/ctrl/soma/noise_rel/trial06.npz,1
+HH/native/ctrl/soma/noise_rel/trial07,HH,native,,soma,noise_rel,noise_rel,null,7,0.0,runs/HH/native/ctrl/soma/noise_rel/trial07.npz,1
+HH/native/ctrl/soma/noise_rel/trial08,HH,native,,soma,noise_rel,noise_rel,null,8,0.0,runs/HH/native/ctrl/soma/noise_rel/trial08.npz,1
+HH/native/ctrl/soma/noise_rel/trial09,HH,native,,soma,noise_rel,noise_rel,null,9,0.0,runs/HH/native/ctrl/soma/noise_rel/trial09.npz,1
+HH/native/ctrl/soma/noise_rel/trial10,HH,native,,soma,noise_rel,noise_rel,null,10,0.0,runs/HH/native/ctrl/soma/noise_rel/trial10.npz,1
+HH/native/ctrl/soma/noise_rel/trial11,HH,native,,soma,noise_rel,noise_rel,null,11,0.0,runs/HH/native/ctrl/soma/noise_rel/trial11.npz,1
+HH/native/ctrl/soma/noise_rel/trial12,HH,native,,soma,noise_rel,noise_rel,null,12,0.0,runs/HH/native/ctrl/soma/noise_rel/trial12.npz,1
+HH/native/ctrl/soma/noise_rel/trial13,HH,native,,soma,noise_rel,noise_rel,null,13,0.0,runs/HH/native/ctrl/soma/noise_rel/trial13.npz,1
+HH/native/ctrl/soma/noise_rel/trial14,HH,native,,soma,noise_rel,noise_rel,null,14,0.0,runs/HH/native/ctrl/soma/noise_rel/trial14.npz,1
+HH/native/ctrl/soma/noise_rel/trial15,HH,native,,soma,noise_rel,noise_rel,null,15,0.0,runs/HH/native/ctrl/soma/noise_rel/trial15.npz,1
+HH/native/ctrl/soma/noise_rel/trial16,HH,native,,soma,noise_rel,noise_rel,null,16,0.0,runs/HH/native/ctrl/soma/noise_rel/trial16.npz,1
+HH/native/ctrl/soma/noise_rel/trial17,HH,native,,soma,noise_rel,noise_rel,null,17,0.0,runs/HH/native/ctrl/soma/noise_rel/trial17.npz,1
+HH/native/ctrl/soma/noise_rel/trial18,HH,native,,soma,noise_rel,noise_rel,null,18,0.0,runs/HH/native/ctrl/soma/noise_rel/trial18.npz,1
+HH/native/ctrl/soma/noise_rel/trial19,HH,native,,soma,noise_rel,noise_rel,null,19,0.0,runs/HH/native/ctrl/soma/noise_rel/trial19.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial00,HH,native,,soma,syn,syn,1.0,0,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial00.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial01,HH,native,,soma,syn,syn,1.0,1,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial01.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial02,HH,native,,soma,syn,syn,1.0,2,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial02.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial03,HH,native,,soma,syn,syn,1.0,3,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial03.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial04,HH,native,,soma,syn,syn,1.0,4,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial04.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial05,HH,native,,soma,syn,syn,1.0,5,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial05.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial06,HH,native,,soma,syn,syn,1.0,6,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial06.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial07,HH,native,,soma,syn,syn,1.0,7,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial07.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial08,HH,native,,soma,syn,syn,1.0,8,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial08.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial09,HH,native,,soma,syn,syn,1.0,9,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial09.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial10,HH,native,,soma,syn,syn,1.0,10,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial10.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial11,HH,native,,soma,syn,syn,1.0,11,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial11.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial12,HH,native,,soma,syn,syn,1.0,12,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial12.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial13,HH,native,,soma,syn,syn,1.0,13,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial13.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial14,HH,native,,soma,syn,syn,1.0,14,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial14.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial15,HH,native,,soma,syn,syn,1.0,15,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial15.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial16,HH,native,,soma,syn,syn,1.0,16,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial16.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial17,HH,native,,soma,syn,syn,1.0,17,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial17.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial18,HH,native,,soma,syn,syn,1.0,18,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial18.npz,1
+HH/native/ctrl/soma/syn/1.0x_trial19,HH,native,,soma,syn,syn,1.0,19,0.0,runs/HH/native/ctrl/soma/syn/1.0x_trial19.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial00,HH,native,,soma,syn,syn,2.0,0,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial00.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial01,HH,native,,soma,syn,syn,2.0,1,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial01.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial02,HH,native,,soma,syn,syn,2.0,2,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial02.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial03,HH,native,,soma,syn,syn,2.0,3,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial03.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial04,HH,native,,soma,syn,syn,2.0,4,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial04.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial05,HH,native,,soma,syn,syn,2.0,5,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial05.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial06,HH,native,,soma,syn,syn,2.0,6,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial06.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial07,HH,native,,soma,syn,syn,2.0,7,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial07.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial08,HH,native,,soma,syn,syn,2.0,8,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial08.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial09,HH,native,,soma,syn,syn,2.0,9,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial09.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial10,HH,native,,soma,syn,syn,2.0,10,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial10.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial11,HH,native,,soma,syn,syn,2.0,11,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial11.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial12,HH,native,,soma,syn,syn,2.0,12,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial12.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial13,HH,native,,soma,syn,syn,2.0,13,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial13.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial14,HH,native,,soma,syn,syn,2.0,14,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial14.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial15,HH,native,,soma,syn,syn,2.0,15,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial15.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial16,HH,native,,soma,syn,syn,2.0,16,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial16.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial17,HH,native,,soma,syn,syn,2.0,17,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial17.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial18,HH,native,,soma,syn,syn,2.0,18,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial18.npz,1
+HH/native/ctrl/soma/syn/2.0x_trial19,HH,native,,soma,syn,syn,2.0,19,0.0,runs/HH/native/ctrl/soma/syn/2.0x_trial19.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial00,HH,native,,soma,syn,syn,4.0,0,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial00.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial01,HH,native,,soma,syn,syn,4.0,1,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial01.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial02,HH,native,,soma,syn,syn,4.0,2,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial02.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial03,HH,native,,soma,syn,syn,4.0,3,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial03.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial04,HH,native,,soma,syn,syn,4.0,4,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial04.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial05,HH,native,,soma,syn,syn,4.0,5,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial05.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial06,HH,native,,soma,syn,syn,4.0,6,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial06.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial07,HH,native,,soma,syn,syn,4.0,7,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial07.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial08,HH,native,,soma,syn,syn,4.0,8,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial08.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial09,HH,native,,soma,syn,syn,4.0,9,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial09.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial10,HH,native,,soma,syn,syn,4.0,10,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial10.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial11,HH,native,,soma,syn,syn,4.0,11,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial11.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial12,HH,native,,soma,syn,syn,4.0,12,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial12.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial13,HH,native,,soma,syn,syn,4.0,13,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial13.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial14,HH,native,,soma,syn,syn,4.0,14,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial14.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial15,HH,native,,soma,syn,syn,4.0,15,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial15.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial16,HH,native,,soma,syn,syn,4.0,16,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial16.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial17,HH,native,,soma,syn,syn,4.0,17,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial17.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial18,HH,native,,soma,syn,syn,4.0,18,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial18.npz,1
+HH/native/ctrl/soma/syn/4.0x_trial19,HH,native,,soma,syn,syn,4.0,19,0.0,runs/HH/native/ctrl/soma/syn/4.0x_trial19.npz,1
+STN/held/ctrl/soma/step/+0.80x,STN,held,,soma,step,step,0.8,,0.0,runs/STN/held/ctrl/soma/step/+0.80x.npz,1
+STN/held/ctrl/soma/step/+1.00x,STN,held,,soma,step,step,1.0,,0.0,runs/STN/held/ctrl/soma/step/+1.00x.npz,1
+STN/held/ctrl/soma/step/+1.25x,STN,held,,soma,step,step,1.25,,0.0,runs/STN/held/ctrl/soma/step/+1.25x.npz,1
+STN/held/ctrl/soma/step/+1.50x,STN,held,,soma,step,step,1.5,,0.0,runs/STN/held/ctrl/soma/step/+1.50x.npz,1
+STN/held/ctrl/soma/step/+2.00x,STN,held,,soma,step,step,2.0,,0.0,runs/STN/held/ctrl/soma/step/+2.00x.npz,1
+STN/held/ctrl/soma/step/+2.50x,STN,held,,soma,step,step,2.5,,0.0,runs/STN/held/ctrl/soma/step/+2.50x.npz,1
+STN/held/ctrl/soma/step/+3.00x,STN,held,,soma,step,step,3.0,,0.0,runs/STN/held/ctrl/soma/step/+3.00x.npz,1
+STN/held/ctrl/soma/hyper/-0.50x,STN,held,,soma,hyper,hyper,-0.5,,0.0,runs/STN/held/ctrl/soma/hyper/-0.50x.npz,1
+STN/held/ctrl/soma/hyper/-1.00x,STN,held,,soma,hyper,hyper,-1.0,,0.0,runs/STN/held/ctrl/soma/hyper/-1.00x.npz,1
+STN/held/ctrl/soma/hyper/-2.00x,STN,held,,soma,hyper,hyper,-2.0,,0.0,runs/STN/held/ctrl/soma/hyper/-2.00x.npz,1
+STN/held/ctrl/soma/hyper/-3.00x,STN,held,,soma,hyper,hyper,-3.0,,0.0,runs/STN/held/ctrl/soma/hyper/-3.00x.npz,1
+STN/held/ctrl/soma/ramp/slow,STN,held,,soma,ramp,ramp,"""slow""",,0.0,runs/STN/held/ctrl/soma/ramp/slow.npz,1
+STN/held/ctrl/soma/ramp/fast,STN,held,,soma,ramp,ramp,"""fast""",,0.0,runs/STN/held/ctrl/soma/ramp/fast.npz,1
+STN/held/ctrl/soma/sine/1Hz_1.00x,STN,held,,soma,sine,sine,"[1, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/1Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/1Hz_1.50x,STN,held,,soma,sine,sine,"[1, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/1Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/1Hz_2.00x,STN,held,,soma,sine,sine,"[1, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/1Hz_2.00x.npz,1
+STN/held/ctrl/soma/sine/2Hz_1.00x,STN,held,,soma,sine,sine,"[2, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/2Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/2Hz_1.50x,STN,held,,soma,sine,sine,"[2, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/2Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/2Hz_2.00x,STN,held,,soma,sine,sine,"[2, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/2Hz_2.00x.npz,1
+STN/held/ctrl/soma/sine/4Hz_1.00x,STN,held,,soma,sine,sine,"[4, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/4Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/4Hz_1.50x,STN,held,,soma,sine,sine,"[4, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/4Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/4Hz_2.00x,STN,held,,soma,sine,sine,"[4, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/4Hz_2.00x.npz,1
+STN/held/ctrl/soma/sine/7Hz_1.00x,STN,held,,soma,sine,sine,"[7, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/7Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/7Hz_1.50x,STN,held,,soma,sine,sine,"[7, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/7Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/7Hz_2.00x,STN,held,,soma,sine,sine,"[7, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/7Hz_2.00x.npz,1
+STN/held/ctrl/soma/sine/10Hz_1.00x,STN,held,,soma,sine,sine,"[10, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/10Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/10Hz_1.50x,STN,held,,soma,sine,sine,"[10, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/10Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/10Hz_2.00x,STN,held,,soma,sine,sine,"[10, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/10Hz_2.00x.npz,1
+STN/held/ctrl/soma/sine/20Hz_1.00x,STN,held,,soma,sine,sine,"[20, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/20Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/20Hz_1.50x,STN,held,,soma,sine,sine,"[20, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/20Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/20Hz_2.00x,STN,held,,soma,sine,sine,"[20, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/20Hz_2.00x.npz,1
+STN/held/ctrl/soma/sine/50Hz_1.00x,STN,held,,soma,sine,sine,"[50, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/50Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/50Hz_1.50x,STN,held,,soma,sine,sine,"[50, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/50Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/50Hz_2.00x,STN,held,,soma,sine,sine,"[50, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/50Hz_2.00x.npz,1
+STN/held/ctrl/soma/sine/100Hz_1.00x,STN,held,,soma,sine,sine,"[100, 1.0]",,0.0,runs/STN/held/ctrl/soma/sine/100Hz_1.00x.npz,1
+STN/held/ctrl/soma/sine/100Hz_1.50x,STN,held,,soma,sine,sine,"[100, 1.5]",,0.0,runs/STN/held/ctrl/soma/sine/100Hz_1.50x.npz,1
+STN/held/ctrl/soma/sine/100Hz_2.00x,STN,held,,soma,sine,sine,"[100, 2.0]",,0.0,runs/STN/held/ctrl/soma/sine/100Hz_2.00x.npz,1
+STN/held/ctrl/soma/chirp/sub,STN,held,,soma,chirp,chirp,0.0333984375,,0.0,runs/STN/held/ctrl/soma/chirp/sub.npz,1
+STN/held/ctrl/soma/pulse/5Hz_mono_1.2xthr,STN,held,,soma,pulse,pulse,"[5, ""mono"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/5Hz_mono_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/5Hz_mono_2.0xthr,STN,held,,soma,pulse,pulse,"[5, ""mono"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/5Hz_mono_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/5Hz_biphasic_1.2xthr,STN,held,,soma,pulse,pulse,"[5, ""biphasic"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/5Hz_biphasic_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/5Hz_biphasic_2.0xthr,STN,held,,soma,pulse,pulse,"[5, ""biphasic"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/5Hz_biphasic_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/20Hz_mono_1.2xthr,STN,held,,soma,pulse,pulse,"[20, ""mono"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/20Hz_mono_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/20Hz_mono_2.0xthr,STN,held,,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/20Hz_mono_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/20Hz_biphasic_1.2xthr,STN,held,,soma,pulse,pulse,"[20, ""biphasic"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/20Hz_biphasic_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/20Hz_biphasic_2.0xthr,STN,held,,soma,pulse,pulse,"[20, ""biphasic"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/20Hz_biphasic_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/60Hz_mono_1.2xthr,STN,held,,soma,pulse,pulse,"[60, ""mono"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/60Hz_mono_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/60Hz_mono_2.0xthr,STN,held,,soma,pulse,pulse,"[60, ""mono"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/60Hz_mono_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/60Hz_biphasic_1.2xthr,STN,held,,soma,pulse,pulse,"[60, ""biphasic"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/60Hz_biphasic_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/60Hz_biphasic_2.0xthr,STN,held,,soma,pulse,pulse,"[60, ""biphasic"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/60Hz_biphasic_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/130Hz_mono_1.2xthr,STN,held,,soma,pulse,pulse,"[130, ""mono"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/130Hz_mono_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/130Hz_mono_2.0xthr,STN,held,,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/130Hz_mono_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/130Hz_biphasic_1.2xthr,STN,held,,soma,pulse,pulse,"[130, ""biphasic"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/130Hz_biphasic_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/130Hz_biphasic_2.0xthr,STN,held,,soma,pulse,pulse,"[130, ""biphasic"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/130Hz_biphasic_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/200Hz_mono_1.2xthr,STN,held,,soma,pulse,pulse,"[200, ""mono"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/200Hz_mono_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/200Hz_mono_2.0xthr,STN,held,,soma,pulse,pulse,"[200, ""mono"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/200Hz_mono_2.0xthr.npz,1
+STN/held/ctrl/soma/pulse/200Hz_biphasic_1.2xthr,STN,held,,soma,pulse,pulse,"[200, ""biphasic"", 1.2]",,0.0,runs/STN/held/ctrl/soma/pulse/200Hz_biphasic_1.2xthr.npz,1
+STN/held/ctrl/soma/pulse/200Hz_biphasic_2.0xthr,STN,held,,soma,pulse,pulse,"[200, ""biphasic"", 2.0]",,0.0,runs/STN/held/ctrl/soma/pulse/200Hz_biphasic_2.0xthr.npz,1
+STN/held/ctrl/soma/noise_var/seed1001,STN,held,,soma,noise_var,noise_var,null,0,0.0,runs/STN/held/ctrl/soma/noise_var/seed1001.npz,1
+STN/held/ctrl/soma/noise_var/seed1002,STN,held,,soma,noise_var,noise_var,null,1,0.0,runs/STN/held/ctrl/soma/noise_var/seed1002.npz,1
+STN/held/ctrl/soma/noise_var/seed1003,STN,held,,soma,noise_var,noise_var,null,2,0.0,runs/STN/held/ctrl/soma/noise_var/seed1003.npz,1
+STN/held/ctrl/soma/noise_var/seed1004,STN,held,,soma,noise_var,noise_var,null,3,0.0,runs/STN/held/ctrl/soma/noise_var/seed1004.npz,1
+STN/held/ctrl/soma/noise_var/seed1005,STN,held,,soma,noise_var,noise_var,null,4,0.0,runs/STN/held/ctrl/soma/noise_var/seed1005.npz,1
+STN/held/ctrl/soma/noise_var/seed1006,STN,held,,soma,noise_var,noise_var,null,5,0.0,runs/STN/held/ctrl/soma/noise_var/seed1006.npz,1
+STN/held/ctrl/soma/noise_var/seed1007,STN,held,,soma,noise_var,noise_var,null,6,0.0,runs/STN/held/ctrl/soma/noise_var/seed1007.npz,1
+STN/held/ctrl/soma/noise_var/seed1008,STN,held,,soma,noise_var,noise_var,null,7,0.0,runs/STN/held/ctrl/soma/noise_var/seed1008.npz,1
+STN/held/ctrl/soma/noise_var/seed1009,STN,held,,soma,noise_var,noise_var,null,8,0.0,runs/STN/held/ctrl/soma/noise_var/seed1009.npz,1
+STN/held/ctrl/soma/noise_var/seed1010,STN,held,,soma,noise_var,noise_var,null,9,0.0,runs/STN/held/ctrl/soma/noise_var/seed1010.npz,1
+STN/held/ctrl/soma/noise_var/seed1011,STN,held,,soma,noise_var,noise_var,null,10,0.0,runs/STN/held/ctrl/soma/noise_var/seed1011.npz,1
+STN/held/ctrl/soma/noise_var/seed1012,STN,held,,soma,noise_var,noise_var,null,11,0.0,runs/STN/held/ctrl/soma/noise_var/seed1012.npz,1
+STN/held/ctrl/soma/noise_var/seed1013,STN,held,,soma,noise_var,noise_var,null,12,0.0,runs/STN/held/ctrl/soma/noise_var/seed1013.npz,1
+STN/held/ctrl/soma/noise_var/seed1014,STN,held,,soma,noise_var,noise_var,null,13,0.0,runs/STN/held/ctrl/soma/noise_var/seed1014.npz,1
+STN/held/ctrl/soma/noise_var/seed1015,STN,held,,soma,noise_var,noise_var,null,14,0.0,runs/STN/held/ctrl/soma/noise_var/seed1015.npz,1
+STN/held/ctrl/soma/noise_var/seed1016,STN,held,,soma,noise_var,noise_var,null,15,0.0,runs/STN/held/ctrl/soma/noise_var/seed1016.npz,1
+STN/held/ctrl/soma/noise_var/seed1017,STN,held,,soma,noise_var,noise_var,null,16,0.0,runs/STN/held/ctrl/soma/noise_var/seed1017.npz,1
+STN/held/ctrl/soma/noise_var/seed1018,STN,held,,soma,noise_var,noise_var,null,17,0.0,runs/STN/held/ctrl/soma/noise_var/seed1018.npz,1
+STN/held/ctrl/soma/noise_var/seed1019,STN,held,,soma,noise_var,noise_var,null,18,0.0,runs/STN/held/ctrl/soma/noise_var/seed1019.npz,1
+STN/held/ctrl/soma/noise_var/seed1020,STN,held,,soma,noise_var,noise_var,null,19,0.0,runs/STN/held/ctrl/soma/noise_var/seed1020.npz,1
+STN/held/ctrl/soma/noise_rel/trial00,STN,held,,soma,noise_rel,noise_rel,null,0,0.0,runs/STN/held/ctrl/soma/noise_rel/trial00.npz,1
+STN/held/ctrl/soma/noise_rel/trial01,STN,held,,soma,noise_rel,noise_rel,null,1,0.0,runs/STN/held/ctrl/soma/noise_rel/trial01.npz,1
+STN/held/ctrl/soma/noise_rel/trial02,STN,held,,soma,noise_rel,noise_rel,null,2,0.0,runs/STN/held/ctrl/soma/noise_rel/trial02.npz,1
+STN/held/ctrl/soma/noise_rel/trial03,STN,held,,soma,noise_rel,noise_rel,null,3,0.0,runs/STN/held/ctrl/soma/noise_rel/trial03.npz,1
+STN/held/ctrl/soma/noise_rel/trial04,STN,held,,soma,noise_rel,noise_rel,null,4,0.0,runs/STN/held/ctrl/soma/noise_rel/trial04.npz,1
+STN/held/ctrl/soma/noise_rel/trial05,STN,held,,soma,noise_rel,noise_rel,null,5,0.0,runs/STN/held/ctrl/soma/noise_rel/trial05.npz,1
+STN/held/ctrl/soma/noise_rel/trial06,STN,held,,soma,noise_rel,noise_rel,null,6,0.0,runs/STN/held/ctrl/soma/noise_rel/trial06.npz,1
+STN/held/ctrl/soma/noise_rel/trial07,STN,held,,soma,noise_rel,noise_rel,null,7,0.0,runs/STN/held/ctrl/soma/noise_rel/trial07.npz,1
+STN/held/ctrl/soma/noise_rel/trial08,STN,held,,soma,noise_rel,noise_rel,null,8,0.0,runs/STN/held/ctrl/soma/noise_rel/trial08.npz,1
+STN/held/ctrl/soma/noise_rel/trial09,STN,held,,soma,noise_rel,noise_rel,null,9,0.0,runs/STN/held/ctrl/soma/noise_rel/trial09.npz,1
+STN/held/ctrl/soma/noise_rel/trial10,STN,held,,soma,noise_rel,noise_rel,null,10,0.0,runs/STN/held/ctrl/soma/noise_rel/trial10.npz,1
+STN/held/ctrl/soma/noise_rel/trial11,STN,held,,soma,noise_rel,noise_rel,null,11,0.0,runs/STN/held/ctrl/soma/noise_rel/trial11.npz,1
+STN/held/ctrl/soma/noise_rel/trial12,STN,held,,soma,noise_rel,noise_rel,null,12,0.0,runs/STN/held/ctrl/soma/noise_rel/trial12.npz,1
+STN/held/ctrl/soma/noise_rel/trial13,STN,held,,soma,noise_rel,noise_rel,null,13,0.0,runs/STN/held/ctrl/soma/noise_rel/trial13.npz,1
+STN/held/ctrl/soma/noise_rel/trial14,STN,held,,soma,noise_rel,noise_rel,null,14,0.0,runs/STN/held/ctrl/soma/noise_rel/trial14.npz,1
+STN/held/ctrl/soma/noise_rel/trial15,STN,held,,soma,noise_rel,noise_rel,null,15,0.0,runs/STN/held/ctrl/soma/noise_rel/trial15.npz,1
+STN/held/ctrl/soma/noise_rel/trial16,STN,held,,soma,noise_rel,noise_rel,null,16,0.0,runs/STN/held/ctrl/soma/noise_rel/trial16.npz,1
+STN/held/ctrl/soma/noise_rel/trial17,STN,held,,soma,noise_rel,noise_rel,null,17,0.0,runs/STN/held/ctrl/soma/noise_rel/trial17.npz,1
+STN/held/ctrl/soma/noise_rel/trial18,STN,held,,soma,noise_rel,noise_rel,null,18,0.0,runs/STN/held/ctrl/soma/noise_rel/trial18.npz,1
+STN/held/ctrl/soma/noise_rel/trial19,STN,held,,soma,noise_rel,noise_rel,null,19,0.0,runs/STN/held/ctrl/soma/noise_rel/trial19.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial00,STN,held,,soma,syn,syn,1.0,0,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial00.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial01,STN,held,,soma,syn,syn,1.0,1,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial01.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial02,STN,held,,soma,syn,syn,1.0,2,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial02.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial03,STN,held,,soma,syn,syn,1.0,3,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial03.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial04,STN,held,,soma,syn,syn,1.0,4,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial04.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial05,STN,held,,soma,syn,syn,1.0,5,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial05.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial06,STN,held,,soma,syn,syn,1.0,6,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial06.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial07,STN,held,,soma,syn,syn,1.0,7,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial07.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial08,STN,held,,soma,syn,syn,1.0,8,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial08.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial09,STN,held,,soma,syn,syn,1.0,9,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial09.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial10,STN,held,,soma,syn,syn,1.0,10,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial10.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial11,STN,held,,soma,syn,syn,1.0,11,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial11.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial12,STN,held,,soma,syn,syn,1.0,12,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial12.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial13,STN,held,,soma,syn,syn,1.0,13,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial13.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial14,STN,held,,soma,syn,syn,1.0,14,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial14.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial15,STN,held,,soma,syn,syn,1.0,15,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial15.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial16,STN,held,,soma,syn,syn,1.0,16,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial16.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial17,STN,held,,soma,syn,syn,1.0,17,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial17.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial18,STN,held,,soma,syn,syn,1.0,18,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial18.npz,1
+STN/held/ctrl/soma/syn/1.0x_trial19,STN,held,,soma,syn,syn,1.0,19,0.0,runs/STN/held/ctrl/soma/syn/1.0x_trial19.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial00,STN,held,,soma,syn,syn,2.0,0,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial00.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial01,STN,held,,soma,syn,syn,2.0,1,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial01.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial02,STN,held,,soma,syn,syn,2.0,2,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial02.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial03,STN,held,,soma,syn,syn,2.0,3,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial03.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial04,STN,held,,soma,syn,syn,2.0,4,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial04.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial05,STN,held,,soma,syn,syn,2.0,5,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial05.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial06,STN,held,,soma,syn,syn,2.0,6,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial06.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial07,STN,held,,soma,syn,syn,2.0,7,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial07.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial08,STN,held,,soma,syn,syn,2.0,8,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial08.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial09,STN,held,,soma,syn,syn,2.0,9,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial09.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial10,STN,held,,soma,syn,syn,2.0,10,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial10.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial11,STN,held,,soma,syn,syn,2.0,11,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial11.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial12,STN,held,,soma,syn,syn,2.0,12,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial12.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial13,STN,held,,soma,syn,syn,2.0,13,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial13.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial14,STN,held,,soma,syn,syn,2.0,14,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial14.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial15,STN,held,,soma,syn,syn,2.0,15,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial15.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial16,STN,held,,soma,syn,syn,2.0,16,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial16.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial17,STN,held,,soma,syn,syn,2.0,17,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial17.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial18,STN,held,,soma,syn,syn,2.0,18,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial18.npz,1
+STN/held/ctrl/soma/syn/2.0x_trial19,STN,held,,soma,syn,syn,2.0,19,0.0,runs/STN/held/ctrl/soma/syn/2.0x_trial19.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial00,STN,held,,soma,syn,syn,4.0,0,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial00.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial01,STN,held,,soma,syn,syn,4.0,1,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial01.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial02,STN,held,,soma,syn,syn,4.0,2,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial02.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial03,STN,held,,soma,syn,syn,4.0,3,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial03.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial04,STN,held,,soma,syn,syn,4.0,4,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial04.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial05,STN,held,,soma,syn,syn,4.0,5,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial05.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial06,STN,held,,soma,syn,syn,4.0,6,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial06.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial07,STN,held,,soma,syn,syn,4.0,7,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial07.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial08,STN,held,,soma,syn,syn,4.0,8,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial08.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial09,STN,held,,soma,syn,syn,4.0,9,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial09.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial10,STN,held,,soma,syn,syn,4.0,10,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial10.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial11,STN,held,,soma,syn,syn,4.0,11,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial11.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial12,STN,held,,soma,syn,syn,4.0,12,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial12.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial13,STN,held,,soma,syn,syn,4.0,13,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial13.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial14,STN,held,,soma,syn,syn,4.0,14,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial14.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial15,STN,held,,soma,syn,syn,4.0,15,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial15.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial16,STN,held,,soma,syn,syn,4.0,16,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial16.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial17,STN,held,,soma,syn,syn,4.0,17,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial17.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial18,STN,held,,soma,syn,syn,4.0,18,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial18.npz,1
+STN/held/ctrl/soma/syn/4.0x_trial19,STN,held,,soma,syn,syn,4.0,19,0.0,runs/STN/held/ctrl/soma/syn/4.0x_trial19.npz,1
+STN/native/ctrl/soma/step/+0.80x,STN,native,,soma,step,step,0.8,,16.8,runs/STN/native/ctrl/soma/step/+0.80x.npz,1
+STN/native/ctrl/soma/step/+1.00x,STN,native,,soma,step,step,1.0,,95.85,runs/STN/native/ctrl/soma/step/+1.00x.npz,1
+STN/native/ctrl/soma/step/+1.25x,STN,native,,soma,step,step,1.25,,31.525,runs/STN/native/ctrl/soma/step/+1.25x.npz,1
+STN/native/ctrl/soma/step/+1.50x,STN,native,,soma,step,step,1.5,,24.675,runs/STN/native/ctrl/soma/step/+1.50x.npz,1
+STN/native/ctrl/soma/step/+2.00x,STN,native,,soma,step,step,2.0,,22.95,runs/STN/native/ctrl/soma/step/+2.00x.npz,1
+STN/native/ctrl/soma/step/+2.50x,STN,native,,soma,step,step,2.5,,64.475,runs/STN/native/ctrl/soma/step/+2.50x.npz,1
+STN/native/ctrl/soma/step/+3.00x,STN,native,,soma,step,step,3.0,,87.05,runs/STN/native/ctrl/soma/step/+3.00x.npz,1
+STN/native/ctrl/soma/hyper/-0.50x,STN,native,,soma,hyper,hyper,-0.5,,20.3,runs/STN/native/ctrl/soma/hyper/-0.50x.npz,1
+STN/native/ctrl/soma/hyper/-1.00x,STN,native,,soma,hyper,hyper,-1.0,,52.175,runs/STN/native/ctrl/soma/hyper/-1.00x.npz,1
+STN/native/ctrl/soma/hyper/-2.00x,STN,native,,soma,hyper,hyper,-2.0,,26.55,runs/STN/native/ctrl/soma/hyper/-2.00x.npz,1
+STN/native/ctrl/soma/hyper/-3.00x,STN,native,,soma,hyper,hyper,-3.0,,21.15,runs/STN/native/ctrl/soma/hyper/-3.00x.npz,1
+STN/native/ctrl/soma/ramp/slow,STN,native,,soma,ramp,ramp,"""slow""",,87.425,runs/STN/native/ctrl/soma/ramp/slow.npz,1
+STN/native/ctrl/soma/ramp/fast,STN,native,,soma,ramp,ramp,"""fast""",,12.7,runs/STN/native/ctrl/soma/ramp/fast.npz,1
+STN/native/ctrl/soma/sine/1Hz_1.00x,STN,native,,soma,sine,sine,"[1, 1.0]",,60.7,runs/STN/native/ctrl/soma/sine/1Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/1Hz_1.50x,STN,native,,soma,sine,sine,"[1, 1.5]",,57.525,runs/STN/native/ctrl/soma/sine/1Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/1Hz_2.00x,STN,native,,soma,sine,sine,"[1, 2.0]",,32.375,runs/STN/native/ctrl/soma/sine/1Hz_2.00x.npz,1
+STN/native/ctrl/soma/sine/2Hz_1.00x,STN,native,,soma,sine,sine,"[2, 1.0]",,65.45,runs/STN/native/ctrl/soma/sine/2Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/2Hz_1.50x,STN,native,,soma,sine,sine,"[2, 1.5]",,75.25,runs/STN/native/ctrl/soma/sine/2Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/2Hz_2.00x,STN,native,,soma,sine,sine,"[2, 2.0]",,76.25,runs/STN/native/ctrl/soma/sine/2Hz_2.00x.npz,1
+STN/native/ctrl/soma/sine/4Hz_1.00x,STN,native,,soma,sine,sine,"[4, 1.0]",,3.475,runs/STN/native/ctrl/soma/sine/4Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/4Hz_1.50x,STN,native,,soma,sine,sine,"[4, 1.5]",,48.475,runs/STN/native/ctrl/soma/sine/4Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/4Hz_2.00x,STN,native,,soma,sine,sine,"[4, 2.0]",,72.925,runs/STN/native/ctrl/soma/sine/4Hz_2.00x.npz,1
+STN/native/ctrl/soma/sine/7Hz_1.00x,STN,native,,soma,sine,sine,"[7, 1.0]",,66.275,runs/STN/native/ctrl/soma/sine/7Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/7Hz_1.50x,STN,native,,soma,sine,sine,"[7, 1.5]",,90.65,runs/STN/native/ctrl/soma/sine/7Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/7Hz_2.00x,STN,native,,soma,sine,sine,"[7, 2.0]",,49.375,runs/STN/native/ctrl/soma/sine/7Hz_2.00x.npz,1
+STN/native/ctrl/soma/sine/10Hz_1.00x,STN,native,,soma,sine,sine,"[10, 1.0]",,44.65,runs/STN/native/ctrl/soma/sine/10Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/10Hz_1.50x,STN,native,,soma,sine,sine,"[10, 1.5]",,98.125,runs/STN/native/ctrl/soma/sine/10Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/10Hz_2.00x,STN,native,,soma,sine,sine,"[10, 2.0]",,4.975,runs/STN/native/ctrl/soma/sine/10Hz_2.00x.npz,1
+STN/native/ctrl/soma/sine/20Hz_1.00x,STN,native,,soma,sine,sine,"[20, 1.0]",,92.65,runs/STN/native/ctrl/soma/sine/20Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/20Hz_1.50x,STN,native,,soma,sine,sine,"[20, 1.5]",,28.825,runs/STN/native/ctrl/soma/sine/20Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/20Hz_2.00x,STN,native,,soma,sine,sine,"[20, 2.0]",,58.5,runs/STN/native/ctrl/soma/sine/20Hz_2.00x.npz,1
+STN/native/ctrl/soma/sine/50Hz_1.00x,STN,native,,soma,sine,sine,"[50, 1.0]",,25.325,runs/STN/native/ctrl/soma/sine/50Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/50Hz_1.50x,STN,native,,soma,sine,sine,"[50, 1.5]",,93.95,runs/STN/native/ctrl/soma/sine/50Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/50Hz_2.00x,STN,native,,soma,sine,sine,"[50, 2.0]",,38.35,runs/STN/native/ctrl/soma/sine/50Hz_2.00x.npz,1
+STN/native/ctrl/soma/sine/100Hz_1.00x,STN,native,,soma,sine,sine,"[100, 1.0]",,12.825,runs/STN/native/ctrl/soma/sine/100Hz_1.00x.npz,1
+STN/native/ctrl/soma/sine/100Hz_1.50x,STN,native,,soma,sine,sine,"[100, 1.5]",,45.825,runs/STN/native/ctrl/soma/sine/100Hz_1.50x.npz,1
+STN/native/ctrl/soma/sine/100Hz_2.00x,STN,native,,soma,sine,sine,"[100, 2.0]",,94.625,runs/STN/native/ctrl/soma/sine/100Hz_2.00x.npz,1
+STN/native/ctrl/soma/pulse/5Hz_mono_1.2xthr,STN,native,,soma,pulse,pulse,"[5, ""mono"", 1.2]",,32.6,runs/STN/native/ctrl/soma/pulse/5Hz_mono_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/5Hz_mono_2.0xthr,STN,native,,soma,pulse,pulse,"[5, ""mono"", 2.0]",,87.55,runs/STN/native/ctrl/soma/pulse/5Hz_mono_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr,STN,native,,soma,pulse,pulse,"[5, ""biphasic"", 1.2]",,5.55,runs/STN/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr,STN,native,,soma,pulse,pulse,"[5, ""biphasic"", 2.0]",,42.625,runs/STN/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/20Hz_mono_1.2xthr,STN,native,,soma,pulse,pulse,"[20, ""mono"", 1.2]",,99.35,runs/STN/native/ctrl/soma/pulse/20Hz_mono_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/20Hz_mono_2.0xthr,STN,native,,soma,pulse,pulse,"[20, ""mono"", 2.0]",,37.775,runs/STN/native/ctrl/soma/pulse/20Hz_mono_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr,STN,native,,soma,pulse,pulse,"[20, ""biphasic"", 1.2]",,51.025,runs/STN/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr,STN,native,,soma,pulse,pulse,"[20, ""biphasic"", 2.0]",,63.35,runs/STN/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/60Hz_mono_1.2xthr,STN,native,,soma,pulse,pulse,"[60, ""mono"", 1.2]",,49.025,runs/STN/native/ctrl/soma/pulse/60Hz_mono_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/60Hz_mono_2.0xthr,STN,native,,soma,pulse,pulse,"[60, ""mono"", 2.0]",,45.875,runs/STN/native/ctrl/soma/pulse/60Hz_mono_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr,STN,native,,soma,pulse,pulse,"[60, ""biphasic"", 1.2]",,66.325,runs/STN/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr,STN,native,,soma,pulse,pulse,"[60, ""biphasic"", 2.0]",,65.55,runs/STN/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/130Hz_mono_1.2xthr,STN,native,,soma,pulse,pulse,"[130, ""mono"", 1.2]",,14.225,runs/STN/native/ctrl/soma/pulse/130Hz_mono_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/130Hz_mono_2.0xthr,STN,native,,soma,pulse,pulse,"[130, ""mono"", 2.0]",,83.125,runs/STN/native/ctrl/soma/pulse/130Hz_mono_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr,STN,native,,soma,pulse,pulse,"[130, ""biphasic"", 1.2]",,74.775,runs/STN/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr,STN,native,,soma,pulse,pulse,"[130, ""biphasic"", 2.0]",,81.5,runs/STN/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/200Hz_mono_1.2xthr,STN,native,,soma,pulse,pulse,"[200, ""mono"", 1.2]",,55.225,runs/STN/native/ctrl/soma/pulse/200Hz_mono_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/200Hz_mono_2.0xthr,STN,native,,soma,pulse,pulse,"[200, ""mono"", 2.0]",,61.4,runs/STN/native/ctrl/soma/pulse/200Hz_mono_2.0xthr.npz,1
+STN/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr,STN,native,,soma,pulse,pulse,"[200, ""biphasic"", 1.2]",,80.475,runs/STN/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr.npz,1
+STN/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr,STN,native,,soma,pulse,pulse,"[200, ""biphasic"", 2.0]",,48.375,runs/STN/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr.npz,1
+STN/native/ctrl/soma/noise_var/seed1001,STN,native,,soma,noise_var,noise_var,null,0,76.9,runs/STN/native/ctrl/soma/noise_var/seed1001.npz,1
+STN/native/ctrl/soma/noise_var/seed1002,STN,native,,soma,noise_var,noise_var,null,1,80.4,runs/STN/native/ctrl/soma/noise_var/seed1002.npz,1
+STN/native/ctrl/soma/noise_var/seed1003,STN,native,,soma,noise_var,noise_var,null,2,5.65,runs/STN/native/ctrl/soma/noise_var/seed1003.npz,1
+STN/native/ctrl/soma/noise_var/seed1004,STN,native,,soma,noise_var,noise_var,null,3,78.425,runs/STN/native/ctrl/soma/noise_var/seed1004.npz,1
+STN/native/ctrl/soma/noise_var/seed1005,STN,native,,soma,noise_var,noise_var,null,4,98.475,runs/STN/native/ctrl/soma/noise_var/seed1005.npz,1
+STN/native/ctrl/soma/noise_var/seed1006,STN,native,,soma,noise_var,noise_var,null,5,92.3,runs/STN/native/ctrl/soma/noise_var/seed1006.npz,1
+STN/native/ctrl/soma/noise_var/seed1007,STN,native,,soma,noise_var,noise_var,null,6,62.025,runs/STN/native/ctrl/soma/noise_var/seed1007.npz,1
+STN/native/ctrl/soma/noise_var/seed1008,STN,native,,soma,noise_var,noise_var,null,7,36.425,runs/STN/native/ctrl/soma/noise_var/seed1008.npz,1
+STN/native/ctrl/soma/noise_var/seed1009,STN,native,,soma,noise_var,noise_var,null,8,97.9,runs/STN/native/ctrl/soma/noise_var/seed1009.npz,1
+STN/native/ctrl/soma/noise_var/seed1010,STN,native,,soma,noise_var,noise_var,null,9,17.925,runs/STN/native/ctrl/soma/noise_var/seed1010.npz,1
+STN/native/ctrl/soma/noise_var/seed1011,STN,native,,soma,noise_var,noise_var,null,10,63.4,runs/STN/native/ctrl/soma/noise_var/seed1011.npz,1
+STN/native/ctrl/soma/noise_var/seed1012,STN,native,,soma,noise_var,noise_var,null,11,54.8,runs/STN/native/ctrl/soma/noise_var/seed1012.npz,1
+STN/native/ctrl/soma/noise_var/seed1013,STN,native,,soma,noise_var,noise_var,null,12,100.0,runs/STN/native/ctrl/soma/noise_var/seed1013.npz,1
+STN/native/ctrl/soma/noise_var/seed1014,STN,native,,soma,noise_var,noise_var,null,13,66.225,runs/STN/native/ctrl/soma/noise_var/seed1014.npz,1
+STN/native/ctrl/soma/noise_var/seed1015,STN,native,,soma,noise_var,noise_var,null,14,51.6,runs/STN/native/ctrl/soma/noise_var/seed1015.npz,1
+STN/native/ctrl/soma/noise_var/seed1016,STN,native,,soma,noise_var,noise_var,null,15,60.9,runs/STN/native/ctrl/soma/noise_var/seed1016.npz,1
+STN/native/ctrl/soma/noise_var/seed1017,STN,native,,soma,noise_var,noise_var,null,16,30.75,runs/STN/native/ctrl/soma/noise_var/seed1017.npz,1
+STN/native/ctrl/soma/noise_var/seed1018,STN,native,,soma,noise_var,noise_var,null,17,67.4,runs/STN/native/ctrl/soma/noise_var/seed1018.npz,1
+STN/native/ctrl/soma/noise_var/seed1019,STN,native,,soma,noise_var,noise_var,null,18,30.05,runs/STN/native/ctrl/soma/noise_var/seed1019.npz,1
+STN/native/ctrl/soma/noise_var/seed1020,STN,native,,soma,noise_var,noise_var,null,19,48.875,runs/STN/native/ctrl/soma/noise_var/seed1020.npz,1
+STN/native/ctrl/soma/noise_rel/trial00,STN,native,,soma,noise_rel,noise_rel,null,0,31.3,runs/STN/native/ctrl/soma/noise_rel/trial00.npz,1
+STN/native/ctrl/soma/noise_rel/trial01,STN,native,,soma,noise_rel,noise_rel,null,1,36.875,runs/STN/native/ctrl/soma/noise_rel/trial01.npz,1
+STN/native/ctrl/soma/noise_rel/trial02,STN,native,,soma,noise_rel,noise_rel,null,2,97.35,runs/STN/native/ctrl/soma/noise_rel/trial02.npz,1
+STN/native/ctrl/soma/noise_rel/trial03,STN,native,,soma,noise_rel,noise_rel,null,3,55.2,runs/STN/native/ctrl/soma/noise_rel/trial03.npz,1
+STN/native/ctrl/soma/noise_rel/trial04,STN,native,,soma,noise_rel,noise_rel,null,4,79.825,runs/STN/native/ctrl/soma/noise_rel/trial04.npz,1
+STN/native/ctrl/soma/noise_rel/trial05,STN,native,,soma,noise_rel,noise_rel,null,5,32.7,runs/STN/native/ctrl/soma/noise_rel/trial05.npz,1
+STN/native/ctrl/soma/noise_rel/trial06,STN,native,,soma,noise_rel,noise_rel,null,6,38.525,runs/STN/native/ctrl/soma/noise_rel/trial06.npz,1
+STN/native/ctrl/soma/noise_rel/trial07,STN,native,,soma,noise_rel,noise_rel,null,7,54.725,runs/STN/native/ctrl/soma/noise_rel/trial07.npz,1
+STN/native/ctrl/soma/noise_rel/trial08,STN,native,,soma,noise_rel,noise_rel,null,8,3.3,runs/STN/native/ctrl/soma/noise_rel/trial08.npz,1
+STN/native/ctrl/soma/noise_rel/trial09,STN,native,,soma,noise_rel,noise_rel,null,9,0.525,runs/STN/native/ctrl/soma/noise_rel/trial09.npz,1
+STN/native/ctrl/soma/noise_rel/trial10,STN,native,,soma,noise_rel,noise_rel,null,10,91.15,runs/STN/native/ctrl/soma/noise_rel/trial10.npz,1
+STN/native/ctrl/soma/noise_rel/trial11,STN,native,,soma,noise_rel,noise_rel,null,11,32.5,runs/STN/native/ctrl/soma/noise_rel/trial11.npz,1
+STN/native/ctrl/soma/noise_rel/trial12,STN,native,,soma,noise_rel,noise_rel,null,12,43.275,runs/STN/native/ctrl/soma/noise_rel/trial12.npz,1
+STN/native/ctrl/soma/noise_rel/trial13,STN,native,,soma,noise_rel,noise_rel,null,13,29.025,runs/STN/native/ctrl/soma/noise_rel/trial13.npz,1
+STN/native/ctrl/soma/noise_rel/trial14,STN,native,,soma,noise_rel,noise_rel,null,14,13.5,runs/STN/native/ctrl/soma/noise_rel/trial14.npz,1
+STN/native/ctrl/soma/noise_rel/trial15,STN,native,,soma,noise_rel,noise_rel,null,15,20.225,runs/STN/native/ctrl/soma/noise_rel/trial15.npz,1
+STN/native/ctrl/soma/noise_rel/trial16,STN,native,,soma,noise_rel,noise_rel,null,16,29.475,runs/STN/native/ctrl/soma/noise_rel/trial16.npz,1
+STN/native/ctrl/soma/noise_rel/trial17,STN,native,,soma,noise_rel,noise_rel,null,17,34.875,runs/STN/native/ctrl/soma/noise_rel/trial17.npz,1
+STN/native/ctrl/soma/noise_rel/trial18,STN,native,,soma,noise_rel,noise_rel,null,18,14.3,runs/STN/native/ctrl/soma/noise_rel/trial18.npz,1
+STN/native/ctrl/soma/noise_rel/trial19,STN,native,,soma,noise_rel,noise_rel,null,19,82.375,runs/STN/native/ctrl/soma/noise_rel/trial19.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial00,STN,native,,soma,syn,syn,1.0,0,60.825,runs/STN/native/ctrl/soma/syn/1.0x_trial00.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial01,STN,native,,soma,syn,syn,1.0,1,6.1,runs/STN/native/ctrl/soma/syn/1.0x_trial01.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial02,STN,native,,soma,syn,syn,1.0,2,23.725,runs/STN/native/ctrl/soma/syn/1.0x_trial02.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial03,STN,native,,soma,syn,syn,1.0,3,29.15,runs/STN/native/ctrl/soma/syn/1.0x_trial03.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial04,STN,native,,soma,syn,syn,1.0,4,4.6,runs/STN/native/ctrl/soma/syn/1.0x_trial04.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial05,STN,native,,soma,syn,syn,1.0,5,45.75,runs/STN/native/ctrl/soma/syn/1.0x_trial05.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial06,STN,native,,soma,syn,syn,1.0,6,72.45,runs/STN/native/ctrl/soma/syn/1.0x_trial06.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial07,STN,native,,soma,syn,syn,1.0,7,35.6,runs/STN/native/ctrl/soma/syn/1.0x_trial07.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial08,STN,native,,soma,syn,syn,1.0,8,26.25,runs/STN/native/ctrl/soma/syn/1.0x_trial08.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial09,STN,native,,soma,syn,syn,1.0,9,25.0,runs/STN/native/ctrl/soma/syn/1.0x_trial09.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial10,STN,native,,soma,syn,syn,1.0,10,64.775,runs/STN/native/ctrl/soma/syn/1.0x_trial10.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial11,STN,native,,soma,syn,syn,1.0,11,99.625,runs/STN/native/ctrl/soma/syn/1.0x_trial11.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial12,STN,native,,soma,syn,syn,1.0,12,20.725,runs/STN/native/ctrl/soma/syn/1.0x_trial12.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial13,STN,native,,soma,syn,syn,1.0,13,5.175,runs/STN/native/ctrl/soma/syn/1.0x_trial13.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial14,STN,native,,soma,syn,syn,1.0,14,84.675,runs/STN/native/ctrl/soma/syn/1.0x_trial14.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial15,STN,native,,soma,syn,syn,1.0,15,89.55,runs/STN/native/ctrl/soma/syn/1.0x_trial15.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial16,STN,native,,soma,syn,syn,1.0,16,75.725,runs/STN/native/ctrl/soma/syn/1.0x_trial16.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial17,STN,native,,soma,syn,syn,1.0,17,60.3,runs/STN/native/ctrl/soma/syn/1.0x_trial17.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial18,STN,native,,soma,syn,syn,1.0,18,94.225,runs/STN/native/ctrl/soma/syn/1.0x_trial18.npz,1
+STN/native/ctrl/soma/syn/1.0x_trial19,STN,native,,soma,syn,syn,1.0,19,85.475,runs/STN/native/ctrl/soma/syn/1.0x_trial19.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial00,STN,native,,soma,syn,syn,2.0,0,60.325,runs/STN/native/ctrl/soma/syn/2.0x_trial00.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial01,STN,native,,soma,syn,syn,2.0,1,27.825,runs/STN/native/ctrl/soma/syn/2.0x_trial01.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial02,STN,native,,soma,syn,syn,2.0,2,25.45,runs/STN/native/ctrl/soma/syn/2.0x_trial02.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial03,STN,native,,soma,syn,syn,2.0,3,27.3,runs/STN/native/ctrl/soma/syn/2.0x_trial03.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial04,STN,native,,soma,syn,syn,2.0,4,6.7,runs/STN/native/ctrl/soma/syn/2.0x_trial04.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial05,STN,native,,soma,syn,syn,2.0,5,91.8,runs/STN/native/ctrl/soma/syn/2.0x_trial05.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial06,STN,native,,soma,syn,syn,2.0,6,83.825,runs/STN/native/ctrl/soma/syn/2.0x_trial06.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial07,STN,native,,soma,syn,syn,2.0,7,23.75,runs/STN/native/ctrl/soma/syn/2.0x_trial07.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial08,STN,native,,soma,syn,syn,2.0,8,23.425,runs/STN/native/ctrl/soma/syn/2.0x_trial08.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial09,STN,native,,soma,syn,syn,2.0,9,32.275,runs/STN/native/ctrl/soma/syn/2.0x_trial09.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial10,STN,native,,soma,syn,syn,2.0,10,36.45,runs/STN/native/ctrl/soma/syn/2.0x_trial10.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial11,STN,native,,soma,syn,syn,2.0,11,59.325,runs/STN/native/ctrl/soma/syn/2.0x_trial11.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial12,STN,native,,soma,syn,syn,2.0,12,41.95,runs/STN/native/ctrl/soma/syn/2.0x_trial12.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial13,STN,native,,soma,syn,syn,2.0,13,2.25,runs/STN/native/ctrl/soma/syn/2.0x_trial13.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial14,STN,native,,soma,syn,syn,2.0,14,44.375,runs/STN/native/ctrl/soma/syn/2.0x_trial14.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial15,STN,native,,soma,syn,syn,2.0,15,89.125,runs/STN/native/ctrl/soma/syn/2.0x_trial15.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial16,STN,native,,soma,syn,syn,2.0,16,15.325,runs/STN/native/ctrl/soma/syn/2.0x_trial16.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial17,STN,native,,soma,syn,syn,2.0,17,53.975,runs/STN/native/ctrl/soma/syn/2.0x_trial17.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial18,STN,native,,soma,syn,syn,2.0,18,90.45,runs/STN/native/ctrl/soma/syn/2.0x_trial18.npz,1
+STN/native/ctrl/soma/syn/2.0x_trial19,STN,native,,soma,syn,syn,2.0,19,9.275,runs/STN/native/ctrl/soma/syn/2.0x_trial19.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial00,STN,native,,soma,syn,syn,4.0,0,26.6,runs/STN/native/ctrl/soma/syn/4.0x_trial00.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial01,STN,native,,soma,syn,syn,4.0,1,48.9,runs/STN/native/ctrl/soma/syn/4.0x_trial01.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial02,STN,native,,soma,syn,syn,4.0,2,33.475,runs/STN/native/ctrl/soma/syn/4.0x_trial02.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial03,STN,native,,soma,syn,syn,4.0,3,3.9,runs/STN/native/ctrl/soma/syn/4.0x_trial03.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial04,STN,native,,soma,syn,syn,4.0,4,38.05,runs/STN/native/ctrl/soma/syn/4.0x_trial04.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial05,STN,native,,soma,syn,syn,4.0,5,77.05,runs/STN/native/ctrl/soma/syn/4.0x_trial05.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial06,STN,native,,soma,syn,syn,4.0,6,81.625,runs/STN/native/ctrl/soma/syn/4.0x_trial06.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial07,STN,native,,soma,syn,syn,4.0,7,6.525,runs/STN/native/ctrl/soma/syn/4.0x_trial07.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial08,STN,native,,soma,syn,syn,4.0,8,69.65,runs/STN/native/ctrl/soma/syn/4.0x_trial08.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial09,STN,native,,soma,syn,syn,4.0,9,56.475,runs/STN/native/ctrl/soma/syn/4.0x_trial09.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial10,STN,native,,soma,syn,syn,4.0,10,67.625,runs/STN/native/ctrl/soma/syn/4.0x_trial10.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial11,STN,native,,soma,syn,syn,4.0,11,45.475,runs/STN/native/ctrl/soma/syn/4.0x_trial11.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial12,STN,native,,soma,syn,syn,4.0,12,37.175,runs/STN/native/ctrl/soma/syn/4.0x_trial12.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial13,STN,native,,soma,syn,syn,4.0,13,78.925,runs/STN/native/ctrl/soma/syn/4.0x_trial13.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial14,STN,native,,soma,syn,syn,4.0,14,60.7,runs/STN/native/ctrl/soma/syn/4.0x_trial14.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial15,STN,native,,soma,syn,syn,4.0,15,89.975,runs/STN/native/ctrl/soma/syn/4.0x_trial15.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial16,STN,native,,soma,syn,syn,4.0,16,7.375,runs/STN/native/ctrl/soma/syn/4.0x_trial16.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial17,STN,native,,soma,syn,syn,4.0,17,40.075,runs/STN/native/ctrl/soma/syn/4.0x_trial17.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial18,STN,native,,soma,syn,syn,4.0,18,13.35,runs/STN/native/ctrl/soma/syn/4.0x_trial18.npz,1
+STN/native/ctrl/soma/syn/4.0x_trial19,STN,native,,soma,syn,syn,4.0,19,16.4,runs/STN/native/ctrl/soma/syn/4.0x_trial19.npz,1
+STN/held/CaT/soma/step/+1.50x,STN,held,CaT,soma,step,step,1.5,,0.0,runs/STN/held/CaT/soma/step/+1.50x.npz,1
+STN/held/CaT/soma/step/+2.00x,STN,held,CaT,soma,step,step,2.0,,0.0,runs/STN/held/CaT/soma/step/+2.00x.npz,1
+STN/held/CaT/soma/step/+3.00x,STN,held,CaT,soma,step,step,3.0,,0.0,runs/STN/held/CaT/soma/step/+3.00x.npz,1
+STN/held/CaT/soma/hyper/-1.00x,STN,held,CaT,soma,hyper,hyper,-1.0,,0.0,runs/STN/held/CaT/soma/hyper/-1.00x.npz,1
+STN/held/CaT/soma/hyper/-2.00x,STN,held,CaT,soma,hyper,hyper,-2.0,,0.0,runs/STN/held/CaT/soma/hyper/-2.00x.npz,1
+STN/held/CaT/soma/sine/4Hz_1.50x,STN,held,CaT,soma,sine,sine,"[4, 1.5]",,0.0,runs/STN/held/CaT/soma/sine/4Hz_1.50x.npz,1
+STN/held/CaT/soma/sine/10Hz_1.50x,STN,held,CaT,soma,sine,sine,"[10, 1.5]",,0.0,runs/STN/held/CaT/soma/sine/10Hz_1.50x.npz,1
+STN/held/CaT/soma/chirp/sub,STN,held,CaT,soma,chirp,chirp,0.0333984375,,0.0,runs/STN/held/CaT/soma/chirp/sub.npz,1
+STN/held/CaT/soma/pulse/20Hz_mono_2.0xthr,STN,held,CaT,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/STN/held/CaT/soma/pulse/20Hz_mono_2.0xthr.npz,1
+STN/held/CaT/soma/pulse/130Hz_mono_2.0xthr,STN,held,CaT,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/STN/held/CaT/soma/pulse/130Hz_mono_2.0xthr.npz,1
+STN/held/HCN/soma/step/+1.50x,STN,held,HCN,soma,step,step,1.5,,0.0,runs/STN/held/HCN/soma/step/+1.50x.npz,1
+STN/held/HCN/soma/step/+2.00x,STN,held,HCN,soma,step,step,2.0,,0.0,runs/STN/held/HCN/soma/step/+2.00x.npz,1
+STN/held/HCN/soma/step/+3.00x,STN,held,HCN,soma,step,step,3.0,,0.0,runs/STN/held/HCN/soma/step/+3.00x.npz,1
+STN/held/HCN/soma/hyper/-1.00x,STN,held,HCN,soma,hyper,hyper,-1.0,,0.0,runs/STN/held/HCN/soma/hyper/-1.00x.npz,1
+STN/held/HCN/soma/hyper/-2.00x,STN,held,HCN,soma,hyper,hyper,-2.0,,0.0,runs/STN/held/HCN/soma/hyper/-2.00x.npz,1
+STN/held/HCN/soma/sine/4Hz_1.50x,STN,held,HCN,soma,sine,sine,"[4, 1.5]",,0.0,runs/STN/held/HCN/soma/sine/4Hz_1.50x.npz,1
+STN/held/HCN/soma/sine/10Hz_1.50x,STN,held,HCN,soma,sine,sine,"[10, 1.5]",,0.0,runs/STN/held/HCN/soma/sine/10Hz_1.50x.npz,1
+STN/held/HCN/soma/chirp/sub,STN,held,HCN,soma,chirp,chirp,0.0333984375,,0.0,runs/STN/held/HCN/soma/chirp/sub.npz,1
+STN/held/HCN/soma/pulse/20Hz_mono_2.0xthr,STN,held,HCN,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/STN/held/HCN/soma/pulse/20Hz_mono_2.0xthr.npz,1
+STN/held/HCN/soma/pulse/130Hz_mono_2.0xthr,STN,held,HCN,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/STN/held/HCN/soma/pulse/130Hz_mono_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/step/+0.80x,Purkinje,native,,soma,step,step,0.8,,0.0,runs/Purkinje/native/ctrl/soma/step/+0.80x.npz,1
+Purkinje/native/ctrl/soma/step/+1.00x,Purkinje,native,,soma,step,step,1.0,,0.0,runs/Purkinje/native/ctrl/soma/step/+1.00x.npz,1
+Purkinje/native/ctrl/soma/step/+1.25x,Purkinje,native,,soma,step,step,1.25,,0.0,runs/Purkinje/native/ctrl/soma/step/+1.25x.npz,1
+Purkinje/native/ctrl/soma/step/+1.50x,Purkinje,native,,soma,step,step,1.5,,0.0,runs/Purkinje/native/ctrl/soma/step/+1.50x.npz,1
+Purkinje/native/ctrl/soma/step/+2.00x,Purkinje,native,,soma,step,step,2.0,,0.0,runs/Purkinje/native/ctrl/soma/step/+2.00x.npz,1
+Purkinje/native/ctrl/soma/step/+2.50x,Purkinje,native,,soma,step,step,2.5,,0.0,runs/Purkinje/native/ctrl/soma/step/+2.50x.npz,1
+Purkinje/native/ctrl/soma/step/+3.00x,Purkinje,native,,soma,step,step,3.0,,0.0,runs/Purkinje/native/ctrl/soma/step/+3.00x.npz,1
+Purkinje/native/ctrl/soma/hyper/-0.50x,Purkinje,native,,soma,hyper,hyper,-0.5,,0.0,runs/Purkinje/native/ctrl/soma/hyper/-0.50x.npz,1
+Purkinje/native/ctrl/soma/hyper/-1.00x,Purkinje,native,,soma,hyper,hyper,-1.0,,0.0,runs/Purkinje/native/ctrl/soma/hyper/-1.00x.npz,1
+Purkinje/native/ctrl/soma/hyper/-2.00x,Purkinje,native,,soma,hyper,hyper,-2.0,,0.0,runs/Purkinje/native/ctrl/soma/hyper/-2.00x.npz,1
+Purkinje/native/ctrl/soma/hyper/-3.00x,Purkinje,native,,soma,hyper,hyper,-3.0,,0.0,runs/Purkinje/native/ctrl/soma/hyper/-3.00x.npz,1
+Purkinje/native/ctrl/soma/ramp/slow,Purkinje,native,,soma,ramp,ramp,"""slow""",,0.0,runs/Purkinje/native/ctrl/soma/ramp/slow.npz,1
+Purkinje/native/ctrl/soma/ramp/fast,Purkinje,native,,soma,ramp,ramp,"""fast""",,0.0,runs/Purkinje/native/ctrl/soma/ramp/fast.npz,1
+Purkinje/native/ctrl/soma/sine/1Hz_1.00x,Purkinje,native,,soma,sine,sine,"[1, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/1Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/1Hz_1.50x,Purkinje,native,,soma,sine,sine,"[1, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/1Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/1Hz_2.00x,Purkinje,native,,soma,sine,sine,"[1, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/1Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/sine/2Hz_1.00x,Purkinje,native,,soma,sine,sine,"[2, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/2Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/2Hz_1.50x,Purkinje,native,,soma,sine,sine,"[2, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/2Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/2Hz_2.00x,Purkinje,native,,soma,sine,sine,"[2, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/2Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/sine/4Hz_1.00x,Purkinje,native,,soma,sine,sine,"[4, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/4Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/4Hz_1.50x,Purkinje,native,,soma,sine,sine,"[4, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/4Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/4Hz_2.00x,Purkinje,native,,soma,sine,sine,"[4, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/4Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/sine/7Hz_1.00x,Purkinje,native,,soma,sine,sine,"[7, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/7Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/7Hz_1.50x,Purkinje,native,,soma,sine,sine,"[7, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/7Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/7Hz_2.00x,Purkinje,native,,soma,sine,sine,"[7, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/7Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/sine/10Hz_1.00x,Purkinje,native,,soma,sine,sine,"[10, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/10Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/10Hz_1.50x,Purkinje,native,,soma,sine,sine,"[10, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/10Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/10Hz_2.00x,Purkinje,native,,soma,sine,sine,"[10, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/10Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/sine/20Hz_1.00x,Purkinje,native,,soma,sine,sine,"[20, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/20Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/20Hz_1.50x,Purkinje,native,,soma,sine,sine,"[20, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/20Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/20Hz_2.00x,Purkinje,native,,soma,sine,sine,"[20, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/20Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/sine/50Hz_1.00x,Purkinje,native,,soma,sine,sine,"[50, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/50Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/50Hz_1.50x,Purkinje,native,,soma,sine,sine,"[50, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/50Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/50Hz_2.00x,Purkinje,native,,soma,sine,sine,"[50, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/50Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/sine/100Hz_1.00x,Purkinje,native,,soma,sine,sine,"[100, 1.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/100Hz_1.00x.npz,1
+Purkinje/native/ctrl/soma/sine/100Hz_1.50x,Purkinje,native,,soma,sine,sine,"[100, 1.5]",,0.0,runs/Purkinje/native/ctrl/soma/sine/100Hz_1.50x.npz,1
+Purkinje/native/ctrl/soma/sine/100Hz_2.00x,Purkinje,native,,soma,sine,sine,"[100, 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/sine/100Hz_2.00x.npz,1
+Purkinje/native/ctrl/soma/chirp/sub,Purkinje,native,,soma,chirp,chirp,0.19199581462272466,,0.0,runs/Purkinje/native/ctrl/soma/chirp/sub.npz,1
+Purkinje/native/ctrl/soma/pulse/5Hz_mono_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[5, ""mono"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/5Hz_mono_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/5Hz_mono_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[5, ""mono"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/5Hz_mono_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[5, ""biphasic"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[5, ""biphasic"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/20Hz_mono_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[20, ""mono"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/20Hz_mono_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/20Hz_mono_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/20Hz_mono_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[20, ""biphasic"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[20, ""biphasic"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/60Hz_mono_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[60, ""mono"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/60Hz_mono_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/60Hz_mono_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[60, ""mono"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/60Hz_mono_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[60, ""biphasic"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[60, ""biphasic"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/130Hz_mono_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[130, ""mono"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/130Hz_mono_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/130Hz_mono_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/130Hz_mono_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[130, ""biphasic"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[130, ""biphasic"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/200Hz_mono_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[200, ""mono"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/200Hz_mono_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/200Hz_mono_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[200, ""mono"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/200Hz_mono_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr,Purkinje,native,,soma,pulse,pulse,"[200, ""biphasic"", 1.2]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr.npz,1
+Purkinje/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr,Purkinje,native,,soma,pulse,pulse,"[200, ""biphasic"", 2.0]",,0.0,runs/Purkinje/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1001,Purkinje,native,,soma,noise_var,noise_var,null,0,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1001.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1002,Purkinje,native,,soma,noise_var,noise_var,null,1,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1002.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1003,Purkinje,native,,soma,noise_var,noise_var,null,2,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1003.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1004,Purkinje,native,,soma,noise_var,noise_var,null,3,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1004.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1005,Purkinje,native,,soma,noise_var,noise_var,null,4,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1005.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1006,Purkinje,native,,soma,noise_var,noise_var,null,5,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1006.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1007,Purkinje,native,,soma,noise_var,noise_var,null,6,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1007.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1008,Purkinje,native,,soma,noise_var,noise_var,null,7,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1008.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1009,Purkinje,native,,soma,noise_var,noise_var,null,8,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1009.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1010,Purkinje,native,,soma,noise_var,noise_var,null,9,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1010.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1011,Purkinje,native,,soma,noise_var,noise_var,null,10,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1011.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1012,Purkinje,native,,soma,noise_var,noise_var,null,11,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1012.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1013,Purkinje,native,,soma,noise_var,noise_var,null,12,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1013.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1014,Purkinje,native,,soma,noise_var,noise_var,null,13,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1014.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1015,Purkinje,native,,soma,noise_var,noise_var,null,14,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1015.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1016,Purkinje,native,,soma,noise_var,noise_var,null,15,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1016.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1017,Purkinje,native,,soma,noise_var,noise_var,null,16,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1017.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1018,Purkinje,native,,soma,noise_var,noise_var,null,17,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1018.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1019,Purkinje,native,,soma,noise_var,noise_var,null,18,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1019.npz,1
+Purkinje/native/ctrl/soma/noise_var/seed1020,Purkinje,native,,soma,noise_var,noise_var,null,19,0.0,runs/Purkinje/native/ctrl/soma/noise_var/seed1020.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial00,Purkinje,native,,soma,noise_rel,noise_rel,null,0,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial00.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial01,Purkinje,native,,soma,noise_rel,noise_rel,null,1,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial01.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial02,Purkinje,native,,soma,noise_rel,noise_rel,null,2,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial02.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial03,Purkinje,native,,soma,noise_rel,noise_rel,null,3,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial03.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial04,Purkinje,native,,soma,noise_rel,noise_rel,null,4,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial04.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial05,Purkinje,native,,soma,noise_rel,noise_rel,null,5,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial05.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial06,Purkinje,native,,soma,noise_rel,noise_rel,null,6,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial06.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial07,Purkinje,native,,soma,noise_rel,noise_rel,null,7,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial07.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial08,Purkinje,native,,soma,noise_rel,noise_rel,null,8,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial08.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial09,Purkinje,native,,soma,noise_rel,noise_rel,null,9,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial09.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial10,Purkinje,native,,soma,noise_rel,noise_rel,null,10,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial10.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial11,Purkinje,native,,soma,noise_rel,noise_rel,null,11,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial11.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial12,Purkinje,native,,soma,noise_rel,noise_rel,null,12,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial12.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial13,Purkinje,native,,soma,noise_rel,noise_rel,null,13,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial13.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial14,Purkinje,native,,soma,noise_rel,noise_rel,null,14,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial14.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial15,Purkinje,native,,soma,noise_rel,noise_rel,null,15,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial15.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial16,Purkinje,native,,soma,noise_rel,noise_rel,null,16,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial16.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial17,Purkinje,native,,soma,noise_rel,noise_rel,null,17,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial17.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial18,Purkinje,native,,soma,noise_rel,noise_rel,null,18,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial18.npz,1
+Purkinje/native/ctrl/soma/noise_rel/trial19,Purkinje,native,,soma,noise_rel,noise_rel,null,19,0.0,runs/Purkinje/native/ctrl/soma/noise_rel/trial19.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial00,Purkinje,native,,soma,syn,syn,1.0,0,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial00.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial01,Purkinje,native,,soma,syn,syn,1.0,1,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial01.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial02,Purkinje,native,,soma,syn,syn,1.0,2,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial02.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial03,Purkinje,native,,soma,syn,syn,1.0,3,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial03.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial04,Purkinje,native,,soma,syn,syn,1.0,4,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial04.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial05,Purkinje,native,,soma,syn,syn,1.0,5,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial05.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial06,Purkinje,native,,soma,syn,syn,1.0,6,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial06.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial07,Purkinje,native,,soma,syn,syn,1.0,7,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial07.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial08,Purkinje,native,,soma,syn,syn,1.0,8,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial08.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial09,Purkinje,native,,soma,syn,syn,1.0,9,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial09.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial10,Purkinje,native,,soma,syn,syn,1.0,10,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial10.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial11,Purkinje,native,,soma,syn,syn,1.0,11,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial11.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial12,Purkinje,native,,soma,syn,syn,1.0,12,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial12.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial13,Purkinje,native,,soma,syn,syn,1.0,13,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial13.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial14,Purkinje,native,,soma,syn,syn,1.0,14,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial14.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial15,Purkinje,native,,soma,syn,syn,1.0,15,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial15.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial16,Purkinje,native,,soma,syn,syn,1.0,16,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial16.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial17,Purkinje,native,,soma,syn,syn,1.0,17,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial17.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial18,Purkinje,native,,soma,syn,syn,1.0,18,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial18.npz,1
+Purkinje/native/ctrl/soma/syn/1.0x_trial19,Purkinje,native,,soma,syn,syn,1.0,19,0.0,runs/Purkinje/native/ctrl/soma/syn/1.0x_trial19.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial00,Purkinje,native,,soma,syn,syn,2.0,0,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial00.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial01,Purkinje,native,,soma,syn,syn,2.0,1,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial01.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial02,Purkinje,native,,soma,syn,syn,2.0,2,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial02.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial03,Purkinje,native,,soma,syn,syn,2.0,3,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial03.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial04,Purkinje,native,,soma,syn,syn,2.0,4,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial04.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial05,Purkinje,native,,soma,syn,syn,2.0,5,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial05.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial06,Purkinje,native,,soma,syn,syn,2.0,6,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial06.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial07,Purkinje,native,,soma,syn,syn,2.0,7,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial07.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial08,Purkinje,native,,soma,syn,syn,2.0,8,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial08.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial09,Purkinje,native,,soma,syn,syn,2.0,9,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial09.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial10,Purkinje,native,,soma,syn,syn,2.0,10,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial10.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial11,Purkinje,native,,soma,syn,syn,2.0,11,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial11.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial12,Purkinje,native,,soma,syn,syn,2.0,12,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial12.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial13,Purkinje,native,,soma,syn,syn,2.0,13,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial13.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial14,Purkinje,native,,soma,syn,syn,2.0,14,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial14.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial15,Purkinje,native,,soma,syn,syn,2.0,15,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial15.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial16,Purkinje,native,,soma,syn,syn,2.0,16,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial16.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial17,Purkinje,native,,soma,syn,syn,2.0,17,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial17.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial18,Purkinje,native,,soma,syn,syn,2.0,18,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial18.npz,1
+Purkinje/native/ctrl/soma/syn/2.0x_trial19,Purkinje,native,,soma,syn,syn,2.0,19,0.0,runs/Purkinje/native/ctrl/soma/syn/2.0x_trial19.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial00,Purkinje,native,,soma,syn,syn,4.0,0,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial00.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial01,Purkinje,native,,soma,syn,syn,4.0,1,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial01.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial02,Purkinje,native,,soma,syn,syn,4.0,2,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial02.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial03,Purkinje,native,,soma,syn,syn,4.0,3,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial03.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial04,Purkinje,native,,soma,syn,syn,4.0,4,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial04.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial05,Purkinje,native,,soma,syn,syn,4.0,5,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial05.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial06,Purkinje,native,,soma,syn,syn,4.0,6,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial06.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial07,Purkinje,native,,soma,syn,syn,4.0,7,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial07.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial08,Purkinje,native,,soma,syn,syn,4.0,8,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial08.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial09,Purkinje,native,,soma,syn,syn,4.0,9,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial09.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial10,Purkinje,native,,soma,syn,syn,4.0,10,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial10.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial11,Purkinje,native,,soma,syn,syn,4.0,11,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial11.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial12,Purkinje,native,,soma,syn,syn,4.0,12,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial12.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial13,Purkinje,native,,soma,syn,syn,4.0,13,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial13.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial14,Purkinje,native,,soma,syn,syn,4.0,14,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial14.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial15,Purkinje,native,,soma,syn,syn,4.0,15,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial15.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial16,Purkinje,native,,soma,syn,syn,4.0,16,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial16.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial17,Purkinje,native,,soma,syn,syn,4.0,17,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial17.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial18,Purkinje,native,,soma,syn,syn,4.0,18,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial18.npz,1
+Purkinje/native/ctrl/soma/syn/4.0x_trial19,Purkinje,native,,soma,syn,syn,4.0,19,0.0,runs/Purkinje/native/ctrl/soma/syn/4.0x_trial19.npz,1
+Purkinje/native/ctrl/dend/step/+0.80x,Purkinje,native,,dend,step,step,0.8,,0.0,runs/Purkinje/native/ctrl/dend/step/+0.80x.npz,1
+Purkinje/native/ctrl/dend/step/+1.00x,Purkinje,native,,dend,step,step,1.0,,0.0,runs/Purkinje/native/ctrl/dend/step/+1.00x.npz,1
+Purkinje/native/ctrl/dend/step/+1.50x,Purkinje,native,,dend,step,step,1.5,,0.0,runs/Purkinje/native/ctrl/dend/step/+1.50x.npz,1
+Purkinje/native/ctrl/dend/step/+2.00x,Purkinje,native,,dend,step,step,2.0,,0.0,runs/Purkinje/native/ctrl/dend/step/+2.00x.npz,1
+Purkinje/native/ctrl/dend/step/+3.00x,Purkinje,native,,dend,step,step,3.0,,0.0,runs/Purkinje/native/ctrl/dend/step/+3.00x.npz,1
+Purkinje/native/ctrl/dend/hyper/-1.00x,Purkinje,native,,dend,hyper,hyper,-1.0,,0.0,runs/Purkinje/native/ctrl/dend/hyper/-1.00x.npz,1
+Purkinje/native/ctrl/dend/hyper/-2.00x,Purkinje,native,,dend,hyper,hyper,-2.0,,0.0,runs/Purkinje/native/ctrl/dend/hyper/-2.00x.npz,1
+Purkinje/native/ctrl/dend/ramp/slow,Purkinje,native,,dend,ramp,ramp,"""slow""",,0.0,runs/Purkinje/native/ctrl/dend/ramp/slow.npz,1
+Purkinje/native/ctrl/dend/sine/1Hz_1.50x,Purkinje,native,,dend,sine,sine,"[1, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/1Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/sine/2Hz_1.50x,Purkinje,native,,dend,sine,sine,"[2, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/2Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/sine/4Hz_1.50x,Purkinje,native,,dend,sine,sine,"[4, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/4Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/sine/7Hz_1.50x,Purkinje,native,,dend,sine,sine,"[7, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/7Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/sine/10Hz_1.50x,Purkinje,native,,dend,sine,sine,"[10, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/10Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/sine/20Hz_1.50x,Purkinje,native,,dend,sine,sine,"[20, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/20Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/sine/50Hz_1.50x,Purkinje,native,,dend,sine,sine,"[50, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/50Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/sine/100Hz_1.50x,Purkinje,native,,dend,sine,sine,"[100, 1.5]",,0.0,runs/Purkinje/native/ctrl/dend/sine/100Hz_1.50x.npz,1
+Purkinje/native/ctrl/dend/chirp/sub,Purkinje,native,,dend,chirp,chirp,0.09599790731136233,,0.0,runs/Purkinje/native/ctrl/dend/chirp/sub.npz,1
+Purkinje/native/ctrl/dend/pulse/130Hz_mono_1.2xthr,Purkinje,native,,dend,pulse,pulse,"[130, ""mono"", 1.2]",,0.0,runs/Purkinje/native/ctrl/dend/pulse/130Hz_mono_1.2xthr.npz,1
+Purkinje/native/ctrl/dend/pulse/130Hz_mono_2.0xthr,Purkinje,native,,dend,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/Purkinje/native/ctrl/dend/pulse/130Hz_mono_2.0xthr.npz,1
+Purkinje/native/ctrl/dend/pulse/130Hz_biphasic_1.2xthr,Purkinje,native,,dend,pulse,pulse,"[130, ""biphasic"", 1.2]",,0.0,runs/Purkinje/native/ctrl/dend/pulse/130Hz_biphasic_1.2xthr.npz,1
+Purkinje/native/ctrl/dend/pulse/130Hz_biphasic_2.0xthr,Purkinje,native,,dend,pulse,pulse,"[130, ""biphasic"", 2.0]",,0.0,runs/Purkinje/native/ctrl/dend/pulse/130Hz_biphasic_2.0xthr.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1001,Purkinje,native,,dend,noise_var,noise_var,null,0,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1001.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1002,Purkinje,native,,dend,noise_var,noise_var,null,1,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1002.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1003,Purkinje,native,,dend,noise_var,noise_var,null,2,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1003.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1004,Purkinje,native,,dend,noise_var,noise_var,null,3,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1004.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1005,Purkinje,native,,dend,noise_var,noise_var,null,4,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1005.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1006,Purkinje,native,,dend,noise_var,noise_var,null,5,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1006.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1007,Purkinje,native,,dend,noise_var,noise_var,null,6,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1007.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1008,Purkinje,native,,dend,noise_var,noise_var,null,7,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1008.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1009,Purkinje,native,,dend,noise_var,noise_var,null,8,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1009.npz,1
+Purkinje/native/ctrl/dend/noise_var/seed1010,Purkinje,native,,dend,noise_var,noise_var,null,9,0.0,runs/Purkinje/native/ctrl/dend/noise_var/seed1010.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial00,Purkinje,native,,dend,syn,syn,1.0,0,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial00.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial01,Purkinje,native,,dend,syn,syn,1.0,1,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial01.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial02,Purkinje,native,,dend,syn,syn,1.0,2,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial02.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial03,Purkinje,native,,dend,syn,syn,1.0,3,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial03.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial04,Purkinje,native,,dend,syn,syn,1.0,4,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial04.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial05,Purkinje,native,,dend,syn,syn,1.0,5,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial05.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial06,Purkinje,native,,dend,syn,syn,1.0,6,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial06.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial07,Purkinje,native,,dend,syn,syn,1.0,7,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial07.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial08,Purkinje,native,,dend,syn,syn,1.0,8,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial08.npz,1
+Purkinje/native/ctrl/dend/syn/1.0x_trial09,Purkinje,native,,dend,syn,syn,1.0,9,0.0,runs/Purkinje/native/ctrl/dend/syn/1.0x_trial09.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial00,Purkinje,native,,dend,syn,syn,2.0,0,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial00.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial01,Purkinje,native,,dend,syn,syn,2.0,1,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial01.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial02,Purkinje,native,,dend,syn,syn,2.0,2,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial02.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial03,Purkinje,native,,dend,syn,syn,2.0,3,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial03.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial04,Purkinje,native,,dend,syn,syn,2.0,4,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial04.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial05,Purkinje,native,,dend,syn,syn,2.0,5,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial05.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial06,Purkinje,native,,dend,syn,syn,2.0,6,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial06.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial07,Purkinje,native,,dend,syn,syn,2.0,7,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial07.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial08,Purkinje,native,,dend,syn,syn,2.0,8,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial08.npz,1
+Purkinje/native/ctrl/dend/syn/2.0x_trial09,Purkinje,native,,dend,syn,syn,2.0,9,0.0,runs/Purkinje/native/ctrl/dend/syn/2.0x_trial09.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial00,Purkinje,native,,dend,syn,syn,4.0,0,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial00.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial01,Purkinje,native,,dend,syn,syn,4.0,1,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial01.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial02,Purkinje,native,,dend,syn,syn,4.0,2,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial02.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial03,Purkinje,native,,dend,syn,syn,4.0,3,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial03.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial04,Purkinje,native,,dend,syn,syn,4.0,4,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial04.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial05,Purkinje,native,,dend,syn,syn,4.0,5,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial05.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial06,Purkinje,native,,dend,syn,syn,4.0,6,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial06.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial07,Purkinje,native,,dend,syn,syn,4.0,7,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial07.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial08,Purkinje,native,,dend,syn,syn,4.0,8,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial08.npz,1
+Purkinje/native/ctrl/dend/syn/4.0x_trial09,Purkinje,native,,dend,syn,syn,4.0,9,0.0,runs/Purkinje/native/ctrl/dend/syn/4.0x_trial09.npz,1
+Purkinje/native/CaP/soma/step/+1.50x,Purkinje,native,CaP,soma,step,step,1.5,,0.0,runs/Purkinje/native/CaP/soma/step/+1.50x.npz,1
+Purkinje/native/CaP/soma/step/+2.00x,Purkinje,native,CaP,soma,step,step,2.0,,0.0,runs/Purkinje/native/CaP/soma/step/+2.00x.npz,1
+Purkinje/native/CaP/soma/step/+3.00x,Purkinje,native,CaP,soma,step,step,3.0,,0.0,runs/Purkinje/native/CaP/soma/step/+3.00x.npz,1
+Purkinje/native/CaP/soma/hyper/-1.00x,Purkinje,native,CaP,soma,hyper,hyper,-1.0,,0.0,runs/Purkinje/native/CaP/soma/hyper/-1.00x.npz,1
+Purkinje/native/CaP/soma/hyper/-2.00x,Purkinje,native,CaP,soma,hyper,hyper,-2.0,,0.0,runs/Purkinje/native/CaP/soma/hyper/-2.00x.npz,1
+Purkinje/native/CaP/soma/sine/4Hz_1.50x,Purkinje,native,CaP,soma,sine,sine,"[4, 1.5]",,0.0,runs/Purkinje/native/CaP/soma/sine/4Hz_1.50x.npz,1
+Purkinje/native/CaP/soma/sine/10Hz_1.50x,Purkinje,native,CaP,soma,sine,sine,"[10, 1.5]",,0.0,runs/Purkinje/native/CaP/soma/sine/10Hz_1.50x.npz,1
+Purkinje/native/CaP/soma/chirp/sub,Purkinje,native,CaP,soma,chirp,chirp,0.19199581462272466,,0.0,runs/Purkinje/native/CaP/soma/chirp/sub.npz,1
+Purkinje/native/CaP/soma/pulse/20Hz_mono_2.0xthr,Purkinje,native,CaP,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/Purkinje/native/CaP/soma/pulse/20Hz_mono_2.0xthr.npz,1
+Purkinje/native/CaP/soma/pulse/130Hz_mono_2.0xthr,Purkinje,native,CaP,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/Purkinje/native/CaP/soma/pulse/130Hz_mono_2.0xthr.npz,1
+Purkinje/native/CaP/dend/step/+1.50x,Purkinje,native,CaP,dend,step,step,1.5,,0.0,runs/Purkinje/native/CaP/dend/step/+1.50x.npz,1
+Purkinje/native/CaP/dend/step/+2.00x,Purkinje,native,CaP,dend,step,step,2.0,,0.0,runs/Purkinje/native/CaP/dend/step/+2.00x.npz,1
+Purkinje/native/KD/soma/step/+1.50x,Purkinje,native,KD,soma,step,step,1.5,,0.0,runs/Purkinje/native/KD/soma/step/+1.50x.npz,1
+Purkinje/native/KD/soma/step/+2.00x,Purkinje,native,KD,soma,step,step,2.0,,0.0,runs/Purkinje/native/KD/soma/step/+2.00x.npz,1
+Purkinje/native/KD/soma/step/+3.00x,Purkinje,native,KD,soma,step,step,3.0,,0.0,runs/Purkinje/native/KD/soma/step/+3.00x.npz,1
+Purkinje/native/KD/soma/hyper/-1.00x,Purkinje,native,KD,soma,hyper,hyper,-1.0,,0.0,runs/Purkinje/native/KD/soma/hyper/-1.00x.npz,1
+Purkinje/native/KD/soma/hyper/-2.00x,Purkinje,native,KD,soma,hyper,hyper,-2.0,,0.0,runs/Purkinje/native/KD/soma/hyper/-2.00x.npz,1
+Purkinje/native/KD/soma/sine/4Hz_1.50x,Purkinje,native,KD,soma,sine,sine,"[4, 1.5]",,0.0,runs/Purkinje/native/KD/soma/sine/4Hz_1.50x.npz,1
+Purkinje/native/KD/soma/sine/10Hz_1.50x,Purkinje,native,KD,soma,sine,sine,"[10, 1.5]",,0.0,runs/Purkinje/native/KD/soma/sine/10Hz_1.50x.npz,1
+Purkinje/native/KD/soma/chirp/sub,Purkinje,native,KD,soma,chirp,chirp,0.19199581462272466,,0.0,runs/Purkinje/native/KD/soma/chirp/sub.npz,1
+Purkinje/native/KD/soma/pulse/20Hz_mono_2.0xthr,Purkinje,native,KD,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/Purkinje/native/KD/soma/pulse/20Hz_mono_2.0xthr.npz,1
+Purkinje/native/KD/soma/pulse/130Hz_mono_2.0xthr,Purkinje,native,KD,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/Purkinje/native/KD/soma/pulse/130Hz_mono_2.0xthr.npz,1
+Purkinje/native/KD/dend/step/+1.50x,Purkinje,native,KD,dend,step,step,1.5,,0.0,runs/Purkinje/native/KD/dend/step/+1.50x.npz,1
+Purkinje/native/KD/dend/step/+2.00x,Purkinje,native,KD,dend,step,step,2.0,,0.0,runs/Purkinje/native/KD/dend/step/+2.00x.npz,1
+CA1/native/ctrl/soma/step/+0.80x,CA1,native,,soma,step,step,0.8,,0.0,runs/CA1/native/ctrl/soma/step/+0.80x.npz,1
+CA1/native/ctrl/soma/step/+1.00x,CA1,native,,soma,step,step,1.0,,0.0,runs/CA1/native/ctrl/soma/step/+1.00x.npz,1
+CA1/native/ctrl/soma/step/+1.25x,CA1,native,,soma,step,step,1.25,,0.0,runs/CA1/native/ctrl/soma/step/+1.25x.npz,1
+CA1/native/ctrl/soma/step/+1.50x,CA1,native,,soma,step,step,1.5,,0.0,runs/CA1/native/ctrl/soma/step/+1.50x.npz,1
+CA1/native/ctrl/soma/step/+2.00x,CA1,native,,soma,step,step,2.0,,0.0,runs/CA1/native/ctrl/soma/step/+2.00x.npz,1
+CA1/native/ctrl/soma/step/+2.50x,CA1,native,,soma,step,step,2.5,,0.0,runs/CA1/native/ctrl/soma/step/+2.50x.npz,1
+CA1/native/ctrl/soma/step/+3.00x,CA1,native,,soma,step,step,3.0,,0.0,runs/CA1/native/ctrl/soma/step/+3.00x.npz,1
+CA1/native/ctrl/soma/hyper/-0.50x,CA1,native,,soma,hyper,hyper,-0.5,,0.0,runs/CA1/native/ctrl/soma/hyper/-0.50x.npz,1
+CA1/native/ctrl/soma/hyper/-1.00x,CA1,native,,soma,hyper,hyper,-1.0,,0.0,runs/CA1/native/ctrl/soma/hyper/-1.00x.npz,1
+CA1/native/ctrl/soma/hyper/-2.00x,CA1,native,,soma,hyper,hyper,-2.0,,0.0,runs/CA1/native/ctrl/soma/hyper/-2.00x.npz,1
+CA1/native/ctrl/soma/hyper/-3.00x,CA1,native,,soma,hyper,hyper,-3.0,,0.0,runs/CA1/native/ctrl/soma/hyper/-3.00x.npz,1
+CA1/native/ctrl/soma/ramp/slow,CA1,native,,soma,ramp,ramp,"""slow""",,0.0,runs/CA1/native/ctrl/soma/ramp/slow.npz,1
+CA1/native/ctrl/soma/ramp/fast,CA1,native,,soma,ramp,ramp,"""fast""",,0.0,runs/CA1/native/ctrl/soma/ramp/fast.npz,1
+CA1/native/ctrl/soma/sine/1Hz_1.00x,CA1,native,,soma,sine,sine,"[1, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/1Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/1Hz_1.50x,CA1,native,,soma,sine,sine,"[1, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/1Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/1Hz_2.00x,CA1,native,,soma,sine,sine,"[1, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/1Hz_2.00x.npz,1
+CA1/native/ctrl/soma/sine/2Hz_1.00x,CA1,native,,soma,sine,sine,"[2, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/2Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/2Hz_1.50x,CA1,native,,soma,sine,sine,"[2, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/2Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/2Hz_2.00x,CA1,native,,soma,sine,sine,"[2, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/2Hz_2.00x.npz,1
+CA1/native/ctrl/soma/sine/4Hz_1.00x,CA1,native,,soma,sine,sine,"[4, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/4Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/4Hz_1.50x,CA1,native,,soma,sine,sine,"[4, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/4Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/4Hz_2.00x,CA1,native,,soma,sine,sine,"[4, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/4Hz_2.00x.npz,1
+CA1/native/ctrl/soma/sine/7Hz_1.00x,CA1,native,,soma,sine,sine,"[7, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/7Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/7Hz_1.50x,CA1,native,,soma,sine,sine,"[7, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/7Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/7Hz_2.00x,CA1,native,,soma,sine,sine,"[7, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/7Hz_2.00x.npz,1
+CA1/native/ctrl/soma/sine/10Hz_1.00x,CA1,native,,soma,sine,sine,"[10, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/10Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/10Hz_1.50x,CA1,native,,soma,sine,sine,"[10, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/10Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/10Hz_2.00x,CA1,native,,soma,sine,sine,"[10, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/10Hz_2.00x.npz,1
+CA1/native/ctrl/soma/sine/20Hz_1.00x,CA1,native,,soma,sine,sine,"[20, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/20Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/20Hz_1.50x,CA1,native,,soma,sine,sine,"[20, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/20Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/20Hz_2.00x,CA1,native,,soma,sine,sine,"[20, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/20Hz_2.00x.npz,1
+CA1/native/ctrl/soma/sine/50Hz_1.00x,CA1,native,,soma,sine,sine,"[50, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/50Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/50Hz_1.50x,CA1,native,,soma,sine,sine,"[50, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/50Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/50Hz_2.00x,CA1,native,,soma,sine,sine,"[50, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/50Hz_2.00x.npz,1
+CA1/native/ctrl/soma/sine/100Hz_1.00x,CA1,native,,soma,sine,sine,"[100, 1.0]",,0.0,runs/CA1/native/ctrl/soma/sine/100Hz_1.00x.npz,1
+CA1/native/ctrl/soma/sine/100Hz_1.50x,CA1,native,,soma,sine,sine,"[100, 1.5]",,0.0,runs/CA1/native/ctrl/soma/sine/100Hz_1.50x.npz,1
+CA1/native/ctrl/soma/sine/100Hz_2.00x,CA1,native,,soma,sine,sine,"[100, 2.0]",,0.0,runs/CA1/native/ctrl/soma/sine/100Hz_2.00x.npz,1
+CA1/native/ctrl/soma/chirp/sub,CA1,native,,soma,chirp,chirp,0.13125,,0.0,runs/CA1/native/ctrl/soma/chirp/sub.npz,1
+CA1/native/ctrl/soma/pulse/5Hz_mono_1.2xthr,CA1,native,,soma,pulse,pulse,"[5, ""mono"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/5Hz_mono_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/5Hz_mono_2.0xthr,CA1,native,,soma,pulse,pulse,"[5, ""mono"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/5Hz_mono_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr,CA1,native,,soma,pulse,pulse,"[5, ""biphasic"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/5Hz_biphasic_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr,CA1,native,,soma,pulse,pulse,"[5, ""biphasic"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/5Hz_biphasic_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/20Hz_mono_1.2xthr,CA1,native,,soma,pulse,pulse,"[20, ""mono"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/20Hz_mono_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/20Hz_mono_2.0xthr,CA1,native,,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/20Hz_mono_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr,CA1,native,,soma,pulse,pulse,"[20, ""biphasic"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/20Hz_biphasic_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr,CA1,native,,soma,pulse,pulse,"[20, ""biphasic"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/20Hz_biphasic_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/60Hz_mono_1.2xthr,CA1,native,,soma,pulse,pulse,"[60, ""mono"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/60Hz_mono_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/60Hz_mono_2.0xthr,CA1,native,,soma,pulse,pulse,"[60, ""mono"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/60Hz_mono_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr,CA1,native,,soma,pulse,pulse,"[60, ""biphasic"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/60Hz_biphasic_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr,CA1,native,,soma,pulse,pulse,"[60, ""biphasic"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/60Hz_biphasic_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/130Hz_mono_1.2xthr,CA1,native,,soma,pulse,pulse,"[130, ""mono"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/130Hz_mono_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/130Hz_mono_2.0xthr,CA1,native,,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/130Hz_mono_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr,CA1,native,,soma,pulse,pulse,"[130, ""biphasic"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/130Hz_biphasic_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr,CA1,native,,soma,pulse,pulse,"[130, ""biphasic"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/130Hz_biphasic_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/200Hz_mono_1.2xthr,CA1,native,,soma,pulse,pulse,"[200, ""mono"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/200Hz_mono_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/200Hz_mono_2.0xthr,CA1,native,,soma,pulse,pulse,"[200, ""mono"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/200Hz_mono_2.0xthr.npz,1
+CA1/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr,CA1,native,,soma,pulse,pulse,"[200, ""biphasic"", 1.2]",,0.0,runs/CA1/native/ctrl/soma/pulse/200Hz_biphasic_1.2xthr.npz,1
+CA1/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr,CA1,native,,soma,pulse,pulse,"[200, ""biphasic"", 2.0]",,0.0,runs/CA1/native/ctrl/soma/pulse/200Hz_biphasic_2.0xthr.npz,1
+CA1/native/ctrl/soma/noise_var/seed1001,CA1,native,,soma,noise_var,noise_var,null,0,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1001.npz,1
+CA1/native/ctrl/soma/noise_var/seed1002,CA1,native,,soma,noise_var,noise_var,null,1,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1002.npz,1
+CA1/native/ctrl/soma/noise_var/seed1003,CA1,native,,soma,noise_var,noise_var,null,2,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1003.npz,1
+CA1/native/ctrl/soma/noise_var/seed1004,CA1,native,,soma,noise_var,noise_var,null,3,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1004.npz,1
+CA1/native/ctrl/soma/noise_var/seed1005,CA1,native,,soma,noise_var,noise_var,null,4,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1005.npz,1
+CA1/native/ctrl/soma/noise_var/seed1006,CA1,native,,soma,noise_var,noise_var,null,5,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1006.npz,1
+CA1/native/ctrl/soma/noise_var/seed1007,CA1,native,,soma,noise_var,noise_var,null,6,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1007.npz,1
+CA1/native/ctrl/soma/noise_var/seed1008,CA1,native,,soma,noise_var,noise_var,null,7,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1008.npz,1
+CA1/native/ctrl/soma/noise_var/seed1009,CA1,native,,soma,noise_var,noise_var,null,8,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1009.npz,1
+CA1/native/ctrl/soma/noise_var/seed1010,CA1,native,,soma,noise_var,noise_var,null,9,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1010.npz,1
+CA1/native/ctrl/soma/noise_var/seed1011,CA1,native,,soma,noise_var,noise_var,null,10,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1011.npz,1
+CA1/native/ctrl/soma/noise_var/seed1012,CA1,native,,soma,noise_var,noise_var,null,11,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1012.npz,1
+CA1/native/ctrl/soma/noise_var/seed1013,CA1,native,,soma,noise_var,noise_var,null,12,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1013.npz,1
+CA1/native/ctrl/soma/noise_var/seed1014,CA1,native,,soma,noise_var,noise_var,null,13,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1014.npz,1
+CA1/native/ctrl/soma/noise_var/seed1015,CA1,native,,soma,noise_var,noise_var,null,14,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1015.npz,1
+CA1/native/ctrl/soma/noise_var/seed1016,CA1,native,,soma,noise_var,noise_var,null,15,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1016.npz,1
+CA1/native/ctrl/soma/noise_var/seed1017,CA1,native,,soma,noise_var,noise_var,null,16,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1017.npz,1
+CA1/native/ctrl/soma/noise_var/seed1018,CA1,native,,soma,noise_var,noise_var,null,17,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1018.npz,1
+CA1/native/ctrl/soma/noise_var/seed1019,CA1,native,,soma,noise_var,noise_var,null,18,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1019.npz,1
+CA1/native/ctrl/soma/noise_var/seed1020,CA1,native,,soma,noise_var,noise_var,null,19,0.0,runs/CA1/native/ctrl/soma/noise_var/seed1020.npz,1
+CA1/native/ctrl/soma/noise_rel/trial00,CA1,native,,soma,noise_rel,noise_rel,null,0,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial00.npz,1
+CA1/native/ctrl/soma/noise_rel/trial01,CA1,native,,soma,noise_rel,noise_rel,null,1,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial01.npz,1
+CA1/native/ctrl/soma/noise_rel/trial02,CA1,native,,soma,noise_rel,noise_rel,null,2,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial02.npz,1
+CA1/native/ctrl/soma/noise_rel/trial03,CA1,native,,soma,noise_rel,noise_rel,null,3,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial03.npz,1
+CA1/native/ctrl/soma/noise_rel/trial04,CA1,native,,soma,noise_rel,noise_rel,null,4,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial04.npz,1
+CA1/native/ctrl/soma/noise_rel/trial05,CA1,native,,soma,noise_rel,noise_rel,null,5,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial05.npz,1
+CA1/native/ctrl/soma/noise_rel/trial06,CA1,native,,soma,noise_rel,noise_rel,null,6,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial06.npz,1
+CA1/native/ctrl/soma/noise_rel/trial07,CA1,native,,soma,noise_rel,noise_rel,null,7,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial07.npz,1
+CA1/native/ctrl/soma/noise_rel/trial08,CA1,native,,soma,noise_rel,noise_rel,null,8,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial08.npz,1
+CA1/native/ctrl/soma/noise_rel/trial09,CA1,native,,soma,noise_rel,noise_rel,null,9,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial09.npz,1
+CA1/native/ctrl/soma/noise_rel/trial10,CA1,native,,soma,noise_rel,noise_rel,null,10,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial10.npz,1
+CA1/native/ctrl/soma/noise_rel/trial11,CA1,native,,soma,noise_rel,noise_rel,null,11,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial11.npz,1
+CA1/native/ctrl/soma/noise_rel/trial12,CA1,native,,soma,noise_rel,noise_rel,null,12,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial12.npz,1
+CA1/native/ctrl/soma/noise_rel/trial13,CA1,native,,soma,noise_rel,noise_rel,null,13,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial13.npz,1
+CA1/native/ctrl/soma/noise_rel/trial14,CA1,native,,soma,noise_rel,noise_rel,null,14,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial14.npz,1
+CA1/native/ctrl/soma/noise_rel/trial15,CA1,native,,soma,noise_rel,noise_rel,null,15,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial15.npz,1
+CA1/native/ctrl/soma/noise_rel/trial16,CA1,native,,soma,noise_rel,noise_rel,null,16,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial16.npz,1
+CA1/native/ctrl/soma/noise_rel/trial17,CA1,native,,soma,noise_rel,noise_rel,null,17,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial17.npz,1
+CA1/native/ctrl/soma/noise_rel/trial18,CA1,native,,soma,noise_rel,noise_rel,null,18,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial18.npz,1
+CA1/native/ctrl/soma/noise_rel/trial19,CA1,native,,soma,noise_rel,noise_rel,null,19,0.0,runs/CA1/native/ctrl/soma/noise_rel/trial19.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial00,CA1,native,,soma,syn,syn,1.0,0,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial00.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial01,CA1,native,,soma,syn,syn,1.0,1,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial01.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial02,CA1,native,,soma,syn,syn,1.0,2,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial02.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial03,CA1,native,,soma,syn,syn,1.0,3,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial03.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial04,CA1,native,,soma,syn,syn,1.0,4,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial04.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial05,CA1,native,,soma,syn,syn,1.0,5,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial05.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial06,CA1,native,,soma,syn,syn,1.0,6,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial06.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial07,CA1,native,,soma,syn,syn,1.0,7,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial07.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial08,CA1,native,,soma,syn,syn,1.0,8,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial08.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial09,CA1,native,,soma,syn,syn,1.0,9,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial09.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial10,CA1,native,,soma,syn,syn,1.0,10,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial10.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial11,CA1,native,,soma,syn,syn,1.0,11,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial11.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial12,CA1,native,,soma,syn,syn,1.0,12,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial12.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial13,CA1,native,,soma,syn,syn,1.0,13,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial13.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial14,CA1,native,,soma,syn,syn,1.0,14,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial14.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial15,CA1,native,,soma,syn,syn,1.0,15,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial15.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial16,CA1,native,,soma,syn,syn,1.0,16,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial16.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial17,CA1,native,,soma,syn,syn,1.0,17,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial17.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial18,CA1,native,,soma,syn,syn,1.0,18,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial18.npz,1
+CA1/native/ctrl/soma/syn/1.0x_trial19,CA1,native,,soma,syn,syn,1.0,19,0.0,runs/CA1/native/ctrl/soma/syn/1.0x_trial19.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial00,CA1,native,,soma,syn,syn,2.0,0,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial00.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial01,CA1,native,,soma,syn,syn,2.0,1,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial01.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial02,CA1,native,,soma,syn,syn,2.0,2,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial02.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial03,CA1,native,,soma,syn,syn,2.0,3,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial03.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial04,CA1,native,,soma,syn,syn,2.0,4,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial04.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial05,CA1,native,,soma,syn,syn,2.0,5,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial05.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial06,CA1,native,,soma,syn,syn,2.0,6,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial06.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial07,CA1,native,,soma,syn,syn,2.0,7,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial07.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial08,CA1,native,,soma,syn,syn,2.0,8,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial08.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial09,CA1,native,,soma,syn,syn,2.0,9,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial09.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial10,CA1,native,,soma,syn,syn,2.0,10,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial10.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial11,CA1,native,,soma,syn,syn,2.0,11,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial11.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial12,CA1,native,,soma,syn,syn,2.0,12,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial12.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial13,CA1,native,,soma,syn,syn,2.0,13,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial13.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial14,CA1,native,,soma,syn,syn,2.0,14,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial14.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial15,CA1,native,,soma,syn,syn,2.0,15,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial15.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial16,CA1,native,,soma,syn,syn,2.0,16,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial16.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial17,CA1,native,,soma,syn,syn,2.0,17,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial17.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial18,CA1,native,,soma,syn,syn,2.0,18,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial18.npz,1
+CA1/native/ctrl/soma/syn/2.0x_trial19,CA1,native,,soma,syn,syn,2.0,19,0.0,runs/CA1/native/ctrl/soma/syn/2.0x_trial19.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial00,CA1,native,,soma,syn,syn,4.0,0,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial00.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial01,CA1,native,,soma,syn,syn,4.0,1,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial01.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial02,CA1,native,,soma,syn,syn,4.0,2,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial02.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial03,CA1,native,,soma,syn,syn,4.0,3,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial03.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial04,CA1,native,,soma,syn,syn,4.0,4,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial04.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial05,CA1,native,,soma,syn,syn,4.0,5,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial05.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial06,CA1,native,,soma,syn,syn,4.0,6,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial06.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial07,CA1,native,,soma,syn,syn,4.0,7,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial07.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial08,CA1,native,,soma,syn,syn,4.0,8,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial08.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial09,CA1,native,,soma,syn,syn,4.0,9,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial09.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial10,CA1,native,,soma,syn,syn,4.0,10,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial10.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial11,CA1,native,,soma,syn,syn,4.0,11,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial11.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial12,CA1,native,,soma,syn,syn,4.0,12,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial12.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial13,CA1,native,,soma,syn,syn,4.0,13,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial13.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial14,CA1,native,,soma,syn,syn,4.0,14,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial14.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial15,CA1,native,,soma,syn,syn,4.0,15,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial15.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial16,CA1,native,,soma,syn,syn,4.0,16,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial16.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial17,CA1,native,,soma,syn,syn,4.0,17,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial17.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial18,CA1,native,,soma,syn,syn,4.0,18,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial18.npz,1
+CA1/native/ctrl/soma/syn/4.0x_trial19,CA1,native,,soma,syn,syn,4.0,19,0.0,runs/CA1/native/ctrl/soma/syn/4.0x_trial19.npz,1
+CA1/native/ctrl/dend/step/+0.80x,CA1,native,,dend,step,step,0.8,,0.0,runs/CA1/native/ctrl/dend/step/+0.80x.npz,1
+CA1/native/ctrl/dend/step/+1.00x,CA1,native,,dend,step,step,1.0,,0.0,runs/CA1/native/ctrl/dend/step/+1.00x.npz,1
+CA1/native/ctrl/dend/step/+1.50x,CA1,native,,dend,step,step,1.5,,0.0,runs/CA1/native/ctrl/dend/step/+1.50x.npz,1
+CA1/native/ctrl/dend/step/+2.00x,CA1,native,,dend,step,step,2.0,,0.0,runs/CA1/native/ctrl/dend/step/+2.00x.npz,1
+CA1/native/ctrl/dend/step/+3.00x,CA1,native,,dend,step,step,3.0,,0.0,runs/CA1/native/ctrl/dend/step/+3.00x.npz,1
+CA1/native/ctrl/dend/hyper/-1.00x,CA1,native,,dend,hyper,hyper,-1.0,,0.0,runs/CA1/native/ctrl/dend/hyper/-1.00x.npz,1
+CA1/native/ctrl/dend/hyper/-2.00x,CA1,native,,dend,hyper,hyper,-2.0,,0.0,runs/CA1/native/ctrl/dend/hyper/-2.00x.npz,1
+CA1/native/ctrl/dend/ramp/slow,CA1,native,,dend,ramp,ramp,"""slow""",,0.0,runs/CA1/native/ctrl/dend/ramp/slow.npz,1
+CA1/native/ctrl/dend/sine/1Hz_1.50x,CA1,native,,dend,sine,sine,"[1, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/1Hz_1.50x.npz,1
+CA1/native/ctrl/dend/sine/2Hz_1.50x,CA1,native,,dend,sine,sine,"[2, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/2Hz_1.50x.npz,1
+CA1/native/ctrl/dend/sine/4Hz_1.50x,CA1,native,,dend,sine,sine,"[4, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/4Hz_1.50x.npz,1
+CA1/native/ctrl/dend/sine/7Hz_1.50x,CA1,native,,dend,sine,sine,"[7, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/7Hz_1.50x.npz,1
+CA1/native/ctrl/dend/sine/10Hz_1.50x,CA1,native,,dend,sine,sine,"[10, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/10Hz_1.50x.npz,1
+CA1/native/ctrl/dend/sine/20Hz_1.50x,CA1,native,,dend,sine,sine,"[20, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/20Hz_1.50x.npz,1
+CA1/native/ctrl/dend/sine/50Hz_1.50x,CA1,native,,dend,sine,sine,"[50, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/50Hz_1.50x.npz,1
+CA1/native/ctrl/dend/sine/100Hz_1.50x,CA1,native,,dend,sine,sine,"[100, 1.5]",,0.0,runs/CA1/native/ctrl/dend/sine/100Hz_1.50x.npz,1
+CA1/native/ctrl/dend/chirp/sub,CA1,native,,dend,chirp,chirp,0.08559838168976795,,0.0,runs/CA1/native/ctrl/dend/chirp/sub.npz,1
+CA1/native/ctrl/dend/pulse/130Hz_mono_1.2xthr,CA1,native,,dend,pulse,pulse,"[130, ""mono"", 1.2]",,0.0,runs/CA1/native/ctrl/dend/pulse/130Hz_mono_1.2xthr.npz,1
+CA1/native/ctrl/dend/pulse/130Hz_mono_2.0xthr,CA1,native,,dend,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/CA1/native/ctrl/dend/pulse/130Hz_mono_2.0xthr.npz,1
+CA1/native/ctrl/dend/pulse/130Hz_biphasic_1.2xthr,CA1,native,,dend,pulse,pulse,"[130, ""biphasic"", 1.2]",,0.0,runs/CA1/native/ctrl/dend/pulse/130Hz_biphasic_1.2xthr.npz,1
+CA1/native/ctrl/dend/pulse/130Hz_biphasic_2.0xthr,CA1,native,,dend,pulse,pulse,"[130, ""biphasic"", 2.0]",,0.0,runs/CA1/native/ctrl/dend/pulse/130Hz_biphasic_2.0xthr.npz,1
+CA1/native/ctrl/dend/noise_var/seed1001,CA1,native,,dend,noise_var,noise_var,null,0,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1001.npz,1
+CA1/native/ctrl/dend/noise_var/seed1002,CA1,native,,dend,noise_var,noise_var,null,1,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1002.npz,1
+CA1/native/ctrl/dend/noise_var/seed1003,CA1,native,,dend,noise_var,noise_var,null,2,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1003.npz,1
+CA1/native/ctrl/dend/noise_var/seed1004,CA1,native,,dend,noise_var,noise_var,null,3,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1004.npz,1
+CA1/native/ctrl/dend/noise_var/seed1005,CA1,native,,dend,noise_var,noise_var,null,4,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1005.npz,1
+CA1/native/ctrl/dend/noise_var/seed1006,CA1,native,,dend,noise_var,noise_var,null,5,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1006.npz,1
+CA1/native/ctrl/dend/noise_var/seed1007,CA1,native,,dend,noise_var,noise_var,null,6,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1007.npz,1
+CA1/native/ctrl/dend/noise_var/seed1008,CA1,native,,dend,noise_var,noise_var,null,7,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1008.npz,1
+CA1/native/ctrl/dend/noise_var/seed1009,CA1,native,,dend,noise_var,noise_var,null,8,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1009.npz,1
+CA1/native/ctrl/dend/noise_var/seed1010,CA1,native,,dend,noise_var,noise_var,null,9,0.0,runs/CA1/native/ctrl/dend/noise_var/seed1010.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial00,CA1,native,,dend,syn,syn,1.0,0,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial00.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial01,CA1,native,,dend,syn,syn,1.0,1,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial01.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial02,CA1,native,,dend,syn,syn,1.0,2,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial02.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial03,CA1,native,,dend,syn,syn,1.0,3,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial03.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial04,CA1,native,,dend,syn,syn,1.0,4,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial04.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial05,CA1,native,,dend,syn,syn,1.0,5,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial05.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial06,CA1,native,,dend,syn,syn,1.0,6,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial06.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial07,CA1,native,,dend,syn,syn,1.0,7,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial07.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial08,CA1,native,,dend,syn,syn,1.0,8,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial08.npz,1
+CA1/native/ctrl/dend/syn/1.0x_trial09,CA1,native,,dend,syn,syn,1.0,9,0.0,runs/CA1/native/ctrl/dend/syn/1.0x_trial09.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial00,CA1,native,,dend,syn,syn,2.0,0,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial00.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial01,CA1,native,,dend,syn,syn,2.0,1,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial01.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial02,CA1,native,,dend,syn,syn,2.0,2,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial02.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial03,CA1,native,,dend,syn,syn,2.0,3,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial03.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial04,CA1,native,,dend,syn,syn,2.0,4,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial04.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial05,CA1,native,,dend,syn,syn,2.0,5,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial05.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial06,CA1,native,,dend,syn,syn,2.0,6,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial06.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial07,CA1,native,,dend,syn,syn,2.0,7,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial07.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial08,CA1,native,,dend,syn,syn,2.0,8,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial08.npz,1
+CA1/native/ctrl/dend/syn/2.0x_trial09,CA1,native,,dend,syn,syn,2.0,9,0.0,runs/CA1/native/ctrl/dend/syn/2.0x_trial09.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial00,CA1,native,,dend,syn,syn,4.0,0,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial00.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial01,CA1,native,,dend,syn,syn,4.0,1,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial01.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial02,CA1,native,,dend,syn,syn,4.0,2,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial02.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial03,CA1,native,,dend,syn,syn,4.0,3,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial03.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial04,CA1,native,,dend,syn,syn,4.0,4,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial04.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial05,CA1,native,,dend,syn,syn,4.0,5,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial05.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial06,CA1,native,,dend,syn,syn,4.0,6,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial06.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial07,CA1,native,,dend,syn,syn,4.0,7,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial07.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial08,CA1,native,,dend,syn,syn,4.0,8,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial08.npz,1
+CA1/native/ctrl/dend/syn/4.0x_trial09,CA1,native,,dend,syn,syn,4.0,9,0.0,runs/CA1/native/ctrl/dend/syn/4.0x_trial09.npz,1
+CA1/native/HCN/soma/step/+1.50x,CA1,native,HCN,soma,step,step,1.5,,0.0,runs/CA1/native/HCN/soma/step/+1.50x.npz,1
+CA1/native/HCN/soma/step/+2.00x,CA1,native,HCN,soma,step,step,2.0,,0.0,runs/CA1/native/HCN/soma/step/+2.00x.npz,1
+CA1/native/HCN/soma/step/+3.00x,CA1,native,HCN,soma,step,step,3.0,,0.0,runs/CA1/native/HCN/soma/step/+3.00x.npz,1
+CA1/native/HCN/soma/hyper/-1.00x,CA1,native,HCN,soma,hyper,hyper,-1.0,,0.0,runs/CA1/native/HCN/soma/hyper/-1.00x.npz,1
+CA1/native/HCN/soma/hyper/-2.00x,CA1,native,HCN,soma,hyper,hyper,-2.0,,0.0,runs/CA1/native/HCN/soma/hyper/-2.00x.npz,1
+CA1/native/HCN/soma/sine/4Hz_1.50x,CA1,native,HCN,soma,sine,sine,"[4, 1.5]",,0.0,runs/CA1/native/HCN/soma/sine/4Hz_1.50x.npz,1
+CA1/native/HCN/soma/sine/10Hz_1.50x,CA1,native,HCN,soma,sine,sine,"[10, 1.5]",,0.0,runs/CA1/native/HCN/soma/sine/10Hz_1.50x.npz,1
+CA1/native/HCN/soma/chirp/sub,CA1,native,HCN,soma,chirp,chirp,0.13125,,0.0,runs/CA1/native/HCN/soma/chirp/sub.npz,1
+CA1/native/HCN/soma/pulse/20Hz_mono_2.0xthr,CA1,native,HCN,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/CA1/native/HCN/soma/pulse/20Hz_mono_2.0xthr.npz,1
+CA1/native/HCN/soma/pulse/130Hz_mono_2.0xthr,CA1,native,HCN,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/CA1/native/HCN/soma/pulse/130Hz_mono_2.0xthr.npz,1
+CA1/native/HCN/dend/step/+1.50x,CA1,native,HCN,dend,step,step,1.5,,0.0,runs/CA1/native/HCN/dend/step/+1.50x.npz,1
+CA1/native/HCN/dend/step/+2.00x,CA1,native,HCN,dend,step,step,2.0,,0.0,runs/CA1/native/HCN/dend/step/+2.00x.npz,1
+CA1/native/KM/soma/step/+1.50x,CA1,native,KM,soma,step,step,1.5,,0.0,runs/CA1/native/KM/soma/step/+1.50x.npz,1
+CA1/native/KM/soma/step/+2.00x,CA1,native,KM,soma,step,step,2.0,,0.0,runs/CA1/native/KM/soma/step/+2.00x.npz,1
+CA1/native/KM/soma/step/+3.00x,CA1,native,KM,soma,step,step,3.0,,0.0,runs/CA1/native/KM/soma/step/+3.00x.npz,1
+CA1/native/KM/soma/hyper/-1.00x,CA1,native,KM,soma,hyper,hyper,-1.0,,0.0,runs/CA1/native/KM/soma/hyper/-1.00x.npz,1
+CA1/native/KM/soma/hyper/-2.00x,CA1,native,KM,soma,hyper,hyper,-2.0,,0.0,runs/CA1/native/KM/soma/hyper/-2.00x.npz,1
+CA1/native/KM/soma/sine/4Hz_1.50x,CA1,native,KM,soma,sine,sine,"[4, 1.5]",,0.0,runs/CA1/native/KM/soma/sine/4Hz_1.50x.npz,1
+CA1/native/KM/soma/sine/10Hz_1.50x,CA1,native,KM,soma,sine,sine,"[10, 1.5]",,0.0,runs/CA1/native/KM/soma/sine/10Hz_1.50x.npz,1
+CA1/native/KM/soma/chirp/sub,CA1,native,KM,soma,chirp,chirp,0.13125,,0.0,runs/CA1/native/KM/soma/chirp/sub.npz,1
+CA1/native/KM/soma/pulse/20Hz_mono_2.0xthr,CA1,native,KM,soma,pulse,pulse,"[20, ""mono"", 2.0]",,0.0,runs/CA1/native/KM/soma/pulse/20Hz_mono_2.0xthr.npz,1
+CA1/native/KM/soma/pulse/130Hz_mono_2.0xthr,CA1,native,KM,soma,pulse,pulse,"[130, ""mono"", 2.0]",,0.0,runs/CA1/native/KM/soma/pulse/130Hz_mono_2.0xthr.npz,1
+CA1/native/KM/dend/step/+1.50x,CA1,native,KM,dend,step,step,1.5,,0.0,runs/CA1/native/KM/dend/step/+1.50x.npz,1
+CA1/native/KM/dend/step/+2.00x,CA1,native,KM,dend,step,step,2.0,,0.0,runs/CA1/native/KM/dend/step/+2.00x.npz,1

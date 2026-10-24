@@ -1,0 +1,5 @@
+celsius,channels,dend_distance_um,expected_spontaneous,model,modeldb,rest_or_mean_V_mV,sections,segments,sites,spont_rate_Hz,wall_s_per_sim_s
+6.3,"[""Na"", ""K""]",,False,HH,,-64.97,1,1,"{""soma"": ""soma(0.500)""}",0.0,0.1
+37.0,"[""CaT"", ""HCN"", ""NaL"", ""sKCa"", ""CaL""]",,True,STN,74298,-58.28,35,189,"{""soma"": ""SThcell[0].soma(0.500)""}",10.0,2.77
+37.0,"[""CaP"", ""CaT"", ""CaE"", ""HCN"", ""KD""]",100.0,False,Purkinje,17664,-68.47,1088,1088,"{""soma"": ""soma(0.500)"", ""dend"": ""SmoothDendrite[69](0.500)""}",0.0,15.34
+34.0,"[""HCN"", ""KM"", ""KA"", ""KCa"", ""CaT"", ""Na""]",301.2,False,CA1,244688,-69.61,165,507,"{""soma"": ""CA1_PC_cAC_sig6[0].soma[0](0.500)"", ""dend"": ""CA1_PC_cAC_sig6[0].apic[27](0.500)""}",0.0,21.35

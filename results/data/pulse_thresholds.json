@@ -1,0 +1,54 @@
+{
+  "HH": {
+    "model": "HH",
+    "condition": "native",
+    "width_ms": 0.5,
+    "threshold_nA": {
+      "soma": 0.14843750000000003
+    },
+    "ratio_to_rheobase": {
+      "soma": 5.937500000000001
+    },
+    "wall_s": 0.3
+  },
+  "STN": {
+    "model": "STN",
+    "condition": "held",
+    "width_ms": 0.5,
+    "threshold_nA": {
+      "soma": 1.3860351562500002
+    },
+    "ratio_to_rheobase": {
+      "soma": 20.75
+    },
+    "wall_s": 6.5
+  },
+  "CA1": {
+    "model": "CA1",
+    "condition": "native",
+    "width_ms": 0.5,
+    "threshold_nA": {
+      "soma": 2.7890625,
+      "dend": 1.3683593750000003
+    },
+    "ratio_to_rheobase": {
+      "soma": 10.625,
+      "dend": 3.5312500000000004
+    },
+    "wall_s": 46.4
+  },
+  "Purkinje": {
+    "model": "Purkinje",
+    "condition": "native",
+    "width_ms": 0.5,
+    "threshold_nA": {
+      "soma": 1.87265625,
+      "dend": 6.828125000000002
+    },
+    "ratio_to_rheobase": {
+      "soma": 2.2031249999999996,
+      "dend": 9.500000000000002
+    },
+    "wall_s": 67.3
+  }
+}

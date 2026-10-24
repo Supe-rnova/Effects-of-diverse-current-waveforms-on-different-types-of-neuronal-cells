@@ -1,0 +1,571 @@
+[
+  {
+    "model": "HH",
+    "celsius": 6.3,
+    "neuron_version": "9.0.1",
+    "reference": "Hodgkin AL, Huxley AF (1952) J Physiol 117:500-544",
+    "modeldb": null,
+    "checks": [
+      {
+        "name": "resting potential (mV)",
+        "value": -64.972,
+        "accept": [
+          -66,
+          -64
+        ],
+        "pass": true,
+        "reference": "HH 1952: -65 mV"
+      },
+      {
+        "name": "AP peak (mV)",
+        "value": 39.763,
+        "accept": [
+          30,
+          50
+        ],
+        "pass": true,
+        "reference": "HH 1952: overshoot ~ +40 mV"
+      },
+      {
+        "name": "repetitive-firing onset (uA/cm2)",
+        "value": 6.5,
+        "accept": [
+          5.5,
+          7.5
+        ],
+        "pass": true,
+        "reference": "Rinzel & Miller 1980: periodic firing from ~6.3 uA/cm2"
+      },
+      {
+        "name": "minimum steady firing rate at onset (Hz)",
+        "value": 56.0,
+        "accept": [
+          40,
+          90
+        ],
+        "pass": true,
+        "reference": "HH is class-2: abrupt onset at ~50-70 Hz (6.3 degC)"
+      },
+      {
+        "name": "dt: spike-count difference (dt vs dt/2)",
+        "value": 0.0,
+        "accept": [
+          0,
+          1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      },
+      {
+        "name": "dt: first-spike shift (ms)",
+        "value": 0.012,
+        "accept": [
+          0,
+          0.1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      }
+    ],
+    "values": {
+      "rest_mV": -64.97177055298278,
+      "fI_J_uAcm2": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        6.0,
+        6.5,
+        7.0,
+        7.5,
+        8.0,
+        8.5,
+        9.0,
+        9.5,
+        10.0,
+        10.5,
+        11.0,
+        11.5,
+        12.0,
+        12.5,
+        13.0,
+        13.5,
+        14.0,
+        14.5,
+        15.0,
+        15.5,
+        16.0,
+        16.5,
+        17.0,
+        17.5,
+        18.0,
+        18.5,
+        19.0,
+        19.5,
+        20.0,
+        20.5,
+        21.0,
+        21.5,
+        22.0,
+        22.5,
+        23.0,
+        23.5,
+        24.0,
+        24.5,
+        25.0,
+        25.5,
+        26.0,
+        26.5,
+        27.0,
+        27.5,
+        28.0,
+        28.5,
+        29.0,
+        29.5,
+        30.0,
+        30.5,
+        31.0,
+        31.5,
+        32.0,
+        32.5,
+        33.0,
+        33.5,
+        34.0,
+        34.5,
+        35.0,
+        35.5,
+        36.0,
+        36.5,
+        37.0,
+        37.5,
+        38.0,
+        38.5,
+        39.0,
+        39.5,
+        40.0
+      ],
+      "fI_rate_Hz": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        56.0,
+        60.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        68.0,
+        68.0,
+        68.0,
+        72.0,
+        72.0,
+        72.0,
+        72.0,
+        76.0,
+        76.0,
+        80.0,
+        76.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        84.0,
+        84.0,
+        84.0,
+        88.0,
+        84.0,
+        84.0,
+        88.0,
+        88.0,
+        88.0,
+        88.0,
+        88.0,
+        88.0,
+        92.0,
+        92.0,
+        92.0,
+        96.0,
+        92.0,
+        92.0,
+        92.0,
+        96.0,
+        96.0,
+        96.0,
+        100.0,
+        96.0,
+        96.0,
+        96.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        104.0,
+        104.0,
+        104.0,
+        104.0,
+        108.0,
+        104.0,
+        104.0,
+        104.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0
+      ]
+    },
+    "dt_check": {
+      "dt": 0.025,
+      "dt_half": 0.0125,
+      "n_spikes": [
+        21,
+        21
+      ],
+      "first_spike_shift_ms": 0.012499999995725375,
+      "mean_shift_ms": 0.3541666666541875
+    },
+    "wall_s": 5.4,
+    "pass": true
+  },
+  {
+    "model": "STN",
+    "celsius": 37.0,
+    "neuron_version": "9.0.1",
+    "reference": "Gillies A, Willshaw D (2006) J Neurophysiol 95:2352-2365",
+    "modeldb": 74298,
+    "checks": [
+      {
+        "name": "spontaneous rate at 37 degC (Hz)",
+        "value": 9.596,
+        "accept": [
+          5,
+          20
+        ],
+        "pass": true,
+        "reference": "Gillies & Willshaw 2006 / Hallworth 2003: regular pacemaking ~10 Hz"
+      },
+      {
+        "name": "spontaneous ISI CV",
+        "value": 0.007,
+        "accept": [
+          0,
+          0.2
+        ],
+        "pass": true,
+        "reference": "regular pacemaker"
+      },
+      {
+        "name": "rebound spikes in 100 ms after release",
+        "value": 14.0,
+        "accept": [
+          4,
+          40
+        ],
+        "pass": true,
+        "reference": "Gillies & Willshaw 2006 Fig. (Bevan 2002): rebound burst"
+      },
+      {
+        "name": "rebound intra-burst rate (Hz)",
+        "value": 158.779,
+        "accept": [
+          100,
+          400
+        ],
+        "pass": true,
+        "reference": "high-frequency rebound burst"
+      },
+      {
+        "name": "rebound spikes with CaT blocked",
+        "value": 0.0,
+        "accept": [
+          0,
+          3
+        ],
+        "pass": true,
+        "reference": "Gillies & Willshaw 2006: rebound needs T-type Ca2+"
+      },
+      {
+        "name": "dt: spike-count difference (dt vs dt/2)",
+        "value": 0.0,
+        "accept": [
+          0,
+          1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      },
+      {
+        "name": "dt: first-spike shift (ms)",
+        "value": 0.025,
+        "accept": [
+          0,
+          0.1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      }
+    ],
+    "values": {
+      "spont_rate_Hz": 9.596080758642794,
+      "spont_cv": 0.006728165261794032,
+      "rebound_n": 14,
+      "rebound_rate_Hz": 158.77862595362083,
+      "hyperpol_min_mV": -82.79407141498758,
+      "rebound_n_CaT_blocked": 0
+    },
+    "dt_check": {
+      "dt": 0.025,
+      "dt_half": 0.0125,
+      "n_spikes": [
+        40,
+        40
+      ],
+      "first_spike_shift_ms": 0.02499999999998348,
+      "mean_shift_ms": 0.4881250000088018
+    },
+    "wall_s": 504.1,
+    "pass": true
+  },
+  {
+    "model": "Purkinje",
+    "celsius": 37.0,
+    "neuron_version": "9.0.1",
+    "reference": "Miyasho T et al. (2001) Brain Res 891:106-115",
+    "modeldb": 17664,
+    "checks": [
+      {
+        "name": "resting potential (mV)",
+        "value": -69.413,
+        "accept": [
+          -75,
+          -60
+        ],
+        "pass": true,
+        "reference": "Miyasho 2001: silent, ~ -68 mV"
+      },
+      {
+        "name": "somatic simple-spike rate, first 200 ms (Hz)",
+        "value": 110.0,
+        "accept": [
+          60,
+          200
+        ],
+        "pass": true,
+        "reference": "Miyasho 2001 Fig. 2: fast Na+ spiking"
+      },
+      {
+        "name": "dendritic Ca2+ spikes during 2 nA step",
+        "value": 4.0,
+        "accept": [
+          1,
+          30
+        ],
+        "pass": true,
+        "reference": "Miyasho 2001 Fig. 2: dendritic Ca2+ spikes"
+      },
+      {
+        "name": "dendritic Ca2+ spikes with CaP blocked",
+        "value": 0.0,
+        "accept": [
+          0,
+          0
+        ],
+        "pass": true,
+        "reference": "Ca2+ spikes are P-type mediated (Llinas & Sugimori 1980)"
+      },
+      {
+        "name": "dt: spike-count difference (dt vs dt/2)",
+        "value": 0.0,
+        "accept": [
+          0,
+          1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      },
+      {
+        "name": "dt: first-spike shift (ms)",
+        "value": 0.038,
+        "accept": [
+          0,
+          0.1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      }
+    ],
+    "values": {
+      "rest_mV": -69.41266565780593,
+      "simple_spike_rate_Hz": 110.0,
+      "n_dend_ca_spikes": 4,
+      "n_dend_ca_spikes_CaP_blocked": 0
+    },
+    "dt_check": {
+      "dt": 0.025,
+      "dt_half": 0.0125,
+      "n_spikes": [
+        1,
+        1
+      ],
+      "first_spike_shift_ms": 0.0375000000395147,
+      "mean_shift_ms": 0.0375000000395147
+    },
+    "wall_s": 1006.2,
+    "pass": true
+  },
+  {
+    "model": "CA1",
+    "celsius": 34.0,
+    "neuron_version": "9.0.1",
+    "reference": "Migliore R, Lupascu CA, Bologna LL, et al. (2018) PLoS Comput Biol 14:e1006423 (cell CA1_PC_cAC_sig6, cell_seed3_0-pyr-08)",
+    "modeldb": 244688,
+    "checks": [
+      {
+        "name": "input resistance (MOhm)",
+        "value": 29.185,
+        "accept": [
+          20,
+          100
+        ],
+        "pass": true,
+        "reference": "CA1 pyramidal at 34 degC: ~25-80 MOhm (Migliore 2018 data set)"
+      },
+      {
+        "name": "sag ratio (steady/peak deflection)",
+        "value": 0.765,
+        "accept": [
+          0.6,
+          0.95
+        ],
+        "pass": true,
+        "reference": "Ih-mediated sag in CA1"
+      },
+      {
+        "name": "somatic resonance frequency (Hz)",
+        "value": 10.0,
+        "accept": [
+          3,
+          12
+        ],
+        "pass": true,
+        "reference": "CA1 theta resonance (Hu et al. 2002; Narayanan & Johnston 2007)"
+      },
+      {
+        "name": "somatic resonance strength Q",
+        "value": 1.348,
+        "accept": [
+          1.05,
+          2.0
+        ],
+        "pass": true,
+        "reference": "CA1: Q ~ 1.1-1.4"
+      },
+      {
+        "name": "dendritic fR > somatic fR",
+        "value": 1.0,
+        "accept": [
+          1,
+          1
+        ],
+        "pass": true,
+        "reference": "Narayanan & Johnston 2007: fR increases with distance"
+      },
+      {
+        "name": "Q drop when HCN blocked",
+        "value": 0.28,
+        "accept": [
+          0.1,
+          2.0
+        ],
+        "pass": true,
+        "reference": "H-resonance abolished by ZD7288 (Hu et al. 2002); small M-resonance may remain"
+      },
+      {
+        "name": "firing rate, 0.6 nA / 1 s step (Hz)",
+        "value": 19.0,
+        "accept": [
+          5,
+          40
+        ],
+        "pass": true,
+        "reference": "CA1 pyramidal: low-rate regular firing"
+      },
+      {
+        "name": "adaptation index (last ISI / first ISI)",
+        "value": 2.954,
+        "accept": [
+          1.5,
+          10
+        ],
+        "pass": true,
+        "reference": "CA1 pyramidal: strong spike-frequency adaptation (Migliore 2018: cAC type)"
+      },
+      {
+        "name": "dt: spike-count difference (dt vs dt/2)",
+        "value": 0.0,
+        "accept": [
+          0,
+          1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      },
+      {
+        "name": "dt: first-spike shift (ms)",
+        "value": 0.038,
+        "accept": [
+          0,
+          0.1
+        ],
+        "pass": true,
+        "reference": "numerical convergence"
+      }
+    ],
+    "values": {
+      "Rin_MOhm": 29.185490543455614,
+      "sag_ratio": 0.7646602256481373,
+      "fR_soma": 10.000083334027783,
+      "Q_soma": 1.3483338746861622,
+      "fR_dend": 13.333444445370377,
+      "Q_dend": 1.1628824226365182,
+      "fR_soma_HCN_blocked": 4.416703472528938,
+      "Q_soma_HCN_blocked": 1.067950233236329,
+      "rate_0.6nA_Hz": 19.0,
+      "adaptation_index": 2.9538866930305607
+    },
+    "dt_check": {
+      "dt": 0.025,
+      "dt_half": 0.0125,
+      "n_spikes": [
+        9,
+        9
+      ],
+      "first_spike_shift_ms": 0.03750000004124843,
+      "mean_shift_ms": 0.1847222223173396
+    },
+    "wall_s": 2550.2,
+    "pass": true
+  }
+]

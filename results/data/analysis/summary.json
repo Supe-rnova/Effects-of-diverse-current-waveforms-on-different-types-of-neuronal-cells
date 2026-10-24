@@ -1,0 +1,4886 @@
+{
+ "HH|native|ctrl|soma": {
+  "variability": {
+   "isi_cv": [
+    0.7346124407876984,
+    0.6126951425083643,
+    0.8565297390670324,
+    20
+   ],
+   "rate_Hz": [
+    3.4210526315789473,
+    2.7596146892775857,
+    4.082490573880309,
+    20
+   ],
+   "n_seeds": 20,
+   "n_spikes_sta": 130,
+   "sta_peak_nA": 0.04003740786932982,
+   "sta_peak_lag_ms": -3.075
+  },
+  "reliability": {
+   "schreiber_R": 0.8739009652830577,
+   "ci95": [
+    0.8265216997795577,
+    0.9262460259827282
+   ],
+   "event_jitter_ms": 0.5160086312605735,
+   "event_participation": 0.9583333333333334,
+   "n_events": 6,
+   "n_trials": 20,
+   "rate_Hz": [
+    3.3684210526315788,
+    3.1662430949680753,
+    3.570599010295082,
+    20
+   ]
+  },
+  "synaptic": {
+   "1.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.03699480747600191
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "2.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.963005192523998,
+     0.9999999999999998
+    ],
+    "latency_ms": 3.967500001149499,
+    "jitter_ms": 0.08388182978787381,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "4.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.963005192523998,
+     0.9999999999999998
+    ],
+    "latency_ms": 2.6547500011459193,
+    "jitter_ms": 0.02596198163585628,
+    "n_trials": 20,
+    "n_events": 5
+   }
+  },
+  "fI": {
+   "x_rheobase": [
+    0.8,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+   ],
+   "rate_Hz": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    57.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    56.0
+   ],
+   "latency_ms": [
+    NaN,
+    8.674999999810211,
+    5.249999999813326,
+    4.399999999814099,
+    3.524999999814895,
+    3.02499999981535,
+    2.7249999998156227
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    0.9957386363681645
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "hyper": {
+   "level": [
+    -3.0,
+    -2.0,
+    -1.0,
+    -0.5
+   ],
+   "sag_ratio": [
+    0.9994555006092437,
+    0.831377862723474,
+    0.6556307110689118,
+    0.5816398931040196
+   ],
+   "sag_mV": [
+    0.00641632080078125,
+    1.1886978149414062,
+    1.2064590454101562,
+    0.7512588500976562
+   ],
+   "rebound_spikes": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    5.050000002237539,
+    5.200000002238085,
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -76.757568359375,
+    -72.02315521240234,
+    -68.47706604003906,
+    -66.76940155029297
+   ]
+  },
+  "ramp": {
+   "slow": {
+    "threshold_current_nA": NaN,
+    "n_spikes": 0.0,
+    "slope_nA_per_s": 0.037500000000000006
+   },
+   "fast": {
+    "threshold_current_nA": NaN,
+    "n_spikes": 0.0,
+    "slope_nA_per_s": 0.15000000000000002
+   }
+  },
+  "sine": [
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 3.978923797607422
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 6.235408782958984
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 8.864635467529297
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 3.9882278442382812
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 6.249858856201172
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 8.881454467773438
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 4.024768829345703
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 6.305015563964844
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 8.94735336303711
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 4.1207122802734375
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 6.438899993896484
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 9.105182647705078
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 4.254459381103516
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 6.627635955810547
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 9.379341125488281
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 5.385231018066406
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.5,
+    "vector_strength": 0.9999999999999999,
+    "rayleigh_p": 8.535932221705432e-29,
+    "rate_Hz": 20.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 112.70492935180664
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 2.0,
+    "vector_strength": 1.0,
+    "rayleigh_p": 8.535932221704826e-29,
+    "rate_Hz": 20.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 116.19100189208984
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.0,
+    "vector_strength": 0.9999996787609402,
+    "rayleigh_p": 3.365906709471002e-75,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 114.60494613647461
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.5,
+    "vector_strength": 0.9999999999999999,
+    "rayleigh_p": 3.363907586759999e-75,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 116.30998992919922
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 2.0,
+    "vector_strength": 1.0,
+    "rayleigh_p": 3.3639075867594254e-75,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 117.36160278320312
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.0,
+    "vector_strength": 1.0000000000000002,
+    "rayleigh_p": 1.0,
+    "rate_Hz": 0.5263157894736842,
+    "spikes_per_cycle": 0.005263157894736842,
+    "cycles_with_spike": 0.005263157894736842,
+    "v_p2p_mV": 108.79640197753906
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.5,
+    "vector_strength": 1.0,
+    "rayleigh_p": 3.3639075867594254e-75,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 0.5,
+    "cycles_with_spike": 0.5,
+    "v_p2p_mV": 116.58919906616211
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 2.0,
+    "vector_strength": 1.0,
+    "rayleigh_p": 3.3639075867594254e-75,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 0.5,
+    "cycles_with_spike": 0.5,
+    "v_p2p_mV": 117.58121490478516
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 43.37825711122769,
+   "Q": 2.3830421772830133,
+   "Z_low_MOhm": 76.78000979738148,
+   "Z_max_MOhm": 182.97000171936307,
+   "f3dB_Hz": NaN,
+   "phase_zero_crossing_Hz": NaN,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.65,
+    "fidelity_first10": 0.7,
+    "fidelity_2nd_half": 0.6333333333333333,
+    "rate_Hz": 44.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.18333333333333332,
+    "fidelity_first10": 0.2,
+    "fidelity_2nd_half": 0.2,
+    "rate_Hz": 16.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.11538461538461539,
+    "fidelity_first10": 0.1,
+    "fidelity_2nd_half": 0.12307692307692308,
+    "rate_Hz": 19.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.5,
+    "fidelity_first10": 0.5,
+    "fidelity_2nd_half": 0.49230769230769234,
+    "rate_Hz": 65.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.09230769230769231,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 13.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.005,
+    "fidelity_first10": 0.1,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 1.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.335,
+    "fidelity_first10": 0.4,
+    "fidelity_2nd_half": 0.33,
+    "rate_Hz": 67.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.0,
+    "fidelity_first10": 0.0,
+    "fidelity_2nd_half": 0.0,
+    "rate_Hz": 0.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 101.91783357325396,
+   "tau_m_ms": 1.3499999999078227,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.025,
+   "rheobase_dend_nA": null
+  }
+ },
+ "STN|held|ctrl|soma": {
+  "variability": {
+   "isi_cv": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "rate_Hz": [
+    0.02631578947368421,
+    -0.028763790905481798,
+    0.08139536985285022,
+    20
+   ],
+   "n_seeds": 20,
+   "n_spikes_sta": 1,
+   "sta_peak_nA": 0.1786925196647644,
+   "sta_peak_lag_ms": -10.75
+  },
+  "reliability": {
+   "schreiber_R": NaN,
+   "ci95": [
+    NaN,
+    NaN
+   ],
+   "event_jitter_ms": NaN,
+   "event_participation": NaN,
+   "n_events": 0,
+   "n_trials": 20,
+   "rate_Hz": [
+    0.0,
+    0.0,
+    0.0,
+    20
+   ]
+  },
+  "synaptic": {
+   "1.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.03699480747600191
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "2.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.03699480747600191
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "4.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.03699480747600191
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 20,
+    "n_events": 5
+   }
+  },
+  "fI": {
+   "x_rheobase": [
+    0.8,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+   ],
+   "rate_Hz": [
+    0.0,
+    0.0,
+    2.0,
+    2.0,
+    3.0,
+    5.0,
+    30.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    24.0
+   ],
+   "latency_ms": [
+    NaN,
+    NaN,
+    35.0750000008552,
+    26.92500000082555,
+    18.27500000079408,
+    13.425000000776436,
+    10.250000000764885
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    1.0465116279069768,
+    4.600566572237961,
+    4.85285285276458
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "hyper": {
+   "level": [
+    -3.0,
+    -2.0,
+    -1.0,
+    -0.5
+   ],
+   "sag_ratio": [
+    0.522496427154255,
+    0.5174480950553947,
+    0.4993734004569578,
+    0.47586334565036087
+   ],
+   "sag_mV": [
+    7.554029699325568,
+    5.350081275939942,
+    3.017723426818847,
+    1.6882883129119932
+   ],
+   "rebound_spikes": [
+    15.0,
+    15.0,
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    21.750000003717105,
+    30.35000000374839,
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    204.08163265231877,
+    172.41379310392952,
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -85.87890625,
+    -81.14612579345703,
+    -76.08695983886719,
+    -73.2801513671875
+   ]
+  },
+  "ramp": {
+   "slow": {
+    "threshold_current_nA": 0.18590989708900452,
+    "n_spikes": 3.0,
+    "slope_nA_per_s": 0.10019531250000001
+   },
+   "fast": {
+    "threshold_current_nA": 0.17870835959911346,
+    "n_spikes": 2.0,
+    "slope_nA_per_s": 0.40078125000000003
+   }
+  },
+  "sine": [
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 9.184844970703125
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 13.803386688232422
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 18.491573333740234
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 13.62759780883789
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.5,
+    "vector_strength": 0.923195573107902,
+    "rayleigh_p": 6.333745528017884e-13,
+    "rate_Hz": 16.0,
+    "spikes_per_cycle": 8.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 101.14291572570801
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 2.0,
+    "vector_strength": 0.8958753548835062,
+    "rayleigh_p": 1.9245275263526396e-21,
+    "rate_Hz": 29.333333333333332,
+    "spikes_per_cycle": 14.666666666666666,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 103.94103622436523
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.0,
+    "vector_strength": 0.8590850545135315,
+    "rayleigh_p": 2.9731149387880213e-20,
+    "rate_Hz": 26.857142857142858,
+    "spikes_per_cycle": 6.714285714285714,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 103.9720344543457
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 0.8487591461239918,
+    "rayleigh_p": 1.5275051133150297e-26,
+    "rate_Hz": 36.57142857142857,
+    "spikes_per_cycle": 9.142857142857142,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 106.48490524291992
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 2.0,
+    "vector_strength": 0.8701050626030022,
+    "rayleigh_p": 1.4542019023350656e-31,
+    "rate_Hz": 40.57142857142857,
+    "spikes_per_cycle": 10.142857142857142,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 108.21041870117188
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.0,
+    "vector_strength": 0.9693975155548816,
+    "rayleigh_p": 0.0030237273342334607,
+    "rate_Hz": 2.6923076923076925,
+    "spikes_per_cycle": 0.38461538461538464,
+    "cycles_with_spike": 0.3076923076923077,
+    "v_p2p_mV": 99.23358726501465
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.5,
+    "vector_strength": 0.8585934540152304,
+    "rayleigh_p": 7.1038117479007455e-25,
+    "rate_Hz": 31.23076923076923,
+    "spikes_per_cycle": 4.461538461538462,
+    "cycles_with_spike": 0.8461538461538461,
+    "v_p2p_mV": 106.38534927368164
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 2.0,
+    "vector_strength": 0.8386782849589512,
+    "rayleigh_p": 3.0406596681520905e-29,
+    "rate_Hz": 39.30769230769231,
+    "spikes_per_cycle": 5.615384615384615,
+    "cycles_with_spike": 0.9230769230769231,
+    "v_p2p_mV": 109.1097640991211
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 13.350902557373047
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.5129142598861474,
+    "rayleigh_p": 3.318850030071677e-05,
+    "rate_Hz": 19.473684210526315,
+    "spikes_per_cycle": 1.9473684210526316,
+    "cycles_with_spike": 0.5263157894736842,
+    "v_p2p_mV": 106.40766334533691
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 2.0,
+    "vector_strength": 0.6746768067699701,
+    "rayleigh_p": 3.9573619361321426e-10,
+    "rate_Hz": 22.105263157894736,
+    "spikes_per_cycle": 2.210526315789474,
+    "cycles_with_spike": 0.8947368421052632,
+    "v_p2p_mV": 108.41560173034668
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 8.015480041503906
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 11.95840072631836
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 15.908790588378906
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 5.311676025390625
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 7.9439544677734375
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 10.577491760253906
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 3.9483566284179688
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 5.900115966796875
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 7.8518524169921875
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 5.16093057346567,
+   "Q": 2.529300986285535,
+   "Z_low_MOhm": 58.91536004547057,
+   "Z_max_MOhm": 149.01467827037612,
+   "f3dB_Hz": 9.284845042633005,
+   "phase_zero_crossing_Hz": 4.140812118142277,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.55,
+    "fidelity_first10": 0.7,
+    "fidelity_2nd_half": 0.4,
+    "rate_Hz": 11.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.5333333333333333,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.5,
+    "rate_Hz": 32.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.5307692307692308,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.49230769230769234,
+    "rate_Hz": 69.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.525,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.5,
+    "rate_Hz": 105.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.445,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.31,
+    "rate_Hz": 89.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 44.64996808398935,
+   "tau_m_ms": 5.950000000385444,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.066796875,
+   "rheobase_dend_nA": null
+  }
+ },
+ "STN|native|ctrl|soma": {
+  "variability": {
+   "isi_cv": [
+    0.21949058916622968,
+    0.20851233413411485,
+    0.2304688441983445,
+    20
+   ],
+   "rate_Hz": [
+    57.78947368421052,
+    57.31263792473171,
+    58.26630944368933,
+    20
+   ],
+   "n_seeds": 20,
+   "n_spikes_sta": 2196,
+   "sta_peak_nA": 0.07765240790726378,
+   "sta_peak_lag_ms": -0.55
+  },
+  "reliability": {
+   "schreiber_R": 0.8497299035157303,
+   "ci95": [
+    0.834504532915458,
+    0.8800297412696463
+   ],
+   "event_jitter_ms": 1.2353573287328012,
+   "event_participation": 0.910344827586207,
+   "n_events": 116,
+   "n_trials": 20,
+   "rate_Hz": [
+    57.0263157894737,
+    56.8610770483362,
+    57.1915545306112,
+    20
+   ]
+  },
+  "synaptic": {
+   "1.0": {
+    "spike_prob": 0.76,
+    "ci95": [
+     0.6676748127670786,
+     0.8330878873454004
+    ],
+    "latency_ms": 4.1361842096987615,
+    "jitter_ms": 1.9010947215679064,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "2.0": {
+    "spike_prob": 0.94,
+    "ci95": [
+     0.8752303146877749,
+     0.9722142547333434
+    ],
+    "latency_ms": 2.9151595739003144,
+    "jitter_ms": 1.4046136161146066,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "4.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.963005192523998,
+     0.9999999999999998
+    ],
+    "latency_ms": 1.8039999994555138,
+    "jitter_ms": 0.4963092719931253,
+    "n_trials": 20,
+    "n_events": 5
+   }
+  },
+  "fI": {
+   "x_rheobase": [
+    0.8,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+   ],
+   "rate_Hz": [
+    52.0,
+    60.0,
+    68.0,
+    75.0,
+    88.0,
+    99.0,
+    109.0
+   ],
+   "rate_ss_Hz": [
+    52.0,
+    60.0,
+    68.0,
+    74.0,
+    88.0,
+    98.0,
+    108.0
+   ],
+   "latency_ms": [
+    3.075000000799946,
+    3.975000001090848,
+    0.025000000842283043,
+    1.700000000823593,
+    1.5250000008165898,
+    2.5250000009714313,
+    1.8000000010508757
+   ],
+   "adaptation_index": [
+    1.1192528735428593,
+    1.1373534338151576,
+    1.1205273069476027,
+    1.1099585062038764,
+    1.1038647342794377,
+    1.0684210526121445,
+    1.0791788856108684
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "hyper": {
+   "level": [
+    -3.0,
+    -2.0,
+    -1.0,
+    -0.5
+   ],
+   "sag_ratio": [
+    0.658883018432305,
+    0.678150420578186,
+    0.6580432959743787,
+    0.6249544095308088
+   ],
+   "sag_mV": [
+    6.931520683288568,
+    4.885973464965815,
+    3.028278792381286,
+    1.944769882202145
+   ],
+   "rebound_spikes": [
+    14.0,
+    7.0,
+    5.0,
+    4.0
+   ],
+   "rebound_latency_ms": [
+    11.324999996762472,
+    13.449999996653105,
+    17.59999999621982,
+    23.074999996603992
+   ],
+   "rebound_max_rate_Hz": [
+    139.8601398621751,
+    96.38554217007729,
+    53.69127516856655,
+    20.387359837197796
+   ],
+   "v_peak_mV": [
+    -77.96870422363281,
+    -72.45140075683594,
+    -66.39204406738281,
+    -62.888160705566406
+   ]
+  },
+  "ramp": {
+   "slow": {
+    "threshold_current_nA": 0.0037623338866978884,
+    "n_spikes": 140.0,
+    "slope_nA_per_s": 0.10019531250000001
+   },
+   "fast": {
+    "threshold_current_nA": 0.005961621180176735,
+    "n_spikes": 36.0,
+    "slope_nA_per_s": 0.40078125000000003
+   }
+  },
+  "sine": [
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.0,
+    "vector_strength": 0.6999386050383399,
+    "rayleigh_p": 5.644627617817999e-12,
+    "rate_Hz": 23.0,
+    "spikes_per_cycle": 23.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.80123519897461
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.5,
+    "vector_strength": 0.7121405304352711,
+    "rayleigh_p": 1.4818310143415994e-15,
+    "rate_Hz": 29.0,
+    "spikes_per_cycle": 29.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.70449638366699
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 2.0,
+    "vector_strength": 0.7154095763605427,
+    "rayleigh_p": 2.450373145695111e-18,
+    "rate_Hz": 34.0,
+    "spikes_per_cycle": 34.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 90.0783748626709
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.0,
+    "vector_strength": 0.6340089600866766,
+    "rayleigh_p": 2.7947612330067162e-08,
+    "rate_Hz": 26.0,
+    "spikes_per_cycle": 13.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.75909042358398
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.5,
+    "vector_strength": 0.6123692595440042,
+    "rayleigh_p": 6.858072702451537e-10,
+    "rate_Hz": 34.0,
+    "spikes_per_cycle": 17.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.99443244934082
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 2.0,
+    "vector_strength": 0.6242462413704161,
+    "rayleigh_p": 5.233160078356673e-12,
+    "rate_Hz": 40.0,
+    "spikes_per_cycle": 20.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 91.4156494140625
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.0,
+    "vector_strength": 0.7231496899187891,
+    "rayleigh_p": 1.0631687578696447e-13,
+    "rate_Hz": 28.0,
+    "spikes_per_cycle": 7.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.34768486022949
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 0.7167367401094981,
+    "rayleigh_p": 4.2096074468720546e-17,
+    "rate_Hz": 36.0,
+    "spikes_per_cycle": 9.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.32323265075684
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 2.0,
+    "vector_strength": 0.6855300701222857,
+    "rayleigh_p": 9.3706055840977e-19,
+    "rate_Hz": 44.0,
+    "spikes_per_cycle": 11.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 92.31648635864258
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.0,
+    "vector_strength": 0.8085829972745181,
+    "rayleigh_p": 5.080543642889778e-19,
+    "rate_Hz": 28.0,
+    "spikes_per_cycle": 4.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.07612800598145
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.5,
+    "vector_strength": 0.8111117044006891,
+    "rayleigh_p": 7.354101880643788e-24,
+    "rate_Hz": 35.0,
+    "spikes_per_cycle": 5.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.32883071899414
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 2.0,
+    "vector_strength": 0.8023213370065335,
+    "rayleigh_p": 9.52006472959287e-28,
+    "rate_Hz": 42.0,
+    "spikes_per_cycle": 6.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 92.40965461730957
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.0,
+    "vector_strength": 0.787577609660799,
+    "rayleigh_p": 1.8388210167601463e-19,
+    "rate_Hz": 30.0,
+    "spikes_per_cycle": 3.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.20269584655762
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.7324114139932661,
+    "rayleigh_p": 1.3614838872893718e-21,
+    "rate_Hz": 40.0,
+    "spikes_per_cycle": 4.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.6547966003418
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 2.0,
+    "vector_strength": 0.8187711534902458,
+    "rayleigh_p": 1.5983885864112016e-28,
+    "rate_Hz": 40.0,
+    "spikes_per_cycle": 4.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 91.65839004516602
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.0,
+    "vector_strength": 0.9999204605080537,
+    "rayleigh_p": 8.858428848941432e-29,
+    "rate_Hz": 20.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 88.68689727783203
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.5,
+    "vector_strength": 0.6404177399410326,
+    "rayleigh_p": 4.411426921912461e-12,
+    "rate_Hz": 30.0,
+    "spikes_per_cycle": 1.5,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 90.61627197265625
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 2.0,
+    "vector_strength": 0.793943504080207,
+    "rayleigh_p": 2.5033280852721196e-26,
+    "rate_Hz": 40.0,
+    "spikes_per_cycle": 2.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 88.9052734375
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.0,
+    "vector_strength": 0.9995858042782877,
+    "rayleigh_p": 6.715520049640603e-36,
+    "rate_Hz": 24.736842105263158,
+    "spikes_per_cycle": 0.49473684210526314,
+    "cycles_with_spike": 0.49473684210526314,
+    "v_p2p_mV": 90.08562278747559
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.5,
+    "vector_strength": 0.9994429069842642,
+    "rayleigh_p": 9.182554838855615e-75,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 90.82355880737305
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 2.0,
+    "vector_strength": 0.9998900697372062,
+    "rayleigh_p": 4.117951254434374e-75,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 89.8937759399414
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.0,
+    "vector_strength": 0.9998193499748506,
+    "rayleigh_p": 5.391456636116315e-24,
+    "rate_Hz": 16.842105263157894,
+    "spikes_per_cycle": 0.16842105263157894,
+    "cycles_with_spike": 0.16842105263157894,
+    "v_p2p_mV": 91.08283805847168
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.5,
+    "vector_strength": 0.9974031062066093,
+    "rayleigh_p": 4.0997148401905314e-36,
+    "rate_Hz": 25.263157894736842,
+    "spikes_per_cycle": 0.25263157894736843,
+    "cycles_with_spike": 0.25263157894736843,
+    "v_p2p_mV": 92.03998947143555
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 2.0,
+    "vector_strength": 0.9999462904605002,
+    "rayleigh_p": 5.966497873568869e-49,
+    "rate_Hz": 33.1578947368421,
+    "spikes_per_cycle": 0.33157894736842103,
+    "cycles_with_spike": 0.33157894736842103,
+    "v_p2p_mV": 92.63286018371582
+   }
+  ],
+  "pulse": [
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.8,
+    "fidelity_first10": 0.8,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 13.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 15.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 15.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 15.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 15.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 15.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 15.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 15.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 15.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 20.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 15.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 20.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 5.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 10.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 5.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 10.0,
+    "rate_post_Hz": 15.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": null,
+   "tau_m_ms": null,
+   "baseline_rate_Hz": 10.000000000086585,
+   "rheobase_soma_nA": 0.066796875,
+   "rheobase_dend_nA": null
+  }
+ },
+ "Purkinje|native|ctrl|soma": {
+  "variability": {
+   "isi_cv": [
+    0.5749167966586365,
+    0.5646223679344184,
+    0.5852112253828545,
+    20
+   ],
+   "rate_Hz": [
+    65.97368421052633,
+    64.84269831643861,
+    67.10467010461404,
+    20
+   ],
+   "n_seeds": 20,
+   "n_spikes_sta": 2507,
+   "sta_peak_nA": 0.995159591530499,
+   "sta_peak_lag_ms": -0.35000000000000003
+  },
+  "reliability": {
+   "schreiber_R": 0.7571337112316856,
+   "ci95": [
+    0.7373806112213647,
+    0.8128808697808987
+   ],
+   "event_jitter_ms": 1.1595391248435725,
+   "event_participation": 0.8510204081632654,
+   "n_events": 147,
+   "n_trials": 20,
+   "rate_Hz": [
+    64.02631578947367,
+    63.26699102049159,
+    64.78564055845575,
+    20
+   ]
+  },
+  "synaptic": {
+   "1.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.03699480747600191
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "2.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.963005192523998,
+     0.9999999999999998
+    ],
+    "latency_ms": 1.242749989795575,
+    "jitter_ms": 0.040495198589887926,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "4.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.963005192523998,
+     0.9999999999999998
+    ],
+    "latency_ms": 0.7329999898029927,
+    "jitter_ms": 0.012623732729415197,
+    "n_trials": 20,
+    "n_events": 5
+   }
+  },
+  "fI": {
+   "x_rheobase": [
+    0.8,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+   ],
+   "rate_Hz": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    86.0,
+    120.0,
+    122.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    112.0,
+    118.0,
+    112.0
+   ],
+   "latency_ms": [
+    NaN,
+    6.274999996998304,
+    1.974999997060877,
+    1.2999999970706995,
+    0.8249999970776116,
+    0.624999997080522,
+    0.499999997082341
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    0.03005635566687539,
+    0.3145539906103286,
+    2.442359249329759
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    18.0,
+    18.0,
+    17.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -3.0,
+    -2.0,
+    -1.0,
+    -0.5
+   ],
+   "sag_ratio": [
+    0.9102596197110624,
+    0.8907273798333354,
+    0.9148018672876677,
+    0.9506335774794151
+   ],
+   "sag_mV": [
+    4.794299160003661,
+    3.988160343170165,
+    1.6436019268035835,
+    0.5134710540771437
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -121.3649673461914,
+    -104.4382095336914,
+    -87.23239135742188,
+    -78.34208679199219
+   ]
+  },
+  "ramp": {
+   "slow": {
+    "threshold_current_nA": 1.7040055990219116,
+    "n_spikes": 76.0,
+    "slope_nA_per_s": 1.2750000000000001
+   },
+   "fast": {
+    "threshold_current_nA": 1.750830054283142,
+    "n_spikes": 20.0,
+    "slope_nA_per_s": 5.1000000000000005
+   }
+  },
+  "sine": [
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 28.56399154663086
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 38.23038864135742
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 47.7390251159668
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 26.966636657714844
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 36.936622619628906
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 46.64903259277344
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 26.800796508789062
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 37.50710678100586
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 47.70875549316406
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 26.15245819091797
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 37.13445281982422
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 47.500553131103516
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 25.450565338134766
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 36.623756408691406
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 2.0,
+    "vector_strength": 0.9902437633772827,
+    "rayleigh_p": 0.1424648660063835,
+    "rate_Hz": 1.0526315789473684,
+    "spikes_per_cycle": 0.10526315789473684,
+    "cycles_with_spike": 0.10526315789473684,
+    "v_p2p_mV": 143.56599807739258
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 25.23830795288086
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.5,
+    "vector_strength": 0.9987661715263386,
+    "rayleigh_p": 1.4988272963346201e-28,
+    "rate_Hz": 20.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 131.8080596923828
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 2.0,
+    "vector_strength": 0.9994757992412183,
+    "rayleigh_p": 1.0876757512890652e-28,
+    "rate_Hz": 20.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 140.1579818725586
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.0,
+    "vector_strength": 0.6833108830179082,
+    "rayleigh_p": 1.5388711202102233e-23,
+    "rate_Hz": 51.578947368421055,
+    "spikes_per_cycle": 1.0315789473684212,
+    "cycles_with_spike": 0.7473684210526316,
+    "v_p2p_mV": 115.34829711914062
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.5,
+    "vector_strength": 0.698886689559774,
+    "rayleigh_p": 2.802524634245451e-26,
+    "rate_Hz": 54.73684210526316,
+    "spikes_per_cycle": 1.0947368421052632,
+    "cycles_with_spike": 0.8842105263157894,
+    "v_p2p_mV": 119.19253921508789
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 2.0,
+    "vector_strength": 0.6127465885163438,
+    "rayleigh_p": 2.2484198383818554e-19,
+    "rate_Hz": 54.21052631578947,
+    "spikes_per_cycle": 1.0842105263157895,
+    "cycles_with_spike": 0.8631578947368421,
+    "v_p2p_mV": 124.17438507080078
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 19.252010345458984
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.5,
+    "vector_strength": 0.7684688455548501,
+    "rayleigh_p": 4.2912903832925175e-52,
+    "rate_Hz": 86.84210526315789,
+    "spikes_per_cycle": 0.868421052631579,
+    "cycles_with_spike": 0.7210526315789474,
+    "v_p2p_mV": 120.4171371459961
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 2.0,
+    "vector_strength": 0.7983604637019227,
+    "rayleigh_p": 5.075003597423593e-64,
+    "rate_Hz": 96.84210526315789,
+    "spikes_per_cycle": 0.968421052631579,
+    "cycles_with_spike": 0.8052631578947368,
+    "v_p2p_mV": 124.3436164855957
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 0.6140220045225984,
+   "Q": 1.0,
+   "Z_low_MOhm": 36.98916325450635,
+   "Z_max_MOhm": 36.98916325450635,
+   "f3dB_Hz": 0.8235827784606203,
+   "phase_zero_crossing_Hz": NaN,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.8166666666666667,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.7333333333333333,
+    "rate_Hz": 57.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.95,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.9,
+    "rate_Hz": 65.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.8,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.7,
+    "rate_Hz": 80.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.8769230769230769,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.8,
+    "rate_Hz": 124.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.8,
+    "fidelity_first10": 0.6,
+    "fidelity_2nd_half": 0.7230769230769231,
+    "rate_Hz": 136.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.64,
+    "fidelity_first10": 0.5,
+    "fidelity_2nd_half": 0.67,
+    "rate_Hz": 134.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.62,
+    "fidelity_first10": 0.5,
+    "fidelity_2nd_half": 0.63,
+    "rate_Hz": 138.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 200.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 26.042234357166027,
+   "tau_m_ms": 25.149999998178828,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.8500000000000001,
+   "rheobase_dend_nA": 0.7187500000000001
+  }
+ },
+ "Purkinje|native|ctrl|dend": {
+  "variability": {
+   "isi_cv": [
+    1.4090182342786044,
+    0.7449350171425122,
+    2.0731014514146966,
+    10
+   ],
+   "rate_Hz": [
+    17.0,
+    12.681408665143564,
+    21.318591334856436,
+    10
+   ],
+   "n_seeds": 10,
+   "n_spikes_sta": 323,
+   "sta_peak_nA": 0.9572123461648038,
+   "sta_peak_lag_ms": -1.1500000000000001
+  },
+  "synaptic": {
+   "1.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.07135003417431873
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 10,
+    "n_events": 5
+   },
+   "2.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.07135003417431873
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 10,
+    "n_events": 5
+   },
+   "4.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.9286499658256813,
+     1.0
+    ],
+    "latency_ms": 2.2989999897802047,
+    "jitter_ms": 0.04095423229972041,
+    "n_trials": 10,
+    "n_events": 5
+   }
+  },
+  "fI": {
+   "x_rheobase": [
+    0.8,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    0.0,
+    9.0,
+    25.0,
+    35.0,
+    49.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    18.0,
+    32.0,
+    42.0,
+    52.0
+   ],
+   "latency_ms": [
+    NaN,
+    570.1499999887928,
+    273.69999999310676,
+    203.9749999941214,
+    2.749999997049599
+   ],
+   "adaptation_index": [
+    NaN,
+    1.47196261682243,
+    0.840317100792752,
+    0.6138996138996139,
+    0.02587026821381016
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    9.0,
+    21.0,
+    25.0,
+    30.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.879855266905386,
+    0.9084773769107122
+   ],
+   "sag_mV": [
+    2.755420892715449,
+    1.1945924148559612
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -90.87504577636719,
+    -80.99329376220703
+   ]
+  },
+  "ramp": {
+   "slow": {
+    "threshold_current_nA": 0.811154305934906,
+    "n_spikes": 57.0,
+    "slope_nA_per_s": 1.0781250000000002
+   }
+  },
+  "sine": [
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 24.705177307128906
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 21.472183227539062
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 21.317108154296875
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 21.14720916748047
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 20.641468048095703
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 19.287487030029297
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 16.696609497070312
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 10.832317352294922
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 0.6140220045225984,
+   "Q": 1.0,
+   "Z_low_MOhm": 54.760936720119844,
+   "Z_max_MOhm": 54.760936720119844,
+   "f3dB_Hz": 0.7111244254845147,
+   "phase_zero_crossing_Hz": NaN,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.5692307692307692,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.49230769230769234,
+    "rate_Hz": 82.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.676923076923077,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.6307692307692307,
+    "rate_Hz": 91.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.7692307692307693,
+    "fidelity_first10": 0.5,
+    "fidelity_2nd_half": 0.6923076923076923,
+    "rate_Hz": 102.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.6230769230769231,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.5230769230769231,
+    "rate_Hz": 84.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 26.042234357166027,
+   "tau_m_ms": 25.149999998178828,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.8500000000000001,
+   "rheobase_dend_nA": 0.7187500000000001
+  }
+ },
+ "CA1|native|ctrl|soma": {
+  "variability": {
+   "isi_cv": [
+    0.5687555355042765,
+    0.46159208917090216,
+    0.6759189818376508,
+    20
+   ],
+   "rate_Hz": [
+    5.157894736842107,
+    4.701592478530366,
+    5.614196995153848,
+    20
+   ],
+   "n_seeds": 20,
+   "n_spikes_sta": 196,
+   "sta_peak_nA": 0.42899852618575096,
+   "sta_peak_lag_ms": -4.0
+  },
+  "reliability": {
+   "schreiber_R": 0.753052205987111,
+   "ci95": [
+    0.7296081150367696,
+    0.8087099809143252
+   ],
+   "event_jitter_ms": 1.3032995785407726,
+   "event_participation": 0.90625,
+   "n_events": 8,
+   "n_trials": 20,
+   "rate_Hz": [
+    3.842105263157896,
+    3.7262932888023235,
+    3.9579172375134686,
+    20
+   ]
+  },
+  "synaptic": {
+   "1.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.03699480747600191
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "2.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.03699480747600191
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 20,
+    "n_events": 5
+   },
+   "4.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.963005192523998,
+     0.9999999999999998
+    ],
+    "latency_ms": 3.4615000015950907,
+    "jitter_ms": 0.08213979375760654,
+    "n_trials": 20,
+    "n_events": 5
+   }
+  },
+  "fI": {
+   "x_rheobase": [
+    0.8,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+   ],
+   "rate_Hz": [
+    0.0,
+    1.0,
+    1.0,
+    2.0,
+    17.0,
+    21.0,
+    25.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    16.0,
+    20.0,
+    22.0
+   ],
+   "latency_ms": [
+    NaN,
+    43.724999999922545,
+    15.349999999819318,
+    10.87499999980821,
+    7.049999999811689,
+    4.999999999813554,
+    4.149999999814327
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    2.8830734966621407,
+    2.952586206901963,
+    3.017574692450467
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -3.0,
+    -2.0,
+    -1.0,
+    -0.5
+   ],
+   "sag_ratio": [
+    0.7614908539635622,
+    0.7635994549802647,
+    0.7676637376092543,
+    0.7660290361811106
+   ],
+   "sag_mV": [
+    7.195709306716921,
+    4.769884729385382,
+    2.3395532283782927,
+    1.1734765110015815
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN,
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -99.78312683105469,
+    -89.79072570800781,
+    -79.68328094482422,
+    -74.62907409667969
+   ]
+  },
+  "ramp": {
+   "slow": {
+    "threshold_current_nA": 0.38641640543937683,
+    "n_spikes": 19.0,
+    "slope_nA_per_s": 0.39375000000000004
+   },
+   "fast": {
+    "threshold_current_nA": 0.3628406226634979,
+    "n_spikes": 6.0,
+    "slope_nA_per_s": 1.5750000000000002
+   }
+  },
+  "sine": [
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 15.744792938232422
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.5,
+    "vector_strength": 0.9644744726970217,
+    "rayleigh_p": 0.012691725304802733,
+    "rate_Hz": 2.0,
+    "spikes_per_cycle": 2.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 120.19872665405273
+   },
+   {
+    "freq_Hz": 1,
+    "amp_x": 2.0,
+    "vector_strength": 0.93540276600354,
+    "rayleigh_p": 0.0001313824148217573,
+    "rate_Hz": 4.0,
+    "spikes_per_cycle": 4.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 124.29257202148438
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 17.075637817382812
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.5,
+    "vector_strength": 0.9497701303318,
+    "rayleigh_p": 0.001174667610574307,
+    "rate_Hz": 4.0,
+    "spikes_per_cycle": 2.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 121.06391525268555
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 2.0,
+    "vector_strength": 0.9221716852696611,
+    "rayleigh_p": 5.800446704099728e-05,
+    "rate_Hz": 6.0,
+    "spikes_per_cycle": 3.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 125.13568115234375
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 19.866321563720703
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 1.0,
+    "rayleigh_p": 6.673138387331864e-05,
+    "rate_Hz": 4.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 122.55213165283203
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 2.0,
+    "vector_strength": 0.9448721381353863,
+    "rayleigh_p": 3.65998266887966e-08,
+    "rate_Hz": 8.0,
+    "spikes_per_cycle": 2.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 126.71745681762695
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 24.09355926513672
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.5,
+    "vector_strength": 0.9999991221028005,
+    "rayleigh_p": 2.727695854636802e-09,
+    "rate_Hz": 7.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 124.02215576171875
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 2.0,
+    "vector_strength": 0.8543074107097726,
+    "rayleigh_p": 2.8105889486753993e-08,
+    "rate_Hz": 10.230769230769232,
+    "spikes_per_cycle": 1.4615384615384615,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 128.6603775024414
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 23.446182250976562
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.9999991934818985,
+    "rayleigh_p": 7.472939343206143e-14,
+    "rate_Hz": 10.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 124.7957534790039
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 2.0,
+    "vector_strength": 0.9999988038939374,
+    "rayleigh_p": 7.473418440973639e-14,
+    "rate_Hz": 10.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 129.57513809204102
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 19.23291015625
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.5,
+    "vector_strength": 0.9089786056210466,
+    "rayleigh_p": 2.594902550599922e-11,
+    "rate_Hz": 11.578947368421053,
+    "spikes_per_cycle": 0.5789473684210527,
+    "cycles_with_spike": 0.5789473684210527,
+    "v_p2p_mV": 127.85211563110352
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 2.0,
+    "vector_strength": 0.9515726744187489,
+    "rayleigh_p": 6.907841105927317e-21,
+    "rate_Hz": 18.42105263157895,
+    "spikes_per_cycle": 0.9210526315789473,
+    "cycles_with_spike": 0.9210526315789473,
+    "v_p2p_mV": 131.42861938476562
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 11.445667266845703
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 17.171485900878906
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 23.125743865966797
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 7.295066833496094
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 10.936424255371094
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 2.0,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 14.57375717163086
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 9.992070520627523,
+   "Q": 1.3911774671011994,
+   "Z_low_MOhm": 28.897564819806707,
+   "Z_max_MOhm": 40.20164103141142,
+   "f3dB_Hz": 34.80403585228696,
+   "phase_zero_crossing_Hz": 5.977088381180595,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 5,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 5.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.75,
+    "fidelity_first10": 0.8,
+    "fidelity_2nd_half": 0.7,
+    "rate_Hz": 15.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 20,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.3,
+    "fidelity_first10": 0.4,
+    "fidelity_2nd_half": 0.26666666666666666,
+    "rate_Hz": 18.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.2833333333333333,
+    "fidelity_first10": 0.4,
+    "fidelity_2nd_half": 0.26666666666666666,
+    "rate_Hz": 17.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 60,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 60.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.16153846153846155,
+    "fidelity_first10": 0.3,
+    "fidelity_2nd_half": 0.15384615384615385,
+    "rate_Hz": 21.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.9538461538461539,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.9384615384615385,
+    "rate_Hz": 124.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.13076923076923078,
+    "fidelity_first10": 0.2,
+    "fidelity_2nd_half": 0.12307692307692308,
+    "rate_Hz": 17.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.7692307692307693,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.7230769230769231,
+    "rate_Hz": 100.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.12,
+    "fidelity_first10": 0.3,
+    "fidelity_2nd_half": 0.11,
+    "rate_Hz": 24.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.85,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.8,
+    "rate_Hz": 170.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.09,
+    "fidelity_first10": 0.2,
+    "fidelity_2nd_half": 0.09,
+    "rate_Hz": 18.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 200,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.75,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.7,
+    "rate_Hz": 154.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 29.206159633492682,
+   "tau_m_ms": 3.849999999905549,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.2625,
+   "rheobase_dend_nA": 0.3875
+  }
+ },
+ "CA1|native|ctrl|dend": {
+  "variability": {
+   "isi_cv": [
+    0.5478354998802737,
+    0.5003323435111927,
+    0.5953386562493547,
+    10
+   ],
+   "rate_Hz": [
+    27.42105263157895,
+    25.869195768694162,
+    28.972909494463735,
+    10
+   ],
+   "n_seeds": 10,
+   "n_spikes_sta": 521,
+   "sta_peak_nA": 0.5921618608961636,
+   "sta_peak_lag_ms": -2.275
+  },
+  "synaptic": {
+   "1.0": {
+    "spike_prob": 0.0,
+    "ci95": [
+     0.0,
+     0.07135003417431873
+    ],
+    "latency_ms": null,
+    "jitter_ms": null,
+    "n_trials": 10,
+    "n_events": 5
+   },
+   "2.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.9286499658256813,
+     1.0
+    ],
+    "latency_ms": 3.3600000015947216,
+    "jitter_ms": 0.09195763925085315,
+    "n_trials": 10,
+    "n_events": 5
+   },
+   "4.0": {
+    "spike_prob": 1.0,
+    "ci95": [
+     0.9286499658256813,
+     1.0
+    ],
+    "latency_ms": 2.422500001591311,
+    "jitter_ms": 0.021599733884406856,
+    "n_trials": 10,
+    "n_events": 5
+   }
+  },
+  "fI": {
+   "x_rheobase": [
+    0.8,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    0.0,
+    1.0,
+    45.0,
+    51.0,
+    42.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    44.0,
+    50.0,
+    40.0
+   ],
+   "latency_ms": [
+    NaN,
+    23.449999999848785,
+    4.2249999998142584,
+    2.9749999998153953,
+    2.299999999816009
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN,
+    1.2658227848126484,
+    1.3311148086558873,
+    1.7003424657585684
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.5376948486498411,
+    0.5619390403150775
+   ],
+   "sag_mV": [
+    4.161871137619016,
+    1.930633544921875
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -78.61602783203125,
+    -74.02082061767578
+   ]
+  },
+  "ramp": {
+   "slow": {
+    "threshold_current_nA": 0.4321739077568054,
+    "n_spikes": 55.0,
+    "slope_nA_per_s": 0.58125
+   }
+  },
+  "sine": [
+   {
+    "freq_Hz": 1,
+    "amp_x": 1.5,
+    "vector_strength": 0.9298346256214489,
+    "rayleigh_p": 5.985618775521222e-10,
+    "rate_Hz": 9.0,
+    "spikes_per_cycle": 9.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 111.32931900024414
+   },
+   {
+    "freq_Hz": 2,
+    "amp_x": 1.5,
+    "vector_strength": 0.9270097238371925,
+    "rayleigh_p": 3.0555076088180625e-08,
+    "rate_Hz": 10.0,
+    "spikes_per_cycle": 5.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 111.06208038330078
+   },
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 0.9199751578528809,
+    "rayleigh_p": 3.310901726767741e-11,
+    "rate_Hz": 12.0,
+    "spikes_per_cycle": 3.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 110.38185501098633
+   },
+   {
+    "freq_Hz": 7,
+    "amp_x": 1.5,
+    "vector_strength": 0.9216581531760327,
+    "rayleigh_p": 6.45794372771285e-14,
+    "rate_Hz": 14.0,
+    "spikes_per_cycle": 2.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 111.9974136352539
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.9999998359623065,
+    "rayleigh_p": 7.472149308708064e-14,
+    "rate_Hz": 10.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 112.16886520385742
+   },
+   {
+    "freq_Hz": 20,
+    "amp_x": 1.5,
+    "vector_strength": 0.999991579621344,
+    "rayleigh_p": 8.569556051009848e-29,
+    "rate_Hz": 20.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 114.72195434570312
+   },
+   {
+    "freq_Hz": 50,
+    "amp_x": 1.5,
+    "vector_strength": 0.9991049041550891,
+    "rayleigh_p": 1.649488813640358e-74,
+    "rate_Hz": 50.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 114.4971981048584
+   },
+   {
+    "freq_Hz": 100,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 3.4466400146484375
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 13.402283861717862,
+   "Q": 1.174063591347813,
+   "Z_low_MOhm": 47.38055276931005,
+   "Z_max_MOhm": 55.62778194438073,
+   "f3dB_Hz": NaN,
+   "phase_zero_crossing_Hz": 9.284845042633005,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.6923076923076923,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.6615384615384615,
+    "rate_Hz": 90.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.8153846153846154,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.8,
+    "rate_Hz": 106.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 1.2,
+    "fidelity": 0.5153846153846153,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.46153846153846156,
+    "rate_Hz": 67.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "biphasic",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.8153846153846154,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.8,
+    "rate_Hz": 106.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 29.206159633492682,
+   "tau_m_ms": 3.849999999905549,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.2625,
+   "rheobase_dend_nA": 0.3875
+  }
+ },
+ "CA1|native|HCN|dend": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0
+   ],
+   "rate_Hz": [
+    38.0,
+    49.0
+   ],
+   "rate_ss_Hz": [
+    36.0,
+    48.0
+   ],
+   "latency_ms": [
+    7.5250000007549716,
+    4.250000000743057
+   ],
+   "adaptation_index": [
+    1.3217821781937786,
+    1.3552631578700847
+   ],
+   "depol_block": [
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0
+   ]
+  },
+  "cell": {
+   "Rin_MOhm": 29.206159633492682,
+   "tau_m_ms": 3.849999999905549,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.2625,
+   "rheobase_dend_nA": 0.3875
+  }
+ },
+ "CA1|native|HCN|soma": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    1.0,
+    14.0,
+    23.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    12.0,
+    22.0
+   ],
+   "latency_ms": [
+    19.0500000007969,
+    10.575000000766067,
+    5.725000000748423
+   ],
+   "adaptation_index": [
+    NaN,
+    3.28702757910262,
+    3.252613240358954
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.9999998845325008,
+    0.9974976393334105
+   ],
+   "sag_mV": [
+    3.5095214911962103e-06,
+    0.03530120849609375
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -105.05958557128906,
+    -88.7727279663086
+   ]
+  },
+  "sine": [
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 0.9999997824658338,
+    "rayleigh_p": 6.67319122164111e-05,
+    "rate_Hz": 4.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 134.52730178833008
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.9993126501716799,
+    "rayleigh_p": 8.360407852246815e-14,
+    "rate_Hz": 10.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 132.7291030883789
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 3.3223320394794267,
+   "Q": 1.0829545257883157,
+   "Z_low_MOhm": 46.30330111883736,
+   "Z_max_MOhm": 50.14436950558411,
+   "f3dB_Hz": 24.111568079062284,
+   "phase_zero_crossing_Hz": 1.2793584417899477,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.8923076923076924,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 0.8615384615384616,
+    "rate_Hz": 116.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 29.206159633492682,
+   "tau_m_ms": 3.849999999905549,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.2625,
+   "rheobase_dend_nA": 0.3875
+  }
+ },
+ "CA1|native|KM|dend": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0
+   ],
+   "rate_Hz": [
+    47.0,
+    55.0
+   ],
+   "rate_ss_Hz": [
+    46.0,
+    54.0
+   ],
+   "latency_ms": [
+    3.9750000007420567,
+    2.825000000737873
+   ],
+   "adaptation_index": [
+    1.278273809500558,
+    1.2820069203919053
+   ],
+   "depol_block": [
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0
+   ]
+  },
+  "cell": {
+   "Rin_MOhm": 29.206159633492682,
+   "tau_m_ms": 3.849999999905549,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.2625,
+   "rheobase_dend_nA": 0.3875
+  }
+ },
+ "CA1|native|KM|soma": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    22.0,
+    29.0,
+    52.0
+   ],
+   "rate_ss_Hz": [
+    20.0,
+    28.0,
+    50.0
+   ],
+   "latency_ms": [
+    6.95000000075288,
+    4.875000000745331,
+    3.0500000007386916
+   ],
+   "adaptation_index": [
+    2.343902438981755,
+    2.3217115688959615,
+    1.8067415730008434
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.7685680359561803,
+    0.8113874021415765
+   ],
+   "sag_mV": [
+    5.28033447265625,
+    2.1790847778320312
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -90.2000961303711,
+    -78.9374008178711
+   ]
+  },
+  "sine": [
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 0.9524458659104313,
+    "rayleigh_p": 2.255355612293373e-08,
+    "rate_Hz": 8.0,
+    "spikes_per_cycle": 2.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 121.0318832397461
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.9999702842964775,
+    "rayleigh_p": 7.508564058370159e-14,
+    "rate_Hz": 10.0,
+    "spikes_per_cycle": 1.0,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 123.30705261230469
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 8.627676044493395,
+   "Q": 1.1940052018624387,
+   "Z_low_MOhm": 40.82072845223762,
+   "Z_max_MOhm": 48.74016211578577,
+   "f3dB_Hz": 27.924609983782556,
+   "phase_zero_crossing_Hz": 3.0871817911073034,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 29.206159633492682,
+   "tau_m_ms": 3.849999999905549,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.2625,
+   "rheobase_dend_nA": 0.3875
+  }
+ },
+ "Purkinje|native|CaP|dend": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0
+   ],
+   "rate_Hz": [
+    0.0,
+    0.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0
+   ],
+   "latency_ms": [
+    NaN,
+    NaN
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN
+   ],
+   "depol_block": [
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0
+   ]
+  },
+  "cell": {
+   "Rin_MOhm": 26.042234357166027,
+   "tau_m_ms": 25.149999998178828,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.8500000000000001,
+   "rheobase_dend_nA": 0.7187500000000001
+  }
+ },
+ "Purkinje|native|CaP|soma": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    1.0,
+    1.0,
+    136.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    134.0
+   ],
+   "latency_ms": [
+    2.3999999970546924,
+    1.124999997073246,
+    0.5999999970808858
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN,
+    0.665948275862069
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.8863733640504994,
+    0.9105291182155723
+   ],
+   "sag_mV": [
+    3.7260270366668635,
+    1.4337332763671924
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -104.51844787597656,
+    -87.75118255615234
+   ]
+  },
+  "sine": [
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 36.39199447631836
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 34.993656158447266
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 0.6140220045225984,
+   "Q": 1.0,
+   "Z_low_MOhm": 19.949307100289733,
+   "Z_max_MOhm": 19.949307100289733,
+   "f3dB_Hz": 15.521742447576617,
+   "phase_zero_crossing_Hz": NaN,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 26.042234357166027,
+   "tau_m_ms": 25.149999998178828,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.8500000000000001,
+   "rheobase_dend_nA": 0.7187500000000001
+  }
+ },
+ "Purkinje|native|KD|dend": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0
+   ],
+   "rate_Hz": [
+    32.0,
+    33.0
+   ],
+   "rate_ss_Hz": [
+    32.0,
+    32.0
+   ],
+   "latency_ms": [
+    1.6999999970648787,
+    1.4249999970688805
+   ],
+   "adaptation_index": [
+    0.9984139571768438,
+    1.0141784820683903
+   ],
+   "depol_block": [
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    32.0,
+    33.0
+   ]
+  },
+  "cell": {
+   "Rin_MOhm": 26.042234357166027,
+   "tau_m_ms": 25.149999998178828,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.8500000000000001,
+   "rheobase_dend_nA": 0.7187500000000001
+  }
+ },
+ "Purkinje|native|KD|soma": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    58.0,
+    86.0,
+    89.0
+   ],
+   "rate_ss_Hz": [
+    56.0,
+    86.0,
+    90.0
+   ],
+   "latency_ms": [
+    0.5249999970819772,
+    0.4249999970834324,
+    0.3249999970848876
+   ],
+   "adaptation_index": [
+    0.4672754946727549,
+    0.47700170357751276,
+    0.463855421686747
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    29.0,
+    28.0,
+    30.0
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.966314387074324,
+    0.1609525226129734
+   ],
+   "sag_mV": [
+    1.7136472072601379,
+    18.065180263033135
+   ],
+   "rebound_spikes": [
+    16.0,
+    15.0
+   ],
+   "rebound_latency_ms": [
+    20.749999985146133,
+    1.2499999854298949
+   ],
+   "rebound_max_rate_Hz": [
+    310.0775193843572,
+    254.77707006740175
+   ],
+   "v_peak_mV": [
+    -103.90493774414062,
+    -74.56373596191406
+   ]
+  },
+  "sine": [
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 0.2766121368764998,
+    "rayleigh_p": 0.0029901381326662216,
+    "rate_Hz": 42.857142857142854,
+    "spikes_per_cycle": 10.714285714285714,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 118.69272994995117
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.3759162148768775,
+    "rayleigh_p": 3.101518158689895e-06,
+    "rate_Hz": 45.78947368421053,
+    "spikes_per_cycle": 4.578947368421052,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 119.62240600585938
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 25.948143184151643,
+   "Q": 25.8564307556864,
+   "Z_low_MOhm": 6.797952410534345,
+   "Z_max_MOhm": 175.77078578343273,
+   "f3dB_Hz": 30.05162401071678,
+   "phase_zero_crossing_Hz": 0.8235827784606203,
+   "valid_subthreshold": 0.0,
+   "n_spikes": 727.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.95,
+    "fidelity_first10": 0.9,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 59.0,
+    "rate_pre_Hz": 50.0,
+    "rate_post_Hz": 50.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 148.0,
+    "rate_pre_Hz": 50.0,
+    "rate_post_Hz": 55.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 26.042234357166027,
+   "tau_m_ms": 25.149999998178828,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.8500000000000001,
+   "rheobase_dend_nA": 0.7187500000000001
+  }
+ },
+ "STN|held|CaT|soma": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "latency_ms": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "adaptation_index": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "depol_block": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.5919915978350136,
+    0.6128779138863619
+   ],
+   "sag_mV": [
+    3.499251676559453,
+    1.6542079639434775
+   ],
+   "rebound_spikes": [
+    0.0,
+    0.0
+   ],
+   "rebound_latency_ms": [
+    NaN,
+    NaN
+   ],
+   "rebound_max_rate_Hz": [
+    NaN,
+    NaN
+   ],
+   "v_peak_mV": [
+    -79.92957305908203,
+    -75.6262435913086
+   ]
+  },
+  "sine": [
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 13.043357849121094
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": NaN,
+    "rayleigh_p": NaN,
+    "rate_Hz": 0.0,
+    "spikes_per_cycle": 0.0,
+    "cycles_with_spike": 0.0,
+    "v_p2p_mV": 12.870536804199219
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 5.55403800551827,
+   "Q": 1.2305793986811318,
+   "Z_low_MOhm": 53.18515965037998,
+   "Z_max_MOhm": 65.44856178132459,
+   "f3dB_Hz": 43.37825711122769,
+   "phase_zero_crossing_Hz": 4.140812118142277,
+   "valid_subthreshold": 1.0,
+   "n_spikes": 0.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 20.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 130.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 44.64996808398935,
+   "tau_m_ms": 5.950000000385444,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.066796875,
+   "rheobase_dend_nA": null
+  }
+ },
+ "STN|held|HCN|soma": {
+  "fI": {
+   "x_rheobase": [
+    1.5,
+    2.0,
+    3.0
+   ],
+   "rate_Hz": [
+    18.0,
+    18.0,
+    35.0
+   ],
+   "rate_ss_Hz": [
+    0.0,
+    0.0,
+    16.0
+   ],
+   "latency_ms": [
+    23.975000000814816,
+    18.625000000795353,
+    12.47500000077298
+   ],
+   "adaptation_index": [
+    2.4468085106382977,
+    2.0412371134020617,
+    13.044776119165702
+   ],
+   "depol_block": [
+    1.0,
+    1.0,
+    0.0
+   ],
+   "n_dend_ca": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "hyper": {
+   "level": [
+    -2.0,
+    -1.0
+   ],
+   "sag_ratio": [
+    0.9442732467867002,
+    0.8872771345102208
+   ],
+   "sag_mV": [
+    0.7740972881317134,
+    0.8408952732086163
+   ],
+   "rebound_spikes": [
+    15.0,
+    14.0
+   ],
+   "rebound_latency_ms": [
+    36.549999994884274,
+    54.47499999462343
+   ],
+   "rebound_max_rate_Hz": [
+    310.0775193843572,
+    235.2941176504828
+   ],
+   "v_peak_mV": [
+    -89.98210144042969,
+    -83.5510025024414
+   ]
+  },
+  "sine": [
+   {
+    "freq_Hz": 4,
+    "amp_x": 1.5,
+    "vector_strength": 0.9021191242093403,
+    "rayleigh_p": 8.44141893564405e-30,
+    "rate_Hz": 34.285714285714285,
+    "spikes_per_cycle": 8.571428571428571,
+    "cycles_with_spike": 1.0,
+    "v_p2p_mV": 109.0571346282959
+   },
+   {
+    "freq_Hz": 10,
+    "amp_x": 1.5,
+    "vector_strength": 0.41156861904943276,
+    "rayleigh_p": 0.00091751910885066,
+    "rate_Hz": 21.05263157894737,
+    "spikes_per_cycle": 2.1052631578947367,
+    "cycles_with_spike": 0.42105263157894735,
+    "v_p2p_mV": 108.45687294006348
+   }
+  ],
+  "resonance": {
+   "fR_Hz": 1.026478241433502,
+   "Q": 3.5744737369657824,
+   "Z_low_MOhm": 495.52219423299977,
+   "Z_max_MOhm": 1771.231069369515,
+   "f3dB_Hz": 1.1046649598564209,
+   "phase_zero_crossing_Hz": 0.6607919833056262,
+   "valid_subthreshold": 0.0,
+   "n_spikes": 65.0
+  },
+  "pulse": [
+   {
+    "freq_Hz": 20,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 1.0,
+    "fidelity_first10": 1.0,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 32.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   },
+   {
+    "freq_Hz": 130,
+    "polarity": "mono",
+    "amp_x_thr": 2.0,
+    "fidelity": 0.9846153846153847,
+    "fidelity_first10": 0.8,
+    "fidelity_2nd_half": 1.0,
+    "rate_Hz": 135.0,
+    "rate_pre_Hz": 0.0,
+    "rate_post_Hz": 0.0
+   }
+  ],
+  "cell": {
+   "Rin_MOhm": 44.64996808398935,
+   "tau_m_ms": 5.950000000385444,
+   "baseline_rate_Hz": 0.0,
+   "rheobase_soma_nA": 0.066796875,
+   "rheobase_dend_nA": null
+  }
+ }
+}

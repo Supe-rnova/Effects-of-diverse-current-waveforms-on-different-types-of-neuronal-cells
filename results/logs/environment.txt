@@ -1,0 +1,12 @@
+[ OK ] Python 3.14.4 on Linux 6.18.54.1-microsoft-standard-WSL2
+[ OK ] numpy 2.5.4
+[ OK ] scipy 1.18.1
+[ OK ] matplotlib 3.11.2
+[ OK ] pandas 3.1.0
+[ OK ] pytest 9.1.1
+[ OK ] NEURON 9.0.2
+[ OK ] nrnivmodl on PATH: /home/supernova/neuro-env/bin/nrnivmodl
+[ OK ] compiled and loaded a test .mod file
+[ OK ] HH test run: 4 spikes, peak 39.4 mV (expect >=2 spikes, peak > 30 mV)
+[ OK ] multiprocessing works (12 CPU cores available)
+[ OK ] ENVIRONMENT READY

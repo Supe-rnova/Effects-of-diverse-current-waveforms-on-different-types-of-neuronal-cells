@@ -1,0 +1,27 @@
+// GUI-free builder for the Gillies & Willshaw (2006) STN cell (ModelDB 74298).
+// Reproduces the cell set-up part of sample.hoc (no demo runs, no graphics).
+// Must be loaded with the working directory set to this folder (reads sth-data/).
+load_file("stdrun.hoc")
+hide = xopen("SThprotocell.hoc")
+objref SThtype, SThcells[1]
+SThtype = new SThproto()
+SThcells[0] = new SThcell(0, SThtype)
+hide = xopen("tools.hoc")
+default_gNa_soma = 1.483419823e-02
+default_gNa_dend = 1.0e-7
+SThcells[0].soma.gna_Na = default_gNa_soma
+default_gNaL_soma = 1.108670852e-05
+default_gNaL_dend = 0.81e-5
+SThcells[0].soma.gna_NaL = 1.108670852e-05
+cset(0,"gk_KDR","")
+cset(0,"gk_Kv31","")
+cset(0,"gk_Ih","")
+cset(0,"gk_sKCa","")
+cset(0,"gcaT_CaT","")
+cset(0,"gcaN_HVA","")
+cset(0,"gcaL_HVA","")
+forall ion_style("na_ion",1,2,1,0,1)
+forall ion_style("k_ion",1,2,1,0,1)
+forall ion_style("ca_ion",3,2,1,1,1)
+set_aCSF(4)          // Bevan & Wilson (1999) aCSF
+celsius = 37

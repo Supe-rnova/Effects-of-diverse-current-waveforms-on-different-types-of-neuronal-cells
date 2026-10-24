@@ -1,0 +1,7 @@
+# NEURON itself is NOT installed via pip on Windows - use the official
+# installer (see setup_env/SETUP.md). On Linux/macOS/WSL: pip install neuron
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pandas>=2.0
+pytest>=7.0

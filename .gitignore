@@ -1,0 +1,37 @@
+# ---- Python / editors
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+results/logs/*.log
+
+# ---- raw simulation output (455 MB) - regenerate with: python main.py
+results/data/runs/
+results/data/_roundtrip_test/
+results/states/
+results/logs/step7_errors/
+*.tmp.npz
+
+# ---- third-party model code: downloaded from ModelDB by models/fetch_models.py
+#      (keep only the files written for this project)
+models/stn/*
+!models/stn/stn_build.hoc
+models/purkinje/
+models/ca1/
+
+# ---- NEURON compiled mechanisms (Linux/WSL and Windows builds)
+x86_64/
+arm64/
+aarch64/
+nrnmech.dll
+*.o
+setup_env/test_mech/*.cpp
+setup_env/test_mech/*.c
+
+# ---- OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
